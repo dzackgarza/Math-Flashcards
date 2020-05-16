@@ -511,6 +511,8 @@ def main():
 
         os.chdir(initial_dir)
 
+    os.system('notify-send "Ankdown" "New cards generated." --urgency=critical --expire-time=5000')
+
 
 if __name__ == "__main__":
     exit(main())
