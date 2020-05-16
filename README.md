@@ -25,3 +25,7 @@
 - If you click a card from the list and click "Cards", you should be able to preview the card being rendered in Mathjax:
 
 ![](figures/image_2020-05-15-23-05-10.png)
+
+![](figures/image_2020-05-15-23-05-35.png)
+
+- To begin studying, from the main screen, just click the deck and "Study Now":
