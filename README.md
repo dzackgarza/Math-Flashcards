@@ -58,4 +58,6 @@
 }
 ```
 
+- Now pressing F5 or selecting "Tools->Reload Markdown Decks" will automatically re-scan your directory and add any new cards it finds. Cool!
+  - Note: it's hard to tell if/when this works. My modified ankdown script will attempt to send a push notification to your OS when it updates decks.
 
