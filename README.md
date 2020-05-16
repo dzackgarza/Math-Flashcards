@@ -45,7 +45,7 @@ tag1, tag2
 ```
 
 - See the files under 'Decks' for examples of how to typeset things. Generally basic inline math like `$ax+b$` and display style equations like `$$\int_0^1 f(x)$$` tend to work fine.
-  - You can use markdown in your cards, including lists. Images should work. See [here](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) for general markdown syntax.
+  - You can use markdown in your cards, including lists. I haven't tested images yet. See [here](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) for general markdown syntax.
 
 - Everything is rendered with Mathjax, which has only a small subset of Latex functionality.
   One nice way to edit cards is to use something like [HackMD](http://hackmd.io) where you can preview the output of all of the cards before actually "compiling" it into Anki deck:
