@@ -5,4 +5,4 @@
   - Alternative: I've included my own modified copy of `ankdown.py` that can just be run directly by either
     - Running `chmod +x ankdown.py` and subsequently `ankdown.py ...`
     - Running `python3 ./ankdown.py ...`
-- As a test, you can try running  `ankdown`
+- As a test, you can try running  `ankdown ./ankdown.py -r ./Decks -p ./mathnotes.apkg`
