@@ -79,3 +79,5 @@ tag1, tag2
 ![](figures/image_2020-05-15-23-42-51.png)
 
 ![](figures/image_2020-05-15-23-43-12.png)
+
+- It's also helpful to create an Ankiweb account and enable syncing -- then you can review your cards on the phone app.
