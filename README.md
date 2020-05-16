@@ -44,5 +44,18 @@
 
 ## Automating
 
-- Install the [ankdown Anki plugin](https://ankiweb.net/shared/info/109255569) 
+- Install the [ankdown Anki plugin](https://ankiweb.net/shared/info/109255569) (Tools->Addons->Get Add-ons, then enter the add-on code)
 ![](figures/image_2020-05-15-23-28-22.png)
+
+- Restart Anki, navigate back to the Ankdown add-on and click "Config"
+  - Change the file path for "Ankdown Location" to wherever your installed version is, or the version in this repository.
+  - Change the file path for "Markdown Deck Library Path" to the "Decks" path in this repository, or wherever you'd like to store yours.
+  - For example,
+```
+{
+    "Ankdown Location": "/home/zack/SparkleShare/github.com/Math-Flashcards/ankdown.py",
+    "Markdown Deck Library Path": "/home/zack/SparkleShare/github.com/Math-Flashcards/Decks"
+}
+```
+
+
