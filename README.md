@@ -29,3 +29,5 @@
 ![](figures/image_2020-05-15-23-05-35.png)
 
 - To begin studying, from the main screen, just click the deck and "Study Now":
+
+![](figures/image_2020-05-15-23-21-40.png)
