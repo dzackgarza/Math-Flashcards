@@ -35,6 +35,17 @@
 
 # Notes
 
+- The general template for new cards is
+```
+Question Field, with inline math $ax+b$ and/or displaymath $$\int_D f(z)$$
+%
+Answer Field, with inline math $cx+d$ and/or displaymath $$\sum_{i=1}^N c_n$$
+%
+tag1, tag2
+```
+
+- You can use markdown in your cards, including lists. Images should work. See [here](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) for general markdown syntax.
+
 - See the files under 'Decks' for examples of how to typeset things. Generally basic inline math like `$ax+b$` and display style equations like `$$\int_0^1 f(x)$$` tend to work fine.
 - Everything is rendered with Mathjax, which has only a small subset of Latex functionality.
   One nice way to edit cards is to use something like [HackMD](http://hackmd.io) where you can preview the output of all of the cards before actually "compiling" it into Anki deck:
@@ -59,5 +70,12 @@
 ```
 
 - Now pressing F5 or selecting "Tools->Reload Markdown Decks" will automatically re-scan your directory and add any new cards it finds. Cool!
-  - Note: it's hard to tell if/when this works. My modified ankdown script will attempt to send a push notification to your OS when it updates decks.
+  - Note: it's hard to tell if/when this works. My modified ankdown script will attempt to send a push notification to your OS when it updates decks:
 
+![](figures/image_2020-05-15-23-40-41.png)
+
+- To test, just modify any of the files under "Decks", add a new entry, press F5 in Anki, then browse the Deck to see if it appears:
+
+![](figures/image_2020-05-15-23-42-51.png)
+
+![](figures/image_2020-05-15-23-43-12.png)
