@@ -31,3 +31,18 @@
 - To begin studying, from the main screen, just click the deck and "Study Now":
 
 ![](figures/image_2020-05-15-23-21-40.png)
+
+
+# Notes
+
+- See the files under 'Decks' for examples of how to typeset things. Generally basic inline math like `$ax+b$` and display style equations like `$$\int_0^1 f(x)$$` tend to work fine.
+- Everything is rendered with Mathjax, which has only a small subset of Latex functionality.
+  One nice way to edit cards is to use something like [HackMD](http://hackmd.io) where you can preview the output of all of the cards before actually "compiling" it into Anki deck:
+  ![](figures/image_2020-05-15-23-23-30.png)
+- You can add Mathjax macros directly to the card template within Anki, but it's better to modify 'ankdown.py' so that your macros are included whenever a new deck is generated.
+
+
+## Automating
+
+- Install the [ankdown Anki plugin](https://ankiweb.net/shared/info/109255569) 
+![](figures/image_2020-05-15-23-28-22.png)
