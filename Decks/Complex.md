@@ -47,5 +47,12 @@ Types of singularities
 complex, fact
 ---
 
+test
+%
+moretest
+%
+complex, test
+---
+
 
 
