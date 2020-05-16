@@ -8,7 +8,7 @@
 - As a test, you can try running  `ankdown ./ankdown.py -r ./Decks -p ./mathnotes.apkg`
   - The '-r' option points it at a directory, which is recursively searches for '.md' files to parse as cards
   - The '-p' option tells it to output a '.apkg' file, which can be imported to Anki
-- This should generate 'mathnotes.apkg'
+- This should generate 'mathnotes.apkg', which you can import into Anki directly:
 
 ![](figures/image_2020-05-15-22-58-48.png)
 
@@ -44,9 +44,9 @@ Answer Field, with inline math $cx+d$ and/or displaymath $$\sum_{i=1}^N c_n$$
 tag1, tag2
 ```
 
-- You can use markdown in your cards, including lists. Images should work. See [here](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) for general markdown syntax.
-
 - See the files under 'Decks' for examples of how to typeset things. Generally basic inline math like `$ax+b$` and display style equations like `$$\int_0^1 f(x)$$` tend to work fine.
+  - You can use markdown in your cards, including lists. Images should work. See [here](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) for general markdown syntax.
+
 - Everything is rendered with Mathjax, which has only a small subset of Latex functionality.
   One nice way to edit cards is to use something like [HackMD](http://hackmd.io) where you can preview the output of all of the cards before actually "compiling" it into Anki deck:
   ![](figures/image_2020-05-15-23-23-30.png)
