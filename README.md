@@ -49,13 +49,16 @@ tag1, tag2
 
 - Everything is rendered with Mathjax, which has only a small subset of Latex functionality.
   One nice way to edit cards is to use something like [HackMD](http://hackmd.io) where you can preview the output of all of the cards before actually "compiling" it into Anki deck:
-  ![](figures/image_2020-05-15-23-23-30.png)
+  
+![](figures/image_2020-05-15-23-23-30.png)
+
 - You can add Mathjax macros directly to the card template within Anki, but it's better to modify 'ankdown.py' so that your macros are included whenever a new deck is generated.
 
 
 ## Automating
 
 - Install the [ankdown Anki plugin](https://ankiweb.net/shared/info/109255569) (Tools->Addons->Get Add-ons, then enter the add-on code)
+
 ![](figures/image_2020-05-15-23-28-22.png)
 
 - Restart Anki, navigate back to the Ankdown add-on and click "Config"
@@ -80,4 +83,6 @@ tag1, tag2
 
 ![](figures/image_2020-05-15-23-43-12.png)
 
-- It's also helpful to create an Ankiweb account and enable syncing -- then you can review your cards on the phone app.
+- It's also helpful to create an Ankiweb account and enable syncing -- then you can review your cards on the phone app:
+
+![](figures/image_2020-05-15-23-51-35.png)
