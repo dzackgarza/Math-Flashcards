@@ -15,3 +15,13 @@
 ![](figures/image_2020-05-15-22-59-55.png)
 
 ![](figures/image_2020-05-15-23-00-17.png)
+
+- If you now click "Browse" and "Whole Collection" (or the specific new deck) from the left-side panel, you should see a list of cards:
+
+![](figures/image_2020-05-15-23-03-30.png)
+
+![](figures/image_2020-05-15-23-03-46.png)
+
+- If you click a card from the list and click "Cards", you should be able to preview the card being rendered in Mathjax:
+
+![](figures/image_2020-05-15-23-05-10.png)
