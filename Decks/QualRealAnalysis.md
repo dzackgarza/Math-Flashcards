@@ -54,3 +54,10 @@ Equivalent Characterizations of Completeness
 definition
 ---
 
+Bernoulli's Inequality
+%
+?
+%
+formula
+---
+
