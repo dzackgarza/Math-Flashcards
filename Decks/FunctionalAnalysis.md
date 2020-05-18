@@ -19,4 +19,16 @@ Compact Operator
 %
 definition
 ---
+Open Mapping Theorem
+%
+?
+%
+theorem
+---
+Closed Graph Theorem
+%
+?
+%
+theorem
+---
 
