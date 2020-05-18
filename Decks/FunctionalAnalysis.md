@@ -11,4 +11,12 @@ For $H$ a Hilbert space and $\varphi \in H\dual$, there exists an $f\in H$ such 
 %
 theorem
 ---
+Compact Operator
+%
+- The image of every bounded subset has compact closure.
+- Necessarilly bounded
+- Closure of space of finite-rank operators in the norm topology
+%
+definition
+---
 
