@@ -40,7 +40,7 @@ Monotone Convergence Theorem
 theorem
 ---
 
-Lebesgue Measurable Function
+(Lebesgue) Measurable Function
 %
 ?
 %
@@ -59,5 +59,12 @@ Bernoulli's Inequality
 ?
 %
 formula
+---
+
+Uniform Continuity
+%
+?
+%
+definition
 ---
 
