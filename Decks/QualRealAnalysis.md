@@ -81,3 +81,10 @@ Proof of Borel-Cantelli Lemma
 proof
 ---
 
+Baire Space
+%
+Countable intersections of open dense sets are still dense
+%
+definition
+---
+
