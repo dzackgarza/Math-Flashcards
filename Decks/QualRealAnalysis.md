@@ -98,3 +98,25 @@ Limsup/Liminf of Sets
 definition
 ---
 
+Arzela-Ascoli Theorem
+%
+A sequence of functions $\theset{f_n}$ has a uniformly convergent subsequence $\iff$ it is uniformly bounded and uniformly equicontinuous.
+%
+theorem
+---
+
+Holder's Inequality
+%
+?
+%
+formula
+---
+
+Young's Inequality
+%
+?
+%
+formula
+---
+
+

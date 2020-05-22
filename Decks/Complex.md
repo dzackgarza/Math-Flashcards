@@ -46,3 +46,33 @@ Types of singularities
 
 complex, fact
 ---
+
+Conformal Map
+%
+A holomorphic map with nowhere vanishing derivative (locally injective).
+%
+definition
+---
+
+Example of a conformal map that is not injective.
+%
+$$z\mapsto e^z$$
+%
+examples
+---
+
+General form of maps in $\aut(\DD)$.
+%
+$$f_\alpha(z) - {\alpha - z \over 1 - \bar\alpha z}$$
+%
+fact
+---
+Cauchy's Integral Formula for Derivatives
+%
+\begin{align*}
+\left|f^{(n)}(0)\right| \leq \frac{n !}{r^{n}} \sup _{|z|=r}|f(z)|
+.\end{align*}
+%
+formula
+---
+
