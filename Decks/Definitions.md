@@ -12,4 +12,11 @@ Every ideal is projective.
 commutative algebra
 ---
 
+Idempotent
+%
+An element $x$ in a set with a closed binary operation $\cdot$ is *idempotent* iff $x\cdot x = x$.
+%
+algebra
+---
+
 
