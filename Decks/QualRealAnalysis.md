@@ -348,12 +348,13 @@ $E\subset \RR^n$ is measurable iff any of these conditions hold
 definition, theorem
 ---
 
-Sets that are automatically measurable
+Sets known to be measurable
 %
 
 - Open
 - Closed
 - Outer measure zero
+- $M\cross \RR$ for $M$ measurable (a )ylinder)
 %
 
 ---
@@ -509,5 +510,30 @@ f \in L^{1} \Longrightarrow \lim _{h \rightarrow 0} \int|f(x+h)-f(x)|=0
 .\end{align*}
 %
 theorem
+---
+
+Proposition: Continuity in $L^1$
+%
+Proof: ?
+%
+proof
+---
+
+Proposition: Translation/Dilation Invariance of the Lebesgue Integral
+%
+Proof: ?
+%
+proof
+---
+
+Tonelli
+%
+For $f(x, y)$ non-negative and measurable on $\RR^{n+m}$,
+
+1. $f_x(y) \definedas f(x, y)$ is measurable for a.e. $x$
+2. $F(x) \definedas \int f(x, y) \, dy$ is measurable
+3. $G(y)\definedas \int
+%
+
 ---
 
