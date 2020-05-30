@@ -340,7 +340,8 @@ Definition: Measurability of a Set
 $E\subset \RR^n$ is measurable iff any of these conditions hold
 
 - There exist closed $F\subseteq E$ with $m_*(E\setminus F) < \eps \to 0$.
-- There exist open $G\supset E$ with $m_*(G\setminus E)<\eps \to 0$
+- There exist *compact* $K\subseteq E$ with $m_*(E\setminus K) < \eps \to 0$.
+- There exist open $G\supset E$ with $m_*(G\setminus E)<\eps \to 0$ (outer regular)
 - $E = H \union Z$ with $H\in F_\sigma$ and $Z$ null
 - $E = V\setminus Z$ with $V\in G_\delta$ and $Z$ null
 %
