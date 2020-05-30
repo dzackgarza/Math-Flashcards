@@ -11,6 +11,13 @@ Deformation Retract
 Deformation Retract: A subspace $A \subset X$ is a *deformation retract* of $X$ iff there exists a morphism $F:X\cross I$ to $X$ such that $F(x, 0) = x, F(x, 1)\in A, F(a, 1) = a$.
 Equivalently it is a homotopy between a retraction and the identity.
 %
+definition
+---
+
+Locally Compact
+%
+A space $X$ is *locally compact* iff for every $x\in X$ there exists an open $U$ and compact $K$ such that $x\in U \subseteq K$.
+%
 
 ---
 

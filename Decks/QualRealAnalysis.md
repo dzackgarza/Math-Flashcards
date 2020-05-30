@@ -150,7 +150,7 @@ formula
 
 Baire Space
 %
-If $\theset{U_n}$ is dense in $X$ then the intersection $\intersect U_n$ is again dense.
+$X$ is a Baire space iff whenever $\theset{U_n}$ is a collection of open dense subsets of $X$, then their intersection $\intersect U_n$ is again dense.
 %
 definition
 ---
@@ -297,4 +297,11 @@ Example: ${1 \over 1 + nx}$.
 technique
 ---
 
+Baire Category Theorem
+%
+If $X$ is a complete metric space or a locally compact Hausdorff space, then $X$ is a Baire space.
+A (non-empty) complete metric space is *not* the countable union of nowhere dense sets.
+%
+theorem
+---
 
