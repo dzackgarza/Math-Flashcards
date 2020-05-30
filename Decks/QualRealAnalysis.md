@@ -152,3 +152,11 @@ Counterexample: $\theset{1 \over n}, \ZZ$ are nowhere dense, $\QQ, \ZZ\union \qt
 definition, example, counterexample
 ---
 
+Equicontinuous
+%
+For $X, Y$ metric spaces and $\mcf$ a family of functions, $F$ is *equicontinuous at $x_0$* iff for every $\eps > 0$ there exists a $\delta(\eps, x_0)>0$ such that $x\in B_\delta(x_0) \implies f_i(x) \in B_\eps(f_i(x_0))$ for all $f_i \in \mcf$.
+The family $F$ is *uniformly equicontinuous* iff $\delta(\eps)$ only depends on $\eps$ and holds for any pair $x_1, x_2$ with $x_1 \in B_\delta(x_2)$.
+%
+
+---
+
