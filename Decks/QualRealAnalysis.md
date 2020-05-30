@@ -166,7 +166,8 @@ definition
 
 Nowhere Dense
 %
-A set is **nowhere dense** if its closure has empty interior, equivalently it is not dense in *any* nonempty open set.
+A set is $A$ **nowhere dense** if its closure has empty interior $\qty{\bar A}^\circ$, equivalently it is not dense in *any* nonempty open set.
+For $\RR$, every interval $I$ contains a subinterval $S\subset I$ with $S\intersect A = \emptyset$, i.e. its closure contains no intervals.
 
 Intuition: elements are not tightly clustered.
 
@@ -216,5 +217,19 @@ Riemann-Lebesgue Lemma
 If $f\in L^1$, then the Fourier transform $\hat f(\xi) \converges{\abs{\xi}\to \infty}\to 0$.
 %
 theorem
+---
+
+$G_\delta$ sets
+%
+$X$ is $G_\delta$ iff $X$ is a countable intersection of open sets.
+%
+definition
+---
+
+$F_\sigma$ sets
+%
+$X$ is $F_\sigma$ iff $X$ is a countable union of closed sets.
+%
+definition
 ---
 
