@@ -141,7 +141,7 @@ Useful cases:
 \norm{f\ast g}_1 & \leq \norm{f}_1 \norm{g}_1 \\
 \norm{f\ast g}_p & \leq \norm{f}_1 \norm{g}_p \\
 \norm{f\ast g}_\infty & \leq \norm{f}_p \norm{g}_q \\
-\norm{f\ast g}_\infty & \leq \norm{f}_2 \norm{g}_2 \\
+\norm{f\ast g}_\infty & \leq \norm{f}_2 \norm{g}_2 
 .\end{align*}
 
 %
@@ -196,3 +196,18 @@ $\abs{\norm x - \norm y} \leq \norm{x-y}$
 %
 formula
 ---
+
+Bessel's Inequality
+%
+For $x\in H$ a Hilbert spaces and $\theset{e_k}$ an orthonormal sequence, $$\sum \abs{\inner{x}{e_k}}^2 \leq \norm{x}^2$$
+%
+formula
+---
+
+Parseval's Identity
+%
+Equality in Bessel's inequality, obtained when $\theset{e_k}$ is a basis.
+%
+
+---
+
