@@ -126,3 +126,23 @@ If $\theset{U_n}$ is dense in $X$ then the intersection $\intersect U_n$ is agai
 definition
 ---
 
+First and Second Category
+%
+
+- A subset is *first category* iff it is an (arbitrary) union of nowhere dense sets
+- A subset is *second category* otherwise.
+%
+definition
+---
+
+Nowhere Dense
+%
+A set is **nowhere dense** if its closure has empty interior, equivalently it is not dense in *any* nonempty open set.
+
+Intuition: elements are not tightly clustered.
+
+Counterexample: $\theset{1 \over n}, \ZZ$ are nowhere dense, $\QQ, \ZZ\union \qty{(a, b)\intersect \QQ}$ is *not* nowhere dense
+%
+definition, example, counterexample
+---
+
