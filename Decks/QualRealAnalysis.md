@@ -111,6 +111,21 @@ A sequence of functions $\theset{f_n}$ has a uniformly convergent subsequence $\
 theorem
 ---
 
+Cauchy-Schwarz Inequality
+%
+$$\abs{\inner{f}{g}} \definedas \norm{fg_1} \leq \norm{f}_2 \norm{g}_2$$ with equality iff $f \in \spanof_\CC(g)$.
+%
+formula
+---
+
+Minkowski's Inequality
+%
+For $1 \leq p < \infty$, $$\norm{f + g}_p \leq \norm{f}_p + \norm{g}_p.$$
+%
+
+---
+
+
 Holder's Inequality
 %
 $\norm{fg}_1 \leq \norm{f}_p \norm{f}_q$
