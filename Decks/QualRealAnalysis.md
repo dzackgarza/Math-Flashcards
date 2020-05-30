@@ -38,7 +38,7 @@ theorem
 Monotone Convergence Theorem
 If $f_n \in L^+$ and $f_n\nearrow f$ a.e. then
 $$
-\lim \ing f_n = \int \lim f_n
+\lim \int f_n = \int \lim f_n
 $$
 %
 theorem
@@ -106,21 +106,21 @@ definition
 
 Arzela-Ascoli Theorem
 %
-A sequence of functions $\theset{f_n}$ has a uniformly convergent subsequence $\iff$ it is uniformly bounded and uniformly equicontinuous.
+A sequence of functions $\theset{f_n}$ has a uniformly convergent subsequence $\iff \theset{f_n}$ is uniformly bounded and uniformly equicontinuous.
 %
 theorem
 ---
 
 Holder's Inequality
 %
-?
+$\norm{fg}_1 \leq \norm{f}_p \norm{f}_q$
 %
 formula
 ---
 
 Young's Inequality
 %
-?
+For $1\leq p, q\leq r \leq \infty$ with ${1\over p} + {1\over q} - {1\over r} = 1$, then $\norm{f\ast g}_r \leq \norm{f}_p \norm{g}_q$.
 %
 formula
 ---
