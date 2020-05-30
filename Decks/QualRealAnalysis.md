@@ -354,7 +354,7 @@ Sets known to be measurable
 - Open
 - Closed
 - Outer measure zero
-- $M\cross \RR$ for $M$ measurable (a )ylinder)
+- $M\cross \RR$ for $M$ measurable (a cylinder)
 %
 
 ---
@@ -532,8 +532,32 @@ For $f(x, y)$ non-negative and measurable on $\RR^{n+m}$,
 
 1. $f_x(y) \definedas f(x, y)$ is measurable for a.e. $x$
 2. $F(x) \definedas \int f(x, y) \, dy$ is measurable
-3. $G(y)\definedas \int
-%
+3. $G(y)\definedas \iint f(x, y) \, dxdy$ is measurable and equals $\int f$
 
+Moral: non-negative and measurable allows switching order of integrals.
+
+%
+theorem
 ---
+
+
+Fubini
+%
+Let $f$ be measurable.
+Then for almost every $x$,
+
+1. $f_x(y)\definedas f(x ,y)$ is *integrable*.
+2. $F(x) \definedas \int f(x, y) \, dxdy$ is *integrable*
+3. $\int f = \iint f(x, y) \, dxdy$ in any order.
+%
+theorem
+---
+
+Fubini-Tonelli
+%
+If $f$ is measurable and any iterated integral $\iint \abs{f} < \infty$, then Tonelli on $\abs{f}$ yields $f\in L^1$ and $\int f$ is equal to any iterated integral.
+%
+theorem
+---
+
 
