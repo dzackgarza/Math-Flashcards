@@ -453,7 +453,7 @@ proof
 ---
 
 
-A sequence of functions that converges uniformly but not in $L^1$.
+A sequence of functions that converges uniformly, pointwise, a.e., but not in $L^1$.
 %
 $$f_n \definedas {1\over n} \chi_{[0, n]}$$
 %
@@ -467,23 +467,25 @@ Uniform $\implies$ pointwise $\implies$ a.e., convergence in norm is incomparabl
 fact
 ---
 
-A sequence of functions that converges uniformly but not in $L^1$.
+A sequence of functions that converges pointwise and a.e. but not uniformly or in $L^1$.
 %
-$$f_n \definedas {1\over n} \chi_{[0, n]}$$
-%
-counterexamples
----
-
-A sequence of functions that converges uniformly but not in $L^1$.
-%
-$$f_n \definedas {1\over n} \chi_{[0, n]}$$
+$$f_n \definedas \chi_{(n, n+1)}$$
 %
 counterexamples
 ---
 
-A sequence of functions that converges uniformly but not in $L^1$.
+A sequence of functions that a.e. but not in $L^1$, uniformly, or pointwise 
 %
-$$f_n \definedas {1\over n} \chi_{[0, n]}$$
+$$f_n \definedas n \chi_{(0, {1\over n} )}$$
+%
+counterexamples
+---
+
+A sequence of functions that converges in $L^1$ but not uniformly, pointwise, or a.e. 
+%
+
+![](figures/image_2020-05-30-16-46-43.png)
+
 %
 counterexamples
 ---
