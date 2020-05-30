@@ -453,3 +453,38 @@ proof
 ---
 
 
+A sequence of functions that converges uniformly but not in $L^1$.
+%
+$$f_n \definedas {1\over n} \chi_{[0, n]}$$
+%
+counterexamples
+---
+
+Relative strengths of convergence
+%
+Uniform $\implies$ pointwise $\implies$ a.e., convergence in norm is incomparable (but generally weaker)
+%
+fact
+---
+
+A sequence of functions that converges uniformly but not in $L^1$.
+%
+$$f_n \definedas {1\over n} \chi_{[0, n]}$$
+%
+counterexamples
+---
+
+A sequence of functions that converges uniformly but not in $L^1$.
+%
+$$f_n \definedas {1\over n} \chi_{[0, n]}$$
+%
+counterexamples
+---
+
+A sequence of functions that converges uniformly but not in $L^1$.
+%
+$$f_n \definedas {1\over n} \chi_{[0, n]}$$
+%
+counterexamples
+---
+
