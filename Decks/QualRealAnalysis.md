@@ -318,3 +318,20 @@ Not conversely: $f(x) = \abs{x}$.
 proof
 ---
 
+
+Continuity of measure from above/below 
+%
+- Below: $E_i \nearrow E \implies \mu(E_i) \to \mu(E)$.
+- Above: $E_i\searrow E, ~\mu(E_1) < \infty \implies \mu(E_i) \to \mu(E)$.
+%
+theorem
+---
+
+
+Caratheodory Characterization
+%
+$E\subseteq \RR^n$ is measurable $\iff$ for all $A\subset \RR^n$, $m_*(A) = m_*(E\intersect A) + m_*(E\intersect A^c)$.
+%
+
+---
+
