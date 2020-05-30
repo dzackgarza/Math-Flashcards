@@ -265,12 +265,28 @@ Find $M_n$ independent of $x$ such that $\abs{f_n(x) - f(x)} \leq M_n \to 0$.
 technique
 ---
 
+Showing uniform convergence of a sequence of functions
+%
+Find $M_n$ independent of $x$ such that $\abs{f_n(x) - f(x)} \leq M_n \to 0$.
+%
+technique
+---
+
+
 Uniform Convergence of a sequence of functions
 %
 $\theset{f_n} \converges{u}\to f$ on $E$ iff for every $\eps>0$ that exists an $N(\eps)$ such that for all $n\geq N$ and for all $x\in E$, $\abs{f_n(x) - f(x)} < \eps$.
 Equivalently, $\norm{f_n - f}_\infty \definedas \sup_{x\in E}\abs{f_n(x) - f(x)} < \eps$.
 %
+definition
+---
 
+
+Example of a function that converges pointwise but not uniformly
+%
+$f_n(x) \definedas x^n$.
+%
+counterexample
 ---
 
 
