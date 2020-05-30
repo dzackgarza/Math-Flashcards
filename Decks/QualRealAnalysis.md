@@ -7,7 +7,8 @@ theorem
 
 Egorov's Theorem
 %
-?
+If $E\subset \RR^n$ is measurable, $m(E) > 0$, and $\theset{f_n}$ measurable with $f_k \to f$ with $f(x) < \infty$ existing and finite a.e., then $f_n\to f$ *almost uniformly*, i.e.
+for all $\eps > 0$ there exists a closed $F\subset E$ such that $m(E\setminus F)<\eps$ and $f\converges{u}\to f$ on $F$.
 %
 theorem
 ---
