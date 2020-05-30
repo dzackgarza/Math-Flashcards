@@ -25,3 +25,19 @@ Non locally-compact spaces: $\QQ, \theset{\vector 0} \union \theset{(x, y) \such
 definition, counterexample
 ---
 
+
+Are singletons open or closed?
+%
+- In Hausdorff spaces: closed
+%
+theorem
+---
+
+Normal Space
+%
+?
+%
+definition
+---
+
+
