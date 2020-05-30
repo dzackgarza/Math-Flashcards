@@ -119,4 +119,10 @@ Young's Inequality
 formula
 ---
 
+Baire Space
+%
+If $\theset{U_n}$ is dense in $X$ then the intersection $\intersect U_n$ is again dense.
+%
+definition
+---
 
