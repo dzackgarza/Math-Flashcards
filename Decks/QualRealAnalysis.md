@@ -379,3 +379,15 @@ $A^\circ \intersect B^\circ = \emptyset$
 definition
 ---
 
+Definition: Measurable Function
+%
+$f:\RR \to \bar \RR$ is Lebesgue/Borel measurable iff
+\begin{align*}
+\left.\{x \in E | f(x)>a\}=f^{-1}((a, \infty])\right) \in \mathcal{M}_L, \mathcal{M}_B
+,\end{align*}
+the collection of Lebesgue/Borel measurable *sets* respectively.
+%
+definition
+---
+
+
