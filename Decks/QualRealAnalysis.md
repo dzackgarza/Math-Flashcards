@@ -69,7 +69,7 @@ formula
 
 Uniform Continuity
 %
-?
+For $f: (X, d_1) \to (Y, d_2)$, for every $\eps > 0$ there exists $\delta(\eps) > 0$ such that for every $x,y\in X$, $x\in B_\delta(y) \implies f(x) \in B_\eps(f(y))$.
 %
 definition
 ---
