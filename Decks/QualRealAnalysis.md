@@ -62,7 +62,7 @@ definition
 
 Bernoulli's Inequality
 %
-$(1+x)^t \geq 1 + tx$ for all $t\in \RR$ and $x\geq -1$. If $t\in 2\ZZ$, then this is valid for all $x\in \RR$. Prove by induction.
+$(1+x)^n \geq 1 + nx$ for all $n\in \RR$ and $x\geq -1$. If $n\in 2\ZZ$, then this is valid for all $x\in \RR$. Prove by induction.
 %
 formula
 ---
@@ -169,7 +169,7 @@ Nowhere Dense
 A set is $A$ **nowhere dense** if its closure has empty interior $\qty{\bar A}^\circ$, equivalently it is not dense in *any* nonempty open set.
 For $\RR$, every interval $I$ contains a subinterval $S\subset I$ with $S\intersect A = \emptyset$, i.e. its closure contains no intervals.
 
-Intuition: elements are not tightly clustered.
+Intuition: elements are not tightly clustered, set is full of holes.
 
 Counterexample: $\theset{1 \over n}, \ZZ$ are nowhere dense, $\QQ, \ZZ\union \qty{(a, b)\intersect \QQ}$ is *not* nowhere dense
 %
@@ -258,16 +258,16 @@ Characterizations of $D_f$, the set of discontinuities of functions
 fact
 ---
 
-Showing uniform convergence of a sequence of functions
+Showing uniform convergence of a *sequence* of functions
 %
 Find $M_n$ independent of $x$ such that $\abs{f_n(x) - f(x)} \leq M_n \to 0$.
 %
 technique
 ---
 
-Showing uniform convergence of a series of functions
+Showing uniform convergence of a *series* of functions
 %
-Find $M_n$ independent of $x$ such that $\norm{f_n}_\infty < M_n$ where $\sum M_n < \infty$
+$M\dash$test: find $M_n$ independent of $x$ such that $\norm{f_n}_\infty < M_n$ where $\sum M_n < \infty$
 %
 technique
 ---
