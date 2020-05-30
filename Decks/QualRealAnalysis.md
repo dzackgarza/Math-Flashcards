@@ -158,7 +158,7 @@ definition
 First and Second Category
 %
 
-- A subset is *first category* iff it is an (arbitrary) union of nowhere dense sets
+- A subset is *first category* iff it is countable union of nowhere dense sets.
 - A subset is *second category* otherwise.
 %
 definition
@@ -231,5 +231,12 @@ $F_\sigma$ sets
 $X$ is $F_\sigma$ iff $X$ is a countable union of closed sets.
 %
 definition
+---
+
+Meagre Set
+%
+A set is *meagre* iff it is a countable union of nowhere dense sets.
+%
+
 ---
 
