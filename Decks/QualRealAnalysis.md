@@ -52,7 +52,9 @@ definition
 
 Equivalent Characterizations of Completeness
 %
-?
+
+- Every Cauchy sequence converges
+- Every absolutely convergent series converges
 %
 definition
 ---
