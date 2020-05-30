@@ -372,3 +372,10 @@ $m_*(E) = \inf \theset{ \sum \abs{Q_i} \suchthat \theset{Q_i}\covers E \text { c
 definition
 ---
 
+Definition: Almost Disjoint
+%
+$A^\circ \intersect B^\circ = \emptyset$
+%
+definition
+---
+
