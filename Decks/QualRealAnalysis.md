@@ -211,3 +211,10 @@ Equality in Bessel's inequality, obtained when $\theset{e_k}$ is a basis.
 
 ---
 
+Riemann-Lebesgue Lemma
+%
+If $f\in L^1$, then the Fourier transform $\hat f(\xi) \converges{\abs{\xi}\to \infty}\to 0$.
+%
+
+---
+
