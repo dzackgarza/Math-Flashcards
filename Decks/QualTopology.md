@@ -35,16 +35,17 @@ theorem
 
 Normal Space
 %
-?
+A space $X$ is **normal** iff every two disjoint closed sets have disjoint open neighborhoods.
 %
 definition
 ---
 
-Example of a function that is Lebesgue integrable but not Riemann integrable
-
+Urysohn's Lemma
 %
-The Dirichlet function $f(x) = \chi_\QQ$, since $D_f$ is not null.
+A space $X$ is normal iff for every closed $U, V \subset X$ there exists a continuous function $f: X\to [0, 1]$ with $f(U) = 0, f(V) = 1$.
 %
-counterexample
+theorem
 ---
+
+
 
