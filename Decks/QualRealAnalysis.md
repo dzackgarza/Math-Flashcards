@@ -44,9 +44,9 @@ $$
 theorem
 ---
 
-(Lebesgue) Measurable Function
+(Lebesgue) Measurable Function 
 %
-A set $E \subseteq \RR^n$ is Lebesgue measurable iff for every $\eps> 0$ there exists an open $G$ such that $m_*(G\setminus E) < \eps$ (approximate from below).
+?
 %
 definition
 ---
@@ -335,4 +335,15 @@ $E\subseteq \RR^n$ is measurable $\iff$ for all $A\subset \RR^n$, $m_*(A) = m_*(
 theorem
 ---
 
+Definition: Measurability of a Set
+%
+$E\subset \RR^n$ is measurable iff any of these conditions hold
+
+- There exist closed $F\subseteq E$ with $m_*(E\setminus F) < \eps \to 0$.
+- There exist open $G\supset E$ with $m_*(G\setminus E)<\eps \to 0$
+- $E = H \union Z$ with $H\in F_\sigma$ and $Z$ null
+- $E = V\setminus Z$ with $V\in G_\delta$ and $Z$ null
+%
+
+---
 
