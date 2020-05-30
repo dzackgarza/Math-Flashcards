@@ -365,3 +365,10 @@ The Dirichlet function $f(x) = \chi_\QQ$, since $D_f = \RR$ is not null.
 counterexample
 ---
 
+Definition of Outer Measure
+%
+$m_*(E) = \inf \theset{ \sum \abs{Q_i} \suchthat \theset{Q_i}\covers E \text { closed cubes}}$.
+%
+definition
+---
+
