@@ -390,4 +390,10 @@ the collection of Lebesgue/Borel measurable *sets* respectively.
 definition
 ---
 
+Lusin's Theorem
+%
+If $f$ is measurable and finite-valued on a measurable $E$ with $m(E) < \infty$ then there exist closed sets $F\subset E$ such that $m(E\setminus F) < \eps \to 0$ such that $f\mid_F$ is continuous.
+%
+
+---
 
