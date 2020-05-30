@@ -250,6 +250,7 @@ definition
 Characterizations of $D_f$, the set of discontinuities of functions
 %
 
+- Always $F_\sigma$
 - $f_n\to f$ with $f_n$ continuous $\implies D_f$ is meager.
 - $f \in \mathcal{R}(a, b)$ and bounded $\implies D_f$ is null.
 - $f$ monotone $\implies D_f$ is countable, and additionally $f$ differentiable on $(a, b) \implies D_f$ is null.
@@ -303,5 +304,17 @@ If $X$ is a complete metric space or a locally compact Hausdorff space, then $X$
 A (non-empty) complete metric space is *not* the countable union of nowhere dense sets.
 %
 theorem
+---
+
+
+Relationship between continuity and differentiability
+%
+Differentiability $\implies$ continuity: 
+\begin{align*}
+f(x) - f(x_0) = (x-x_0) \qty{ f(x)-f(x_0) \over x-x_0 } \to 0
+.\end{align*}
+Not conversely: $f(x) = \abs{x}$.
+%
+proof
 ---
 
