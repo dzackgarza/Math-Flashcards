@@ -1,6 +1,6 @@
 Fatou's Lemma
 %
-?
+If $\theset{f_n} \subset L^+$, then $$\int \liminf f_n \leq \liminf \int f_n$$
 %
 theorem
 ---
@@ -28,14 +28,17 @@ definition
 
 Dominated Convergence Theorem
 %
-?
+If $\theset{f_n} \subset L^1$ and $f_n\to f$ a.e. with $\abs{f_n} \leq g \in L^1$ for every $n$, then
+$$\lim \int f_n = \int \lim f_n$$
 %
 theorem
 ---
 
 Monotone Convergence Theorem
-%
-?
+If $f_n \in L^+$ and $f_n\nearrow f$ a.e. then
+$$
+\lim \ing f_n = \int \lim f_n
+$$
 %
 theorem
 ---
