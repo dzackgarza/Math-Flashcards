@@ -422,4 +422,19 @@ Definition: The Lebesgue Integral
 definition
 ---
 
+Chebyshev's Inequality
+%
+\begin{align*}
+\mu\qty{\{x | f(x) \geq \alpha\}} \geq \frac{1}{\alpha} \int f \quad \forall \alpha
+.\end{align*}
+%
+definition
+---
+
+Proposition: $\int f = 0 \implies \int f = 0$ a.e.
+%
+Proof: ?
+%
+proof
+---
 
