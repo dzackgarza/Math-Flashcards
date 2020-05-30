@@ -253,8 +253,26 @@ Characterizations of $D_f$, the set of discontinuities of functions
 - $f_n\to f$ with $f_n$ continuous $\implies D_f$ is meager.
 - $f \in \mathcal{R}(a, b)$ and bounded $\implies D_f$ is null.
 - $f$ monotone $\implies D_f$ is countable, and additionally $f$ differentiable on $(a, b) \implies D_f$ is null.
+
+%
+fact
+---
+
+Showing uniform convergence of a sequence of functions
+%
+Find $M_n$ independent of $x$ such that $\abs{f_n(x) - f(x)} \leq M_n \to 0$.
+%
+technique
+---
+
+Uniform Convergence of a sequence of functions
+%
+$\theset{f_n} \converges{u}\to f$ on $E$ iff for every $\eps>0$ that exists an $N(\eps)$ such that for all $n\geq N$ and for all $x\in E$, $\abs{f_n(x) - f(x)} < \eps$.
+Equivalently, $\norm{f_n - f}_\infty \definedas \sup_{x\in E}\abs{f_n(x) - f(x)} < \eps$.
 %
 
 ---
+
+
 
 
