@@ -265,9 +265,9 @@ Find $M_n$ independent of $x$ such that $\abs{f_n(x) - f(x)} \leq M_n \to 0$.
 technique
 ---
 
-Showing uniform convergence of a sequence of functions
+Showing uniform convergence of a series of functions
 %
-Find $M_n$ independent of $x$ such that $\abs{f_n(x) - f(x)} \leq M_n \to 0$.
+Find $M_n$ independent of $x$ such that $\norm{f_n}_\infty < M_n$ where $\sum M_n < \infty$
 %
 technique
 ---
@@ -289,6 +289,12 @@ $f_n(x) \definedas x^n$.
 counterexample
 ---
 
-
+Negating uniform convergence of a sequence of functions
+%
+Fix $\eps$, find $x(\eps, n)$ with $\abs{f_n(x) - f(x)} > > \eps$.
+Example: ${1 \over 1 + nx}$.
+%
+technique
+---
 
 
