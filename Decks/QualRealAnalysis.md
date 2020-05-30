@@ -491,3 +491,23 @@ A sequence of functions that converges in $L^1$ but not uniformly, pointwise, or
 counterexamples
 ---
 
+Small Tails and Absolute Continuity
+%
+Let $f\in L^1$ and $\eps> 0$.
+
+1. Small Tails: there exists an $N$ such that $\int_{B_N^c} f < \eps$
+2. Absolute Continuity: there exists a $\delta$ such that $m(E) < \delta \implies \int_E \abs{f} < \eps$.
+%
+theorem
+---
+
+
+Continuity in $L^1$
+%
+\begin{align*}
+f \in L^{1} \Longrightarrow \lim _{h \rightarrow 0} \int|f(x+h)-f(x)|=0
+.\end{align*}
+%
+theorem
+---
+
