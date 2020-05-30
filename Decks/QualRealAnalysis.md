@@ -394,6 +394,32 @@ Lusin's Theorem
 %
 If $f$ is measurable and finite-valued on a measurable $E$ with $m(E) < \infty$ then there exist closed sets $F\subset E$ such that $m(E\setminus F) < \eps \to 0$ such that $f\mid_F$ is continuous.
 %
-
+theorem
 ---
+
+Convergence in Measure
+%
+\begin{align*}
+\lim _{k \rightarrow \infty} m\left(\left\{x \in E|| f_{k}(x)-f(x) |>\alpha\right\}\right)=0
+.\end{align*}
+%
+definition
+---
+
+Proposition: Convergence in measure is equivalent to a.e. convergence
+%
+Proof: ? Use Egorov's Theorem
+%
+proof
+---
+
+Definition: The Lebesgue Integral
+%
+\begin{align*}
+\int f:=\sup \left\{\int \phi | 0 \leq \phi \leq f, \phi \text { simple }\right\}
+.\end{align*}
+%
+definition
+---
+
 
