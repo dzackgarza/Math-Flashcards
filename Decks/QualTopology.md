@@ -47,5 +47,12 @@ A space $X$ is normal iff for every closed $U, V \subset X$ there exists a conti
 theorem
 ---
 
+Hausdorff Space
+%
+A space $X$ is **Hausdorff** iff for every $x,y \in X$ there exist neighborhoods of $x$ and $y$ that are disjoint from each other.
 
+(Implies uniqueness of limits.)
+%
+definition
+---
 
