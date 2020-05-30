@@ -15,7 +15,7 @@ theorem
 
 Riesz Representation Theorem
 %
-?
+For $1\leq p <\infty$, $X \subset \RR^n$ measurable, $\Lambda \in L^p(X)\dual$, there exists a unique $g\in L^q(X)$ such that for all $f\in L^p(X)$, $\Lambda(f) = \int_X fg$ and $\norm{\Lambda}_{L^p(X)\dual} = \norm{g}_{L^q(X)}$.
 %
 theorem
 ---
@@ -62,7 +62,7 @@ definition
 
 Bernoulli's Inequality
 %
-?
+$(1+x)^t \geq 1 + tx$ for all $t\in \RR$ and $x\geq -1$. If $t\in 2\ZZ$, then this is valid for all $x\in \RR$. Prove by induction.
 %
 formula
 ---
