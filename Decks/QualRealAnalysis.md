@@ -344,6 +344,16 @@ $E\subset \RR^n$ is measurable iff any of these conditions hold
 - $E = H \union Z$ with $H\in F_\sigma$ and $Z$ null
 - $E = V\setminus Z$ with $V\in G_\delta$ and $Z$ null
 %
+definition, theorem
+---
+
+Sets that are automatically measurable
+%
+
+- Open
+- Closed
+- Outer measure zero
+%
 
 ---
 
