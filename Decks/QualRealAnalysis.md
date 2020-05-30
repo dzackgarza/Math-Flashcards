@@ -438,3 +438,18 @@ Proof: ?
 proof
 ---
 
+How to commute a sum and an integral
+%
+$f_n \in L^1$ with $\sum \int \abs{f_n} < \infty$.
+%
+technique
+---
+
+Proposition: $\sum \abs{f_n} \in L^1 \implies \sum \abs{f_n(x)} < \infty$ a.e.
+%
+Proof: ?
+%
+proof
+---
+
+
