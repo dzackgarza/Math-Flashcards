@@ -237,6 +237,13 @@ Meagre Set
 %
 A set is *meagre* iff it is a countable union of nowhere dense sets.
 %
+definition
+---
 
+Null Set
+%
+A set $A$ is *null* iff for every $\eps>0$ there exists a cover $\theset{U_j}\covers A$ such that $\sum \mu(U_j) < \eps$, i.e. $\mu(A) = 0$.
+%
+definition
 ---
 
