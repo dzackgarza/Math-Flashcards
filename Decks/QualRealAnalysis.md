@@ -360,7 +360,7 @@ Sets that are automatically measurable
 Example of a function that is Lebesgue integrable but not Riemann integrable
 
 %
-The Dirichlet function $f(x) = \chi_\QQ$, since $D_f$ is not null.
+The Dirichlet function $f(x) = \chi_\QQ$, since $D_f = \RR$ is not null.
 %
 counterexample
 ---
