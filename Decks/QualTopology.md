@@ -81,3 +81,17 @@ Note that $X$ being locally homeomorphic to $Y$ does *not* imply that there exis
 
 ---
 
+First Countable
+%
+A space $X$ is **first countable** iff each $x\in X$ admits a countable neighborhood basis. 
+%
+Definition
+---
+
+Neighborhood Basis
+%
+A neighborhood basis about a point $x$ is a collection of open sets $\theset{B_k}_{k\in J}$ such that for every neighborhood $U_x$ of $x$, there exists some $j$ such that $B_k \subseteq U_x$
+%
+definition
+---
+
