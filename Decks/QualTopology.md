@@ -56,3 +56,17 @@ A space $X$ is **Hausdorff** iff for every $x,y \in X$ there exist neighborhoods
 definition
 ---
 
+Semilocally Simply Connected
+%
+Every point admits a neighborhood $U$ such that $\pi_1(U) = 0$.
+%
+definition
+---
+
+Local homeomorphism
+%
+A map $f:X\to Y$ is a local homeomorphism iff for every $x\in X$ there exists a neighborhood $U_x$ such that $f(U_x)$ is open in $Y$ and $f\mid_{U_x}: U_x \to f(U_x)$ is a homeomorphism.
+%
+definition
+---
+
