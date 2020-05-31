@@ -66,7 +66,18 @@ definition
 Local homeomorphism
 %
 A map $f:X\to Y$ is a local homeomorphism iff for every $x\in X$ there exists a neighborhood $U_x$ such that $f(U_x)$ is open in $Y$ and $f\mid_{U_x}: U_x \to f(U_x)$ is a homeomorphism.
+
+Examples: etale spaces, covering spaces.
 %
 definition
+---
+
+Locally homeomorphic
+%
+$X$ is *locally homeomorphic* to $Y$ iff every $x\in X$ admits a neighborhood $U_x$ that is homeomorphic to an open subset of $Y$.
+
+Note that $X$ being locally homeomorphic to $Y$ does *not* imply that there exists a local homeomorphism.
+%
+
 ---
 
