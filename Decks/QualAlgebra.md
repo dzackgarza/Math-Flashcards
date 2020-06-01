@@ -61,6 +61,18 @@ A polynomial $p(x)$ is **irreducible** iff $\deg p>1$ and $p(x)= q(x)r(x) \impli
 definition
 ---
 
+Cyclotomic Polynomial: $\Phi_p(x)$.
+%
+$$\Phi_p(x) = 1 + x + x^2 + \cdots + x^{p-1}.$$
+%
+formula
+---
 
+Cyclotomic Polynomial: $\Phi_{2p}(x)$.
+%
+$$\Phi_{2p}(x) = 1 - x + x^2 - \cdots + x^{p-1}.$$
+%
+formula
+---
 
 
