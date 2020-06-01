@@ -54,16 +54,13 @@ The algebra of polynomials in the variable $x$, i.e. $K[x] = \theset{\sum_{i=0}^
 notation, definition
 ---
 
-Descartes' Rule of Signs
+Irreducible
 %
-The number $r_+$ of positive real roots of a polynomial $p(x)$ are at most the number $n$ of sign changes in the coefficients.
-Moreover, $r$ is *exactly* $n-2k$ for some $k\in \ZZ^{\geq 0}$.
-Similarly, the number $r_-$ of negative real roots is the same idea applied to $p(-x)$.
-
-Examples: $x^3 + x^2 - x - 2$ has at most one real root.
+A polynomial $p(x)$ is **irreducible** iff $\deg p>1$ and $p(x)= q(x)r(x) \implies q(x)$ or $r(x)$ is constant.
 %
-fact
+definition
 ---
+
 
 
 
