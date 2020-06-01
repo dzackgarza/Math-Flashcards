@@ -49,9 +49,9 @@ notation, definition
 
 $K[x]$
 %
-The algebra of polynomials in the variable $x$, i.e. $K[x] = \theset{\sum_{i=1}^n a_ix^i \suchthat n\in \ZZ^{\geq 0}}$.
+The algebra of polynomials in the variable $x$, i.e. $K[x] = \theset{\sum_{i=0}^n a_ix^i \suchthat n\in \ZZ^{\geq 0}}$.
 %
-
+notation, definition
 ---
 
 
