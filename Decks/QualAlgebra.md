@@ -19,4 +19,41 @@ then $f$ is irreducible.
 theorem
 ---
 
+Algebraic Field Extension
+%
+A field extension $L/k$ is **algebraic** iff every $\alpha \in L$ is the root of some polynomial $f\in k[x]$.
+%
+definition
+---
+
+Normal Field Extension
+%
+?
+%
+definition
+---
+
+Separable Field Extension
+%
+?
+%
+definition
+---
+
+$K(x)$
+%
+The field of rational functions, i.e. ratios of polynomials, in the variable $x$; $K(x) = \theset{{P(x) \over Q(x)} \suchthat P,Q \in K[x]}$
+%
+notation, definition
+---
+
+$K[x]$
+%
+The algebra of polynomials in the variable $x$, i.e. $K[x] = \theset{\sum_{i=1}^n a_ix^i \suchthat n\in \ZZ^{\geq 0}}$.
+%
+
+---
+
+
+
 
