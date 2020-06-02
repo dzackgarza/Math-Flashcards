@@ -13,8 +13,9 @@ Characterizations of Diagonalizability of a Square Matrix $M$
 - There exists a basis of $\FF^n$ consisting of eigenvectors of $M$
 - All elementary divisors are linear
 - (Sufficient) $M$ has $n$ distinct eigenvalues
+- (Sufficient) $\min_M(x)/\FF$ has $n$ distinct roots.
 
 %
-
+theorem
 ---
 
