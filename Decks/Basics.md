@@ -35,7 +35,7 @@ fact
 
 Groups of Order 6
 %
-Cyclic
+$\ZZ/6\ZZ$
 %
 fact
 ---
@@ -53,7 +53,8 @@ fact
 
 Groups of Order 9
 %
-
+1. $\ZZ/9\ZZ$
+2. $(\ZZ/3\ZZ)^2$
 %
 fact
 ---
@@ -61,7 +62,7 @@ fact
 
 Groups of Order 10
 %
-
+$\ZZ/10\ZZ$
 %
 fact
 ---
@@ -69,7 +70,8 @@ fact
 
 Groups of Order 12
 %
-
+1. $\ZZ/4\ZZ \times \ZZ/3\ZZ$
+2. $(\ZZ/2\ZZ)^2 \times \ZZ/3\ZZ$
 %
 fact
 ---
@@ -77,7 +79,7 @@ fact
 
 Groups of Order 14
 %
-
+$\ZZ/14\ZZ$
 %
 fact
 ---
@@ -85,7 +87,7 @@ fact
 
 Groups of Order 15
 %
-
+$\ZZ/15\ZZ$
 %
 fact
 ---
@@ -93,7 +95,11 @@ fact
 
 Groups of Order 16
 %
-
+1. $\ZZ/16\ZZ$
+2. $(\ZZ/4\ZZ)^2$
+3. $\ZZ/8\ZZ \times \ZZ/2\ZZ$
+4. $\ZZ/4\ZZ \times (\ZZ/2\ZZ)^2$
+5. $(\ZZ/2\ZZ)^4$
 %
 fact
 ---
@@ -101,7 +107,8 @@ fact
 
 Groups of Order 18
 %
-
+1. $\ZZ/18\ZZ$
+2. $(\ZZ/3\ZZ)^2\times \ZZ/2\ZZ$
 %
 fact
 ---
@@ -109,7 +116,8 @@ fact
 
 Groups of Order 20
 %
-
+1. $\ZZ/20\ZZ$
+2. $(\ZZ/2\ZZ)^2\times \ZZ/5\ZZ$
 %
 fact
 ---
