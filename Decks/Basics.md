@@ -23,4 +23,144 @@ $(x+a)\sum_{k=0}^{n-1} (-a)_^k x^{n-k}$
 formula
 ---
 
+Groups of Order 4
+%
+$\ZZ/4\ZZ, (\ZZ/2\ZZ)^2$
+
+![](figures/image_2020-06-01-21-11-05.png)
+
+%
+fact
+---
+
+
+
+Groups of Order 5
+%
+$\ZZ/5\ZZ$
+
+![](figures/image_2020-06-01-21-12-14.png)
+
+%
+fact
+---
+
+
+Groups of Order 5
+%
+
+%
+fact
+---
+
+
+Groups of Order 5
+%
+
+%
+fact
+---
+
+
+Groups of Order 5
+%
+
+%
+fact
+---
+
+
+Groups of Order 5
+%
+
+%
+fact
+---
+
+
+Groups of Order 5
+%
+
+%
+fact
+---
+
+
+Groups of Order 5
+%
+
+%
+fact
+---
+
+
+Groups of Order 5
+%
+
+%
+fact
+---
+
+
+Groups of Order 5
+%
+
+%
+fact
+---
+
+
+Groups of Order 5
+%
+
+%
+fact
+---
+
+
+Groups of Order 5
+%
+
+%
+fact
+---
+
+
+Groups of Order 5
+%
+
+%
+fact
+---
+
+
+Groups of Order 5
+%
+
+%
+fact
+---
+
+
+Groups of Order 5
+%
+
+%
+fact
+---
+
+
+Groups of Order 5
+%
+
+%
+fact
+---
+
+Groups of Order 5
+%
+
+%
+fact
+---
 
