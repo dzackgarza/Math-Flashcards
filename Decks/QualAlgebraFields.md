@@ -1,11 +1,3 @@
-Simple group
-%
-No nontrivial normal subgroups
-%
-definition
----
-
-
 Eisenstein's Criterion
 
 %
