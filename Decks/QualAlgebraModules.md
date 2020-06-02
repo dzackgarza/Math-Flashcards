@@ -8,7 +8,7 @@ counterexample
 Characterizations of Diagonalizability of a Square Matrix $M$
 %
 
-- $\min_M(x)/\FF$ splits into distinct linear factors over $\FF$
+- $\min_M(x)/\FF$ splits into distinct linear factors over $\FF$ (i.e. is separable)
 - $\FF$ contains all of the roots of $\min_M(x)/\FF$
 - There exists a basis of $\FF^n$ consisting of eigenvectors of $M$
 - All elementary divisors are linear
