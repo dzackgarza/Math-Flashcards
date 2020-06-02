@@ -35,7 +35,8 @@ fact
 
 Groups of Order 6
 %
-$\ZZ/6\ZZ$
+1. $\ZZ/6\ZZ$
+2. $D_3$
 %
 fact
 ---
@@ -46,6 +47,8 @@ Groups of Order 8
 1. $\ZZ/8\ZZ$
 2. $\ZZ/4\ZZ \times \ZZ/2\ZZ$
 3. $(\ZZ/2\ZZ)^3$
+4. $D_4$
+5. $Q_8$
 %
 fact
 ---
@@ -62,7 +65,8 @@ fact
 
 Groups of Order 10
 %
-$\ZZ/10\ZZ$
+1. $\ZZ/10\ZZ$
+2. $D_{5}$
 %
 fact
 ---
@@ -72,6 +76,9 @@ Groups of Order 12
 %
 1. $\ZZ/4\ZZ \times \ZZ/3\ZZ$
 2. $(\ZZ/2\ZZ)^2 \times \ZZ/3\ZZ$
+3. $A_4$
+4. $D_6$
+5. $\gens{a,b,c\suchthat a^2, b^2, c^2, abc}$
 %
 fact
 ---
