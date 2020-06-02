@@ -35,7 +35,7 @@ fact
 
 Groups of Order 6
 %
-
+Cyclic
 %
 fact
 ---
@@ -43,7 +43,9 @@ fact
 
 Groups of Order 8
 %
-
+1. $\ZZ/8\ZZ$
+2. $\ZZ/4\ZZ \times \ZZ/2\ZZ$
+3. $(\ZZ/2\ZZ)^3$
 %
 fact
 ---
