@@ -35,6 +35,7 @@ fact
 
 Groups of Order 6
 %
+1 Abelian, 1 Nonabelian
 1. $\ZZ/6\ZZ$
 2. $D_3$
 %
@@ -44,6 +45,7 @@ fact
 
 Groups of Order 8
 %
+3 Abelian, 2 Nonabelian
 1. $\ZZ/8\ZZ$
 2. $\ZZ/4\ZZ \times \ZZ/2\ZZ$
 3. $(\ZZ/2\ZZ)^3$
@@ -65,6 +67,7 @@ fact
 
 Groups of Order 10
 %
+1 Abelian, 1 Nonabelian
 1. $\ZZ/10\ZZ$
 2. $D_{5}$
 %
@@ -74,6 +77,7 @@ fact
 
 Groups of Order 12
 %
+2 Abelian, 3 Nonabelian
 1. $\ZZ/4\ZZ \times \ZZ/3\ZZ$
 2. $(\ZZ/2\ZZ)^2 \times \ZZ/3\ZZ$
 3. $A_4$
@@ -86,6 +90,7 @@ fact
 
 Groups of Order 14
 %
+1 Abelian, 1 Nonabelian
 1. $\ZZ/14\ZZ$
 2. $D_7$
 %
@@ -103,6 +108,7 @@ fact
 
 Groups of Order 16
 %
+5 Abelian, 9 Nonabelian
 1. $\ZZ/16\ZZ$
 2. $(\ZZ/4\ZZ)^2$
 3. $\ZZ/8\ZZ \times \ZZ/2\ZZ$
@@ -125,6 +131,7 @@ fact
 
 Groups of Order 18
 %
+2 Abelian, 2 Nonabelian
 1. $\ZZ/18\ZZ$
 2. $(\ZZ/3\ZZ)^2\times \ZZ/2\ZZ$
 3. $D_9$
@@ -136,6 +143,7 @@ fact
 
 Groups of Order 20
 %
+2 Abelian, 3 Nonabelian
 1. $\ZZ/20\ZZ$
 2. $(\ZZ/2\ZZ)^2\times \ZZ/5\ZZ$
 3. $D_{10}$
@@ -145,4 +153,10 @@ Groups of Order 20
 fact
 ---
 
+Order of the smallest nonabelian group
+%
+6: $D_3$
+%
+fact
+---
 
