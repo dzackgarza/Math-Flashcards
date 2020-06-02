@@ -76,3 +76,10 @@ formula
 ---
 
 
+$K[\alpha]$ for $\alpha \in F \supset K$
+%
+The minimal subring of
+%
+
+---
+
