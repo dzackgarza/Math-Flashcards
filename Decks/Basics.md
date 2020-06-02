@@ -160,3 +160,10 @@ Order of the smallest nonabelian group
 fact
 ---
 
+Simple Group
+%
+?
+%
+definition
+---
+
