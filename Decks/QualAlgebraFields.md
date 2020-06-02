@@ -48,7 +48,7 @@ notation, definition
 
 Irreducible
 %
-A polynomial $p(x)$ is **irreducible** iff $\deg p>1$ and $p(x)= q(x)r(x) \implies q(x)$ or $r(x)$ is constant.
+An element $p$ in a ring $R$ is **irreducible** iff $p=ab \implies a \in R\units$ or $b\in R\units$.
 %
 definition
 ---
