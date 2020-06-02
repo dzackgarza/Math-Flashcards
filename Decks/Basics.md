@@ -33,20 +33,7 @@ $\ZZ/4\ZZ, (\ZZ/2\ZZ)^2$
 fact
 ---
 
-
-
-Groups of Order 5
-%
-$\ZZ/5\ZZ$
-
-![](figures/image_2020-06-01-21-12-14.png)
-
-%
-fact
----
-
-
-Groups of Order 5
+Groups of Order 6
 %
 
 %
@@ -54,7 +41,7 @@ fact
 ---
 
 
-Groups of Order 5
+Groups of Order 8
 %
 
 %
@@ -62,7 +49,7 @@ fact
 ---
 
 
-Groups of Order 5
+Groups of Order 9
 %
 
 %
@@ -70,7 +57,7 @@ fact
 ---
 
 
-Groups of Order 5
+Groups of Order 10
 %
 
 %
@@ -78,7 +65,7 @@ fact
 ---
 
 
-Groups of Order 5
+Groups of Order 12
 %
 
 %
@@ -86,7 +73,7 @@ fact
 ---
 
 
-Groups of Order 5
+Groups of Order 14
 %
 
 %
@@ -94,7 +81,7 @@ fact
 ---
 
 
-Groups of Order 5
+Groups of Order 15
 %
 
 %
@@ -102,7 +89,7 @@ fact
 ---
 
 
-Groups of Order 5
+Groups of Order 16
 %
 
 %
@@ -110,7 +97,7 @@ fact
 ---
 
 
-Groups of Order 5
+Groups of Order 18
 %
 
 %
@@ -118,49 +105,11 @@ fact
 ---
 
 
-Groups of Order 5
+Groups of Order 20
 %
 
 %
 fact
 ---
 
-
-Groups of Order 5
-%
-
-%
-fact
----
-
-
-Groups of Order 5
-%
-
-%
-fact
----
-
-
-Groups of Order 5
-%
-
-%
-fact
----
-
-
-Groups of Order 5
-%
-
-%
-fact
----
-
-Groups of Order 5
-%
-
-%
-fact
----
 
