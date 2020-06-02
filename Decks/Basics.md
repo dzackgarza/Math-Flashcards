@@ -117,7 +117,7 @@ Groups of Order 16
 11. $Q_8 \cross \ZZ/2\ZZ$
 12. $Q_{16} = \gens{a,b,c \suchthat a^4=b^2=c^2=abc}$
 13. $QD_{16} = \gens{r,s\suchthat r^8, s^2, srs\inv s^{-3}}$
-14. $
+14. $(\ZZ/4\ZZ\cross \ZZ/2\ZZ)\semidirect \ZZ/2\ZZ$ (Pauli matrices)
 %
 fact
 ---
@@ -127,6 +127,8 @@ Groups of Order 18
 %
 1. $\ZZ/18\ZZ$
 2. $(\ZZ/3\ZZ)^2\times \ZZ/2\ZZ$
+3. $D_9$
+4. $S_3 \cross \ZZ/3\ZZ$
 %
 fact
 ---
@@ -136,6 +138,9 @@ Groups of Order 20
 %
 1. $\ZZ/20\ZZ$
 2. $(\ZZ/2\ZZ)^2\times \ZZ/5\ZZ$
+3. $D_{10}$
+4. $\ZZ/5\ZZ \semidirect \ZZ/4\ZZ$
+5. $\gens{a,b,c \suchthat a^5, b^2,c^2}$
 %
 fact
 ---
