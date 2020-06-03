@@ -44,4 +44,15 @@ A group is **solvable** iff its derived series terminates.
 definition
 ---
 
+Composition Series
+%
+A **composition series** of $G$ is a sequence of subgroups
+\begin{align*}
+1=N_{0} \leq N_{1} \leq N_{2} \leq \cdots \leq N_{k-1} \leq N_{k}=G
+\end{align*}
+such that $N_i \normal N_{i+1}$ and the *composition factors* $N_{i+1}/N_i$ are simple.
+%
+definition
+---
+
 
