@@ -26,3 +26,22 @@ All Sylows are conjugate.
 theorem
 ---
 
+Recognizing Direct Products
+%
+When there exist two subgroups $H, K \leq G$ such that
+
+1. $H\intersect K = \emptyset$
+2. $G = HK$
+3. $H$ and $K$ are both normal.
+%
+theorem
+---
+
+Solvable Group
+%
+A group is **solvable** iff its derived series terminates.
+%
+definition
+---
+
+
