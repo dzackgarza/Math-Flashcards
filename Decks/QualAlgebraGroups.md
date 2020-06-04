@@ -119,3 +119,32 @@ $\abs{G} = \abs{Z(G)} + \sum_{i} [G: C_G(x_i)]$
 definition, notation
 ---
 
+$p\dash$group
+%
+A group of order $p^n$ for some $n\geq 1$.
+%
+definition
+---
+
+Lagrange's Theorem
+%
+Any $H\leq G$ has size dividing $\abs{G}$.
+%
+theorem
+---
+
+Fermat's Little Theorem
+%
+$a^p \cong a \mod p$, and if $p$ does not divide $a$, $a^{p-1} \cong 1 \mod p$.
+%
+theorem
+---
+
+Euler's Theorem
+%
+$a^{\phi(n)} \cong 1 \mod n$.
+%
+
+---
+
+
