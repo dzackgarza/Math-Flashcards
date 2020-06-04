@@ -72,10 +72,16 @@ definition
 
 How to determine sign of a permutation
 %
-A cycle is odd iff it has an odd number of even cycles (i.e. odd number of elements in cycle).
+A cycle is odd iff it has an odd number of odd cycles (i.e. *even* number of elements in cycle).i
 %
 definition
 ---
 
+What is the sign of the cycle $\sigma=(123456)(789)(10~11)(12~13~14~15)(16~17~18)$?
+%
+$\eps(\sigma) = -1$, since it has 3 (an odd number) cycles of odd cycles (even length).
+%
+problem
+---
 
 
