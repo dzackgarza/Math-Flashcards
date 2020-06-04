@@ -39,7 +39,7 @@ theorem
 
 Solvable Group
 %
-A group is **solvable** iff its derived series terminates.
+A group is **solvable** iff it has a composition series with *abelian* composition factors.
 %
 definition
 ---
@@ -51,6 +51,21 @@ A **composition series** of $G$ is a sequence of subgroups
 1=N_{0} \leq N_{1} \leq N_{2} \leq \cdots \leq N_{k-1} \leq N_{k}=G
 \end{align*}
 such that $N_i \normal N_{i+1}$ and the *composition factors* $N_{i+1}/N_i$ are simple.
+%
+definition
+---
+
+Alternating Group
+%
+The kernel of the sign homomorphism, i.e. the set of even permutations (sign = 1).
+%
+definition
+---
+
+Even vs Odd Permutations
+%
+- Even: $\eps(\sigma) = 1$, product of even number of transpositions.
+- Odd: $\eps(\sigma) = -1$, product of *odd* number of transpositions.
 %
 definition
 ---
