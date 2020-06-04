@@ -86,10 +86,29 @@ problem
 
 Burnside's Formula
 %
-$\abs{G} \abs{X/G} = \sum \abs{X^g}$ where $X/G$ is the set of orbits and $X^g = \theset{x\in X \suchthat g.x = x}$.
+$\abs{G} \abs{X/G} = \sum \abs{X^g}$ where $X/G$ is the set of orbits and $X^g = \theset{x\in X \suchthat g.x = x}$ are the fixed points of $g$.
 %
 formula
 ---
 
+Stabilizer
+%
+A subgroup: $G_x = \theset{g\in G \suchthat g.x = x}$.
+%
+definition, notation
+---
 
+$G_x$
+%
+The Stabilizer subgroup: $G_x = \theset{g\in G \suchthat g.x = x} \leq G$.
+%
+definition, notation
+---
+
+$X^n$
+%
+$X^g = \theset{x\in X \suchthat g.x = x} \subseteq X$
+%
+definition, notation
+---
 
