@@ -84,4 +84,12 @@ $\eps(\sigma) = -1$, since it has 3 (an odd number) cycles of odd cycles (even l
 problem
 ---
 
+Burnside's Formula
+%
+$\abs{G} \abs{X/G} = \sum \abs{X^g}$ where $X/G$ is the set of orbits and $X^g = \theset{x\in X \suchthat g.x = x}$.
+%
+formula
+---
+
+
 
