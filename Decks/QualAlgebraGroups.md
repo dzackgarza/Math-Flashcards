@@ -144,7 +144,13 @@ Euler's Theorem
 %
 $a^{\phi(n)} \cong 1 \mod n$.
 %
-
+theorem
 ---
 
+$\phi(p^k) = ?$
+%
+$\phi(p^k) = p^{k-1}(p-1) = p^k \qty{1 - {1\over p}}$
+%
+formula
+---
 
