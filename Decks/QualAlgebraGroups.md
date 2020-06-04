@@ -112,3 +112,10 @@ $X^g = \theset{x\in X \suchthat g.x = x} \subseteq X$
 definition, notation
 ---
 
+Class Equation
+%
+$\abs{G} = \abs{Z(G)} + \sum_{i} [G: C_G(x_i)]$
+%
+definition, notation
+---
+
