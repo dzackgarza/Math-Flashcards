@@ -70,4 +70,12 @@ Even vs Odd Permutations
 definition
 ---
 
+How to determine sign of a permutation
+%
+A cycle is odd iff it has an odd number of even cycles (i.e. odd number of elements in cycle).
+%
+definition
+---
+
+
 
