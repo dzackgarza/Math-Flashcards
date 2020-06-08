@@ -95,3 +95,26 @@ A neighborhood basis about a point $x$ is a collection of open sets $\theset{B_k
 definition
 ---
 
+Classification of Surfaces
+%
+There is a commutative monoid $\Sigma = \gens{P, K, T, S \suchthat S=0, 3P = PT, PK = PT}$ where $P = \RP^2, K$ is the Klein bottle, and $T$ is a 2-torus of genus 1.
+Thus every surface is homeomorphic to either $\Sigma_{g}$ for $g\geq 0$, i.e. $S^2, \Sigma_1 = T^2, \Sigma_2 = T^2\# T^2, \cdots$ **or** if it is nonorientable, a surface $\bar \Sigma_1 = \RP^2, \bar \Sigma_2 = \RP^2 \# \RP^2, \cdots$.
+%
+fact
+---
+
+Euler Characteristics of Surfaces
+%
+
+- $\chi(S^1) = 0$
+- $\chi(S^2) = 2$
+- $\chi(\Sigma_1) = 0$
+- $\chi(\Sigma_2) = -2$
+- $\chi(\Sigma_3) = -4$
+- $\chi(\RP^2) = 1$
+- $\chi(K) = 0$
+
+%
+
+---
+
