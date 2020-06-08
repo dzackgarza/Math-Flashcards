@@ -103,7 +103,7 @@ Thus every surface is homeomorphic to either $\Sigma_{g}$ for $g\geq 0$, i.e. $S
 fact
 ---
 
-Euler Characteristics of Surfaces
+Euler Characteristics of Surfaces: $S^n, \Sigma_g, \RP^2, K$.
 %
 
 - $\chi(S^1) = 0$
@@ -111,10 +111,11 @@ Euler Characteristics of Surfaces
 - $\chi(\Sigma_1) = 0$
 - $\chi(\Sigma_2) = -2$
 - $\chi(\Sigma_3) = -4$
+- $\chi(\Sigma_g) = 2-2g$
 - $\chi(\RP^2) = 1$
 - $\chi(K) = 0$
 
 %
-
+formulas
 ---
 
