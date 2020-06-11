@@ -28,7 +28,7 @@ definition, counterexample
 
 Are singletons open or closed?
 %
-- In Hausdorff spaces: closed
+- In Hausdorff spaces: closed.
 %
 theorem
 ---
@@ -124,5 +124,15 @@ Definition: Closed Surfaces
 Compact and without boundary.
 %
 definition
+---
+
+Show that a continuous bijection from a compact space to a Hausdorff space is a homeomorphism.
+%
+
+- Closed subspaces of compact spaces are compact
+- Continuous images of compact spaces are compact
+- Compact subspaces of Hausdorff spaces are closed
+%
+theorem, proof
 ---
 
