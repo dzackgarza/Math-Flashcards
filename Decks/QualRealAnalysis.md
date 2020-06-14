@@ -561,3 +561,10 @@ theorem
 ---
 
 
+Definition: separable
+%
+Has a countable dense subset
+%
+definition
+---
+
