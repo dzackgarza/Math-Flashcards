@@ -42,7 +42,7 @@ definition
 
 Urysohn's Lemma
 %
-A space $X$ is normal iff for every closed $U, V \subset X$ there exists a continuous function $f: X\to [0, 1]$ with $f(U) = 0, f(V) = 1$.
+A space $X$ is normal iff for every closed $U, V \subset X$ there exists a continuous function $f: X\to [0, 1]$ with $f(U) = 0, f(V) = 1$, or equivalently $\chi_U \leq f \leq \chi_V$.
 %
 theorem
 ---
