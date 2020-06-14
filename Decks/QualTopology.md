@@ -136,3 +136,39 @@ Show that a continuous bijection from a compact space to a Hausdorff space is a 
 theorem, proof
 ---
 
+Definition: Limit Point
+%
+A point $x\in X$ is a limit point of $A\subseteq X$ iff every open $U \ni x$ contains a point $y\in A\setminus\theset{x}$.
+%
+definition
+---
+
+Definition: Dense
+%
+A subset $A\subset X$ is dense in $X$ iff $\cl_X(A) = X$.
+%
+definition
+---
+
+Definition: separable
+%
+Contains a countable dense subset
+%
+definition
+---
+
+Definition: the discrete topology
+%
+For $X$ a space, the discrete topology is given by $\tau = \mcp(X)$, i.e. every subset is open.
+%
+definition
+---
+
+Definition: the indiscrete topology
+%
+For $X$ a space, the indiscrete topology is given by $\tau = \theset{\emptyset, X}$.
+%
+definition
+---
+
+
