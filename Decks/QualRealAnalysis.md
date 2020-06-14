@@ -568,3 +568,10 @@ Has a countable dense subset
 definition
 ---
 
+Give an example of a sequence of functions that converge uniformly but not in $L^1$.
+%
+The box of height $1\over n$ and width $n$ uniformly converges to zero but integrates to 1.
+%
+example
+---
+
