@@ -575,3 +575,27 @@ The box of height $1\over n$ and width $n$ uniformly converges to zero but integ
 example
 ---
 
+Give an example of a sequence of functions that converge pointwise but not uniformly or in $L^1$.
+%
+Skateboard to infinity: $\chi_{[n, n+1]}$.
+%
+example
+---
+
+Give an example of a function that converge almost everywhere but not pointwise or in $L^1$.
+%
+$f_n = n\chi_{(0, {1\over n})}$
+%
+example
+---
+
+Give an example of a function that converges in $L^1$ but not pointwise.
+%
+The Cathode Ray:
+
+![](figures/image_2020-06-13-23-08-45.png)
+
+%
+example
+---
+
