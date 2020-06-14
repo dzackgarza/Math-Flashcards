@@ -335,7 +335,7 @@ $E\subseteq \RR^n$ is measurable $\iff$ for all $A\subset \RR^n$, $m_*(A) = m_*(
 theorem
 ---
 
-Definition: Measurability of a Set
+Equivalent characterizations of measurability of a set
 %
 $E\subset \RR^n$ is measurable iff any of these conditions hold
 
@@ -345,8 +345,16 @@ $E\subset \RR^n$ is measurable iff any of these conditions hold
 - $E = H \union Z$ with $H\in F_\sigma$ and $Z$ null
 - $E = V\setminus Z$ with $V\in G_\delta$ and $Z$ null
 %
-definition, theorem
+theorem
 ---
+
+Definition: Measurability of a Set
+%
+A set $E\subseteq \RR^n$ is *measurable* iff for every $\eps>0$ there exists an open $G(\eps) \supset E$ with $m_*(G(\eps)\setminus E)<\eps \to 0$ (outer regular).
+%
+definition
+---
+
 
 Sets known to be measurable
 %
