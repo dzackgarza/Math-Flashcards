@@ -618,3 +618,10 @@ Four Properties of Outer Measure
 definition, theorem
 ---
 
+Limit definition of exponential function
+%
+$e^x = \lim_{n \to \infty} \qty{1 + {x\over n}}^n$
+%
+definition, formula
+---
+
