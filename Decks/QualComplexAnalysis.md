@@ -89,3 +89,12 @@ If $f$ is non-constant and entire then $f(\CC)\injects \CC$ is dense.
 Theorem
 ---
 
+Cauchy Inequalities
+%
+\begin{align*}
+\left|f^{(n)}\left(z_{0}\right)\right| \leq \frac{n ! | f \|_{C}}{R^{n}}
+.\end{align*}
+%
+formula, theorem
+---
+
