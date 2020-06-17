@@ -42,4 +42,10 @@ f(a) = {1\over 2\pi i} \int_\gamma {f(z) \over z-a}\,dz
 formula
 ---
 
+Morera's Theorem
+%
+If $f$ is continuous in an open disc $D$ and for every triangle $T\subset D, \int_T f = 0$, then $f$ is holomorphic.
+%
+theorem
+---
 
