@@ -82,4 +82,10 @@ An isolated singularity that is not a pole (or removable).
 definition
 ---
 
+Casorati-Weierstrass Theorem
+%
+If $f$ is non-constant and entire then $f(\CC)\injects \CC$ is dense.
+%
+Theorem
+---
 
