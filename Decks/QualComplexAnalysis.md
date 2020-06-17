@@ -118,3 +118,12 @@ f^{(n)}(z)=\frac{n !}{2 \pi i} \int_{C} \frac{f(\zeta)}{(\zeta-z)^{n+1}} d \zeta
 formula, theorem
 ---
 
+Maximum Length Lemma
+%
+\begin{align*}
+\abs{\int_\gamma f} \leq \sup_{z\in \gamma} \abs{f(z)} \cdot \ell(\gamma)
+.\end{align*}
+%
+
+---
+
