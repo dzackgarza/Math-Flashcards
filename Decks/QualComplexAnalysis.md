@@ -100,9 +100,19 @@ formula, theorem
 
 Cauchy Integral Formula
 %
-For $f$ holomorphic in $U\subset \bar D$, then for any $z\in D$,
+For $f$ holomorphic in $U\supseteq \bar D$, then for any $z\in D$,
 \begin{align*}
 f(z) = {1\over 2\pi i} \inv_{\bd D} {f(\xi) \over \xi - z} \,d\xi
+.\end{align*}
+%
+formula, theorem
+---
+
+Cauchy Integral Formula (Higher Derivatives)
+%
+For $f$ holomorphic in $U\supseteq \bar D$ and $C$ is a circle such that $C^\circ \subset U$ then for any $z\in C^\circ$,
+\begin{align*}
+f^{(n)}(z)=\frac{n !}{2 \pi i} \int_{C} \frac{f(\zeta)}{(\zeta-z)^{n+1}} d \zeta
 .\end{align*}
 %
 formula, theorem
