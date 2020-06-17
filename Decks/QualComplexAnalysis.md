@@ -98,3 +98,13 @@ Cauchy Inequalities
 formula, theorem
 ---
 
+Cauchy Integral Formula
+%
+For $f$ holomorphic in $U\subset \bar D$, then for any $z\in D$,
+\begin{align*}
+f(z) = {1\over 2\pi i} \inv_{\bd D} {f(\xi) \over \xi - z} \,d\xi
+.\end{align*}
+%
+formula, theorem
+---
+
