@@ -49,3 +49,24 @@ If $f$ is continuous in an open disc $D$ and for every triangle $T\subset D, \in
 theorem
 ---
 
+Riemann's Removable Singularity Theorem
+%
+Let $U\subset \CC$ be open, $a\in U$, and $f$ holomorphic on $U\setminus\theset{a}$. 
+Then TFAE
+- $f$ extends holomorphically to all of $U$
+- $f$ extends continuously to all of $U$
+- There exists a neighborhood of $a$ on which $f$ is bounded.
+- $\lim_{z\to a} (z-a)f(z) = 0$.
+%
+theorem
+---
+
+Definition: A pole $a$ of order $m$
+%
+The smallest $m$ such that $\lim_{x\to a}^{m+1}f(z) = 0$.
+%
+definition
+---
+
+
+
