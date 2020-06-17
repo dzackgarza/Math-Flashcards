@@ -32,4 +32,14 @@ Then $\sum a_n b_n < \infty$.
 theorem
 ---
 
+Cauchy Integral Formula
+%
+For $f: U\to \CC$ holomorphic with $\gamma \subset U^\circ$ and every $a\in \gamma^\circ$, 
+\begin{align*}
+f(a) = {1\over 2\pi i} \int_\gamma {f(z) \over z-a}\,dz
+.\end{align*}
+%
+formula
+---
+
 
