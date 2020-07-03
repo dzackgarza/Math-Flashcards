@@ -110,9 +110,9 @@ CARD_MATHJAX_CONTENT = textwrap.dedent(r"""
 MathJax.Hub.Config({
 TeX: {
     Macros: {
-        RR: ['{\\mathbb {R}}'],
-        NN: ['{\\mathbb {R}}'],
+        NN: ['{\\mathbb {N}}'],
         RR: ['{\\mathbb{R}}', 0],
+        DD: ['{\\mathbb{D}}', 0],
         ZZ: ['{\\mathbb{Z}}', 0],
         CC: ['{\\mathbb{C}}', 0],
         QQ: ['{\\mathbb{Q}}', 0],
@@ -172,6 +172,7 @@ TeX: {
         dd: ['{\\frac{\\partial #1}{\\partial #2}}', 2],
         stirling: ['\\genfrac\\{\\}{0pt}{}{#1}{#2}', 2],
         thevector: ['{\\left\[ {#1} \\right\]}', 1],
+        gens: ['{\\left\< {#1} \\right\>}', 1],
         qty: ['{\\left( {#1} \\right)}', 1],
         intersect: ['\\bigcap', 0],
         union: ['\\bigcup', 0],

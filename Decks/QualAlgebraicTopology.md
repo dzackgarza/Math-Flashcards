@@ -1,15 +1,3 @@
-Long Exact Sequence of a Pair $(A, B)$
-
-%
-
-$$\ldots H_n(B) \to H_n(A) \to H_n(A,B) \to H_{n-1}(B) \ldots$$
-
-%
-
-math
-
----
-
 Mayer Vietoris LES for $X = A \cup B$
 
 %
@@ -18,99 +6,6 @@ $$\ldots  H_n(A \cap B) \xrightarrow{(i^*,~ j^*)} H_n(A) \oplus H_n(B) \xrightar
 
 %
 
-math
-
----
-
-UCT: Change of Coefficients SES
-%
-$${\displaystyle 0\to \mathrm{Tor}_\mathbb{Z}^0 (H_{i}(X;\mathbb{Z}), A)\,{\to }\,H_{i}(X;A)\to \mathrm{Tor}_\mathbb{Z}^1 (H_{i-1}(X;\mathbb{Z} ),A)\to 0}$$
-%
-math
-
----
-
-UCT: Cohomology and Homology SES
-%
-$${ 0\to \mathrm{Ext}_{\mathbb{Z}}^{1}(H_{i-1}(X; \mathbb{Z}),A)\to H^{i}(X; A)\to \mathrm{Ext}_{\mathbb{Z}}^{0}(H_{i}(X; \mathbb{Z}),A) \to 0}$$
-%
-math
-
----
-
-Kunneth SES
-%
-$$0\to \bigoplus_{i+j=k}H_{i}(X;R)\otimes _{R}H_{j}(Y;R)\to H_{k}(X\times Y;R)\to \bigoplus_{i+j=k-1}{\mathrm  {Tor}}_{R}^{1}(H_{i}(X;R),H_{j}(Y;R))\to 0$$
-%
-math
-
----
-
-Cohomology in terms of homology (nice case)
-%
-$$H^i(X; \mathbb{Z}) = F(H_i(X; \mathbb{Z})) \times T(H_{i-1}(X; \mathbb{Z}))$$
-%
-math
-
----
-
-Homology in terms of cohomology (nice case)
-%
-$$H_i(X; \mathbb{Z}) = F(H^i(X; \mathbb{Z})) \times T(H^{i+1}(X; \mathbb{Z}))$$
-%
-math
-
----
-
-Kunneth (nice case)
-%
-$$H_{k}(X\times Y;F) \cong \bigoplus_{i+j=k}H_{i}(X;F)\otimes H_{j}(Y;F)$$
-%
-Math
-
----
-
-Hom Table
-%
-$$
-\begin{array}{c|c|c|c}
-Hom & Z_m & Z & Q \\\hline
-Z_n  & Z_d & 0 & 0 \\\hline
-Z   & Z_m & Z & Q \\\hline
-Q   & 0  & 0 & Q
-\end{array}
-$$
-%
-math
-
----
-
-Tor Table
-%
-$$
-\begin{array}{c|c|c|c}
-Tor & Z_m & Z & Q \\\hline
-Z_n  & Z_d & 0 & 0 \\\hline
-Z   & 0  & 0 & 0 \\\hline
-Q   & 0  & 0 & 0
-\end{array}
-$$
-%
-math
-
----
-
-Ext Table
-%
-$$
-\begin{array}{c|c|c|c}
-Ext & Z_m & Z    & Q \\\hline
-Z_n  & Z_d & Z_n   & 0 \\\hline
-Z   & 0  & 0    & 0 \\\hline
-Q   & 0  & A_p/Q & 0
-\end{array}
-$$
-%
 math
 
 ---
@@ -202,3 +97,21 @@ $\chi(X) = 2-2g$
 math
 
 ---
+
+
+Deformation Retract
+%
+Deformation Retract: A subspace $A \subset X$ is a *deformation retract* of $X$ iff there exists a deformation retraction: a continuous map $F:X\cross I$ to $X$ such that 
+
+$$
+\begin{align*}
+F(x, 0) &= x  \iff F_0 = \id_X \\
+F(x, 1) &\in A \iff F_1(X) \subseteq A \\
+F(a, 1) &= a \iff F_1\mid_A = \id_A
+.\end{align*}
+$$
+Equivalently it is a homotopy between a retraction $X\to A$ and $\id_X$.
+%
+definition
+---
+

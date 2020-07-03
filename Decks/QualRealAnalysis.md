@@ -46,7 +46,10 @@ theorem
 
 (Lebesgue) Measurable Function 
 %
-?
+A function $f:X\to\bar\RR$ is **measurable** iff for all $\alpha \in \RR$, the following set is Lebesgue measurable:
+\begin{align*}
+S_\alpha \definedas \theset{ x\in X \suchthat f(x) > \alpha}
+.\end{align*}
 %
 definition
 ---
@@ -409,9 +412,11 @@ theorem
 
 Convergence in Measure
 %
+$$
 \begin{align*}
 \lim _{k \rightarrow \infty} m\left(\left\{x \in E|| f_{k}(x)-f(x) |>\alpha\right\}\right)=0
 .\end{align*}
+$$
 %
 definition
 ---
@@ -435,7 +440,11 @@ definition
 Chebyshev's Inequality
 %
 \begin{align*}
-\mu\qty{\{x | f(x) \geq \alpha\}} \geq \frac{1}{\alpha} \int f \quad \forall \alpha
+\mu\qty{\{x | \abs{f(x)} \geq \alpha\}} \leq \qty{\norm{f}_p \over \alpha }^p \quad \forall \alpha, p
+.\end{align*}
+Take $p=1$ to obtain
+\begin{align*}
+\mu\qty{\{x | \abs{f(x)} \geq \alpha\}} \leq {1\over \alpha } \int \abs{f(x)} \, dx \quad \forall \alpha
 .\end{align*}
 %
 definition
@@ -536,13 +545,14 @@ proof
 
 Tonelli
 %
-For $f(x, y)$ non-negative and measurable on $\RR^{n+m}$,
+Let $f(x, y)$ be non-negative and measurable on $\RR^{n}\cross \RR^k$.
+Then for almost every $y\in \RR^k$,
 
-1. $f_x(y) \definedas f(x, y)$ is measurable for a.e. $x$
-2. $F(x) \definedas \int f(x, y) \, dy$ is measurable
-3. $G(y)\definedas \iint f(x, y) \, dxdy$ is measurable and equals $\int f$
+1. The slice function $f^y(x) \definedas f(x, y)$ is measurable on $\RR^n$.
+2. The function $F(y) \definedas \int_{\RR^n} f^y(x) \, dx$ is measurable on $\RR^k$.
+3. $\int_{\RR^{n+k}} f(\vector u) \, d\vector u = \int_{\RR^n} \qty{\int_{\RR^k} f^y(x) \,dx}\, dy$ in any order (where the integral may be infinite.) 
 
-Moral: non-negative and measurable allows switching order of integrals.
+> Note: requires **non-negativity** and **measurability**, but not integrability. 
 
 %
 theorem
@@ -551,12 +561,15 @@ theorem
 
 Fubini
 %
-Let $f$ be measurable.
-Then for almost every $x$,
+Let $f(x, y) \in L^1(\RR^n\cross \RR^k)$.
+Then for almost every $y\in \RR^k$,
 
-1. $f_x(y)\definedas f(x ,y)$ is *integrable*.
-2. $F(x) \definedas \int f(x, y) \, dxdy$ is *integrable*
-3. $\int f = \iint f(x, y) \, dxdy$ in any order.
+1. The slice function $f^y(x)\definedas f(x ,y)$ is *integrable*, so $f^y \in L^1(\RR^n)$.
+2. The function $F(y) \definedas \int_{\RR^n} f^y(x) \, dx$ is *integrable*, so $F\in L^1(\RR^{k})$.
+3. $\int_{\RR^{n+k}} f(\vector u) \, d\vector u = \int_{\RR^n} \qty{ \int_{\RR^k} f^y(x) \, dx} \, dy$ in any order.
+
+> Note: requires **integrability**, not just measurability, but doesn't require non-negativity.
+
 %
 theorem
 ---
@@ -623,5 +636,97 @@ Limit definition of exponential function
 $e^x = \lim_{n \to \infty} \qty{1 + {x\over n}}^n$
 %
 definition, formula
+---
+
+Is a composition of Lebesgue measurable functions measurable?
+%
+No:
+
+- Take $f: [0, 1]\to [0, 1]$ the Cantor-Lebesgue function (monotonic and cts) and $C$ the Cantor set
+- $f(C) = [0, 1]$, so define $g(x) = f(x) +x$ so $g:[0, 1] \to [0, 2]$ (strictly monotonic and cts, so a homeomorphism), so $g\inv$ is cts and thus measurable.
+- $\mu(g(C)) = 1>0$ (because $f$ is constant on every interval in $C^c$) so $g(C) \supseteq A$ a non-measurable subset
+- $g\inv(A) \subset C$ with $\mu(C) = 0$ implies $g\inv(A)$ is a measurable set, so $\chi_{g\inv(A)}$ is a measurable function
+- Then $k\definedas \chi_{g\inv(A)} \circ g\inv$ isn't measurable since $k\inv(1) = \qty{ (g\inv)\inv \circ \chi_{g\inv(A)} }(1) = g(g\inv(A)) = A$ is not a measurable set.
+%
+example
+---
+
+Where is $x^p$ integrable in $\RR$? (Depending on $p$)
+%
+
+- $p > -1 \iff x^p \in L^1((0, 1))$
+- $p < -1 \iff x^p \in L^1((1, \infty))$
+%
+facts
+---
+
+Growth Rates of Common Functions
+%
+For $c>1$,
+\begin{align*}
+n! > c^n > n^{c} > n\log(n) >  n > \log(n) > \log(\log(n)) > \cdots > 1
+.\end{align*}
+%
+facts
+---
+
+
+Dense
+%
+A subset $A\subseteq X$ is *dense* in $X$ iff $\cl_X(A) = X$.
+%
+definitions
+---
+
+Diameter
+%
+\begin{align*}
+\mathrm{diam}(A) = \sup_{x, y\in  A} \abs d(x, y)
+.\end{align*}
+%
+definition
+---
+
+
+Bolzano Weierstrass Property
+%
+Every sequence has a convergent subsequence
+%
+definition
+---
+
+Replacing a sequence of sets by a sequence of disjoint sets
+%
+Given $\theset{E_j}_{j\in \NN}$, set $F_j\definedas E_j \setminus \qty{\union_{k<j} E_k}$, then $\union E_j = \disjoint F_j$.
+%
+technique
+---
+
+Example of a sequence of bounded functions whose pointwise limit is unbounded.
+%
+$f_n(x) = {1 \over x + {1\over n}} \to {1\over x}$ on $(0, 1)$, noting that $\abs{f_n(x)} \leq n$.
+%
+example
+---
+
+Example of a sequence of differentiable functions whose derivatives do not converge pointwise.
+%
+$f_n(x) = {\sin(nx) \over n} \to 0$ pointwise but $f_n'(\pi) = (-1)^n$.
+%
+example
+---
+
+Example of a sequence of differentiable functions whose pointwise limit exists but is not differentiable.
+%
+$f_n(x) = {x^2 \over \sqrt{x^2 + {1\over n}}} \to \abs{x}$.
+%
+example
+---
+
+Example of a sequence of differentiable functions $f_n \to f$ uniformly with $f_n' \to g$ pointwise for some $g$, but $g' \neq \lim f_n'$.
+%
+$f_n(x)= {x \over 1 + nx^2} \to 0 \to 0$ uniformly with $f_n'(x) = {1-nx^2 \over (1+xn^2)^2} \to \chi_{\theset{0}} \not\equiv 0$.
+%
+example
 ---
 
