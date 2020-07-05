@@ -737,3 +737,12 @@ A measure whose domain includes all subsets of null sets.
 definition
 ---
 
+Conditions for Tonelli vs Fubini
+%
+
+- Tonelli: non-negative and measurable
+- Fubini: Integrable
+%
+
+---
+
