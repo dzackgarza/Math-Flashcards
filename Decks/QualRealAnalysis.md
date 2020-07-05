@@ -746,3 +746,16 @@ Conditions for Tonelli vs Fubini
 theorem
 ---
 
+
+
+Inclusions among $L^p$ spacesi
+%
+\begin{align*}
+m(X) < \infty \implies 
+&L^\infty(X) \subset L^2(X) \subset L^1(X) \\
+&\ell^2(\ZZ) \subset \ell^1(\ZZ) \subset \ell^\infty(\ZZ)
+.\end{align*}
+%
+theorem
+---
+
