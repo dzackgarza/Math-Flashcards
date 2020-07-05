@@ -730,3 +730,10 @@ $f_n(x)= {x \over 1 + nx^2} \to 0 \to 0$ uniformly with $f_n'(x) = {1-nx^2 \over
 example
 ---
 
+Complete Measure
+%
+A measure whose domain includes all subsets of null sets.
+%
+definition
+---
+
