@@ -743,6 +743,6 @@ Conditions for Tonelli vs Fubini
 - Tonelli: non-negative and measurable
 - Fubini: Integrable
 %
-
+theorem
 ---
 
