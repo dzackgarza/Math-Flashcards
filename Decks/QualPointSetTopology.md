@@ -179,3 +179,24 @@ xy \over x^2 +y^2} & (x, y) \neq \vector 0 \\
 example
 ---
 
+Definition: Sequentially Compact
+%
+Every sequence has a convergent subsequence.
+%
+definition
+---
+
+Definition: Limit Point Compactness
+%
+Every infinite subset has a limit point.
+%
+definition
+---
+
+Definition: Totally Bounded
+%
+A metric space $(M, d)$ is totally bounded iff $\forall \eps$ there exists a *finite* collection of open balls of radius $\eps$ whose union contains $M$.
+%
+
+---
+
