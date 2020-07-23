@@ -109,4 +109,12 @@ $K/F$ is Galois iff $\abs{\Aut(K/F)} = [K: F]$
 definition
 ---
 
+Example of a field extension that is not Galois.
+%
+$K = \QQ(2^{1\over 3})/\QQ$, since $\abs{\aut(K/\QQ)} = 1$ but this is a degree 3 extension.
+%
+example
+---
+
+
 
