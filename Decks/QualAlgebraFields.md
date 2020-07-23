@@ -91,3 +91,22 @@ For $\alpha\in L$, a **conjugate** of $\alpha$ is any other root of the minimal 
 definition
 ---
 
+Four Characterizations of Galois extensions $K/F$.
+%
+
+1. $K$ is a splitting field of a separable polynomial in $F[x]$.
+2. $K$ such that the fixed field of $\aut(K/F)$ is exactly $K$.
+3. $K$ such that $[K:F] = \abs{\aut(K/F)}$.
+4. $K$ such that $K/F$ is finite, normal, and separable.
+%
+theorem
+---
+
+Definition of Galois group for a **finite** extension $K/F$.
+%
+$K/F$ is Galois iff $\abs{\Aut(K/F)} = [K: F]$
+%
+definition
+---
+
+
