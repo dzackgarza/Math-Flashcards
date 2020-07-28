@@ -1,0 +1,7 @@
+Definition: Picard Group
+%
+
+%
+
+---
+
