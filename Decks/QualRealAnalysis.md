@@ -138,7 +138,7 @@ formula
 
 Young's Inequality
 %
-For \(1\leq p, q\leq r \leq \infty  \) with \({1\over p} + {1\over q} - {1\over r} = 1  \), then  \(  \norm{f\ast g}_r \leq \norm{f}_p \norm{g}_q \) 
+For \(1\leq p, q\leq r \leq \infty  \) with \({1\over p} + {1\over q} - {1\over r} = 1  \), then  \(\norm{f\ast g}_r \leq \norm{f}_p \norm{g}_q \) 
 
 Useful cases:
 \[
