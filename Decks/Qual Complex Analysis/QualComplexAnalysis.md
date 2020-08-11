@@ -98,7 +98,7 @@ Cauchy Integral Formula (First Derivative)
 %
 For $f$ holomorphic in $U\supseteq \bar D$, then for any $z\in D$,
 \[
-f(z) = {1\over 2\pi i} \inv_{\bd D} {f(\xi) \over \xi - z} \,d\xi
+f(z) = {1\over 2\pi i} \int _{\bd D} {f(\xi) \over \xi - z} \,d\xi
 .\]
 %
 formula, theorem
