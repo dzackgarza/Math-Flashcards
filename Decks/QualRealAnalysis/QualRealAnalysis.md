@@ -35,7 +35,7 @@ definition
 
 Dominated Convergence Theorem
 %
-If $\theset{f_n} \subset L^1$ and $f_n\to f$ a.e. with $\abs{f_n} \leq g \in L^1$ for every $n$, then
+If \(\theset{f_n} \subset L^1\) and \(f_n\to f\) a.e. with \()\abs{f_n} \leq g \in L^1\) for every $n$, then
 \[
 \lim \int f_n = \int \lim f_n
 \]
@@ -85,7 +85,7 @@ formula
 
 Uniform Continuity
 %
-For $f: (X, d_1) \to (Y, d_2)$, for every $\varepsilon > 0$ there exists $\delta(\varepsilon) > 0$ such that for every $x,y\in X$, $x\in B_\delta(y) \implies f(x) \in B_\varepsilon(f(y))$.
+For \(f: (X, d_1) \to (Y, d_2)\), for every $\varepsilon > 0$ there exists $\delta(\varepsilon) > 0$ such that for every \[x,y\in X$, $x\in B_\delta(y) \implies f(x) \in B_\varepsilon(f(y)).\]
 %
 definition
 ---
@@ -94,21 +94,15 @@ Proof of Borel-Cantelli Lemma
 %
 *Proof of Borel Cantelli:*
  
-- If $E = \limsup_j E_j$ with $\sum m(E_j) < \infty$ then $m(E) = 0$.
-- If $E_j$ are measurable, then $\limsup_j E_j$ is measurable.
-- If $\sum_j m(E_j) < \infty$, then $\sum_{j=N}^\infty m(E_j) \converges{N\to\infty}\to 0$ as the tail of a convergent sequence.
-- $E = \limsup_j E_j = \intersect_{k=1}^\infty \union_{j=k}^\infty E_j \implies E \subseteq \union_{j=k}^\infty$ for all $k$
-- $E \subset \union_{j=k}^\infty \implies m(E) \leq \sum_{j=k}^\infty m(E_j) \converges{k\to\infty}\to 0$.
+- If \(E = \limsup_j E_j\) with \(\sum m(E_j) < \infty\) then $m(E) = 0$.
+- If $E_j$ are measurable, then \(\limsup_j E_j\) is measurable.
+- If \(\sum_j m(E_j) < \infty\), then \(\sum_{j=N}^\infty m(E_j) \converges{N\to\infty}\to 0\) as the tail of a convergent sequence.
+- \[E = \limsup_j E_j = \intersect_{k=1}^\infty \union_{j=k}^\infty E_j \implies E \subseteq \union_{j=k}^\infty\] for all $k$
+- \[E \subset \union_{j=k}^\infty \implies m(E) \leq \sum_{j=k}^\infty m(E_j) \converges{k\to\infty}\to 0.\]
 %
 proof
 ---
 
-Baire Space
-%
-Countable intersections of open dense sets are still dense
-%
-definition
----
 
 Limsup/Liminf of Sets
 %
@@ -174,10 +168,11 @@ formula
 
 Baire Space
 %
-$X$ is a Baire space iff whenever $\theset{U_n}$ is a collection of open dense subsets of $X$, then their intersection $\intersect U_n$ is again dense.
+$X$ is a Baire space iff whenever \( \theset{U_n}\) is a *countable* collection of open dense subsets of $X$, then their intersection $\intersect U_n$ is again dense.
 %
 definition
 ---
+
 
 First and Second Category
 %
@@ -226,7 +221,7 @@ formula
 
 Bessel's Inequality
 %
-For $x\in H$ a Hilbert spaces and $\theset{e_k}$ an orthonormal sequence, 
+For $x\in H$ a Hilbert spaces and \(\theset{e_k}\) an orthonormal sequence, 
 \[
 \sum \abs{\inner{x}{e_k}}^2 \leq \norm{x}^2
 \]
@@ -271,7 +266,7 @@ definition
 
 Null Set
 %
-A set $A$ is *null* iff for every $\varepsilon>0$ there exists a cover $\theset{U_j}\covers A$ such that $\sum \mu(U_j) < \varepsilon$, i.e. $\mu(A) = 0$.
+A set $A$ is *null* iff for every $\varepsilon>0$ there exists a cover \(\theset{U_j}\covers A\) such that \(\sum \mu(U_j) < \varepsilon\), i.e. \(\mu(A) = 0\).
 %
 definition
 ---
@@ -279,10 +274,10 @@ definition
 Characterizations of $D_f$, the set of discontinuities of functions
 %
 
-- Always $F_\sigma$, closed, positive oscillation.
-- $f_n\to f$ with $f_n$ continuous $\implies D_f$ is meager.
-- (Lebesgue criterion) $f \in \mathcal{R}(a, b)$ and bounded $\implies D_f$ is null.
-- $f$ monotone $\implies D_f$ is countable, and additionally $f$ differentiable on $(a, b) \implies D_f$ is null.
+- Always \(F_\sigma\), closed, positive oscillation.
+- \(f_n\to f\) with \(f_n\) continuous \(\implies D_f\) is meager.
+- (Lebesgue criterion) \(f \in \mathcal{R}(a, b)\) and bounded \(\implies D_f\) is null.
+- $f$ monotone \(\implies D_f\) is countable, and additionally $f$ differentiable on \((a, b) \implies D_f\) is null.
 
 %
 fact
@@ -300,7 +295,7 @@ technique
 
 Showing uniform convergence of a *series* of functions
 %
-$M\dash$test: find $M_n$ independent of $x$ such that $\norm{f_n}_\infty < M_n$ where $\sum M_n < \infty$
+$M\dash$test: find \(M_n\) independent of $x$ such that \(\norm{f_n}_\infty < M_n\) where \(\sum M_n < \infty\).
 %
 technique
 ---
@@ -325,6 +320,7 @@ counterexample
 Negating uniform convergence of a sequence of functions
 %
 Fix $\varepsilon$, find $x(\varepsilon, n)$ with $\abs{f_n(x) - f(x)} > > \varepsilon$.
+
 Example: ${1 \over 1 + nx}$.
 %
 technique
@@ -491,7 +487,7 @@ proof
 
 How to commute a sum and an integral
 %
-$f_n \in L^1$ with $\sum \int \abs{f_n} < \infty$.
+\(f_n \in L^1\) with \(\sum \int \abs{f_n} < \infty\).
 %
 technique
 ---
@@ -551,7 +547,7 @@ Small Tails and Absolute Continuity
 %
 Let $f\in L^1$ and $\varepsilon> 0$.
 
-1. Small Tails: there exists an $N$ such that $\int_{B_N^c} f < \varepsilon$
+1. Small Tails: there exists an $N$ such that \(\int_{B_N^c} f < \varepsilon\).
 2. Absolute Continuity: there exists a $\delta$ such that $m(E) < \delta \implies \int_E \abs{f} < \varepsilon$.
 %
 theorem
@@ -588,7 +584,7 @@ Then for almost every $y\in \RR^k$,
 
 1. The slice function $f^y(x) \definedas f(x, y)$ is measurable on $\RR^n$.
 2. The function $F(y) \definedas \int_{\RR^n} f^y(x) \, dx$ is measurable on $\RR^k$.
-3. $\int_{\RR^{n+k}} f(\vector u) \, d\vector u = \int_{\RR^n} \qty{\int_{\RR^k} f^y(x) \,dx}\, dy$ in any order (where the integral may be infinite.) 
+3. \[\int_{\RR^{n+k}} f(\vector u) \, d\vector u = \int_{\RR^n} \qty{\int_{\RR^k} f^y(x) \,dx}\, dy\] in any order (where the integral may be infinite.) 
 
 > Note: requires **non-negativity** and **measurability**, but not integrability. 
 
@@ -641,9 +637,9 @@ Skateboard to infinity: $\chi_{[n, n+1]}$.
 example
 ---
 
-Give an example of a function that converge almost everywhere but not pointwise or in $L^1$.
+Give an example of a function that converges almost everywhere but not pointwise or in $L^1$.
 %
-$f_n = n\chi_{(0, {1\over n})}$
+\[f_n = n\chi_{(0, {1\over n})}\]
 %
 example
 ---
@@ -739,14 +735,14 @@ definition
 
 Replacing a sequence of sets by a sequence of disjoint sets
 %
-Given $\theset{E_j}_{j\in \NN}$, set $F_j\definedas E_j \setminus \qty{\union_{k<j} E_k}$, then $\union E_j = \disjoint F_j$.
+Given \(\theset{E_j}_{j\in \NN}\), set \(F_j\definedas E_j \setminus \qty{\union_{k<j} E_k}\), then \(\union E_j = \disjoint F_j\).
 %
 technique
 ---
 
 Example of a sequence of bounded functions whose pointwise limit is unbounded.
 %
-$f_n(x) = {1 \over x + {1\over n}} \to {1\over x}$ on $(0, 1)$, noting that $\abs{f_n(x)} \leq n$.
+\[f_n(x) = {1 \over x + {1\over n}} \to {1\over x}\] on $(0, 1)$, noting that \(\abs{f_n(x)} \leq n\).
 %
 example
 ---
