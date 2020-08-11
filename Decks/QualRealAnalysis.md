@@ -47,9 +47,9 @@ theorem
 (Lebesgue) Measurable Function 
 %
 A function $f:X\to\bar\RR$ is **measurable** iff for all $\alpha \in \RR$, the following set is Lebesgue measurable:
-\begin{align*}
+\[
 S_\alpha \definedas \theset{ x\in X \suchthat f(x) > \alpha}
-.\end{align*}
+.\]
 %
 definition
 ---
@@ -99,10 +99,10 @@ definition
 
 Limsup/Liminf of Sets
 %
-\begin{align*}
+\[
 \limsup_n A_n \definedas \intersect_n \union_{j\geq n} A_j&= \theset{x \suchthat x\in A_n \text{ for inf. many $n$}}  \\
 \liminf_n A_n \definedas \union_n \intersect_{j\geq n} A_j &= \theset{x \suchthat x\in A_n \text{ for all except fin. many $n$}}  \\
-.\end{align*}
+.\]
 %
 definition
 ---
@@ -140,12 +140,12 @@ Young's Inequality
 %
 For $1\leq p, q\leq r \leq \infty$ with ${1\over p} + {1\over q} - {1\over r} = 1$, then $\norm{f\ast g}_r \leq \norm{f}_p \norm{g}_q$.
 Useful cases:
-\begin{align*}
+\[
 \norm{f\ast g}_1 & \leq \norm{f}_1 \norm{g}_1 \\
 \norm{f\ast g}_p & \leq \norm{f}_1 \norm{g}_p \\
 \norm{f\ast g}_\infty & \leq \norm{f}_p \norm{g}_q \\
 \norm{f\ast g}_\infty & \leq \norm{f}_2 \norm{g}_2 
-.\end{align*}
+.\]
 
 %
 formula
@@ -313,9 +313,9 @@ theorem
 Relationship between continuity and differentiability
 %
 Differentiability $\implies$ continuity: 
-\begin{align*}
+\[
 f(x) - f(x_0) = (x-x_0) \qty{ f(x)-f(x_0) \over x-x_0 } \to 0
-.\end{align*}
+.\]
 Not conversely: $f(x) = \abs{x}$.
 %
 proof
@@ -395,9 +395,9 @@ definition
 Definition: Measurable Function
 %
 $f:\RR \to \bar \RR$ is Lebesgue/Borel measurable iff
-\begin{align*}
+\[
 \left.\{x \in E | f(x)>a\}=f^{-1}((a, \infty])\right) \in \mathcal{M}_L, \mathcal{M}_B
-,\end{align*}
+,\]
 the collection of Lebesgue/Borel measurable *sets* respectively.
 %
 definition
@@ -413,9 +413,9 @@ theorem
 Convergence in Measure
 %
 $$
-\begin{align*}
+\[
 \lim _{k \rightarrow \infty} m\left(\left\{x \in E|| f_{k}(x)-f(x) |>\alpha\right\}\right)=0
-.\end{align*}
+.\]
 $$
 %
 definition
@@ -430,22 +430,22 @@ proof
 
 Definition: The Lebesgue Integral
 %
-\begin{align*}
+\[
 \int f:=\sup \left\{\int \phi | 0 \leq \phi \leq f, \phi \text { simple }\right\}
-.\end{align*}
+.\]
 %
 definition
 ---
 
 Chebyshev's Inequality
 %
-\begin{align*}
+\[
 \mu\qty{\{x | \abs{f(x)} \geq \alpha\}} \leq \qty{\norm{f}_p \over \alpha }^p \quad \forall \alpha, p
-.\end{align*}
+.\]
 Take $p=1$ to obtain
-\begin{align*}
+\[
 \mu\qty{\{x | \abs{f(x)} \geq \alpha\}} \leq {1\over \alpha } \int \abs{f(x)} \, dx \quad \forall \alpha
-.\end{align*}
+.\]
 %
 definition
 ---
@@ -522,9 +522,9 @@ theorem
 
 Continuity in $L^1$
 %
-\begin{align*}
+\[
 f \in L^{1} \Longrightarrow \lim _{h \rightarrow 0} \int|f(x+h)-f(x)|=0
-.\end{align*}
+.\]
 %
 theorem
 ---
@@ -663,9 +663,9 @@ facts
 Growth Rates of Common Functions
 %
 For $c>1$,
-\begin{align*}
+\[
 n! > c^n > n^{c} > n\log(n) >  n > \log(n) > \log(\log(n)) > \cdots > 1
-.\end{align*}
+.\]
 %
 facts
 ---
@@ -680,9 +680,9 @@ definitions
 
 Diameter
 %
-\begin{align*}
+\[
 \mathrm{diam}(A) = \sup_{x, y\in  A} \abs d(x, y)
-.\end{align*}
+.\]
 %
 definition
 ---
@@ -748,13 +748,13 @@ theorem
 
 
 
-Inclusions among $L^p$ spacesi
+Inclusions among $L^p$ spaces.
 %
-\begin{align*}
+\[
 m(X) < \infty \implies 
 &L^\infty(X) \subset L^2(X) \subset L^1(X) \\
 &\ell^2(\ZZ) \subset \ell^1(\ZZ) \subset \ell^\infty(\ZZ)
-.\end{align*}
+.\]
 %
 theorem
 ---
