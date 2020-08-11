@@ -29,9 +29,9 @@ If \(\theset{a_n}, \theset{b_n}\) satisfy
 
 - \(  a_{n+1} \leq a_n\) 
 - \(  a_n \to 0\) 
-- For every $N$, there exists an $M$ such that \(  \abs{\sum^N b_n} \leq M\)
+- For every $N$, there exists an $M_N$ such that \(  \abs{\sum_{n=1}^N b_n} \leq M_N\)
 
-Then \( \sum a_n b_n < \infty \).
+Then \( \sum_{n=1}^\infty a_n b_n < \infty \).
 %
 theorem
 ---
@@ -60,7 +60,7 @@ Definition: A pole $a$ of order $m$
 %
 The smallest $m$ such that 
 \[
-\lim_{x\to a}^{m+1}f(z) = 0
+\lim_{x\to a}(x-a)^{m+1}f(z) = 0
 .\]
 %
 definition
@@ -91,7 +91,7 @@ Theorem
 Cauchy Inequalities
 %
 \[
-\left|f^{(n)}\left(z_{0}\right)\right| \leq \frac{n ! | f \|_{C}}{R^{n}}
+\left|f^{(n)}\left(z_{0}\right)\right| \leq \frac{n ! \| f \|_{C}}{R^{n}}
 .\]
 %
 formula, theorem
