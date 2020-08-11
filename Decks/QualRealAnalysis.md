@@ -696,7 +696,7 @@ facts
 
 Dense
 %
-A subset $A\subseteq X$ is *dense* in $X$ iff $\cl_X(A) = X$.
+A subset $A\subseteq X$ is *dense* in $X$ iff $\mathrm{cl}_X(A) = X$.
 %
 definitions
 ---
