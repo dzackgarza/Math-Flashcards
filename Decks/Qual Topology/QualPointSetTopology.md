@@ -13,7 +13,11 @@ A space $X$ is *locally compact* iff for every $x\in X$ there exists an open $U$
 
 Compact implies locally compact but not conversely: $\RR^n$.
 
-Non locally-compact spaces: $\QQ, \theset{\vector 0} \union \theset{(x, y) \suchthat x>0} \subset\RR^2$ (since the origin admits no compact neighborhood).
+Non locally-compact spaces: 
+
+- $\QQ$, 
+- \(\theset{\vector 0} \union \theset{(x, y) \suchthat x>0} \subset\RR^2\) 
+  (since the origin admits no compact neighborhood).
 %
 definition, counterexample
 ---
@@ -37,7 +41,7 @@ Urysohn's Lemma
 %
 A space $X$ is normal iff for every closed $U, V \subset X$ there exists a continuous function $f: X\to [0, 1]$ with $f(U) = 0, f(V) = 1$.
 
-Equivalently $\chi_U \leq f \leq \chi_V$.
+Equivalently \( \chi_U \leq f \leq \chi_V \) .
 
 Equivalently, a topological space is separable and metrizable $\iff$ it is regular, Hausdorff, and second-countable.
 %
