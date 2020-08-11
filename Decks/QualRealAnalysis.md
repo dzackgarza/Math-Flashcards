@@ -123,7 +123,7 @@ theorem
 Cauchy-Schwarz Inequality
 %
 \[
-\abs{\inner{f}{g}} \definedas \norm{fg_1} \leq \norm{f}_2 \norm{g}_2
+\abs{\inner{f}{g}} \definedas \norm{fg}_1 \leq \norm{f}_2 \norm{g}_2
 \] 
 with equality iff $f \in \spanof_\CC(g)$.
 %
@@ -283,7 +283,10 @@ fact
 
 Showing uniform convergence of a *sequence* of functions
 %
-Find $M_n$ independent of $x$ such that $\abs{f_n(x) - f(x)} \leq M_n \to 0$.
+Find $M_n$ independent of $x$ such that 
+\[
+\abs{f_n(x) - f(x)} \leq M_n \to 0
+\]
 %
 technique
 ---
@@ -402,7 +405,9 @@ counterexample
 
 Definition of Outer Measure
 %
-$m_*(E) = \inf \theset{ \sum \abs{Q_i} \suchthat \theset{Q_i}\covers E \text { closed cubes}}$.
+\[ 
+m_*(E) = \inf \theset{ \sum \abs{Q_i} \suchthat \theset{Q_i}\covers E \text { closed cubes}}
+\]
 %
 definition
 ---
@@ -529,7 +534,7 @@ counterexamples
 A sequence of functions that converges in $L^1$ but not uniformly, pointwise, or a.e. 
 %
 
-<img src="figures/image_2020-05-30-16-46-43.png" />
+![](https://i.imgur.com/ryl536M.png)
 
 %
 counterexamples
@@ -672,7 +677,7 @@ No:
 - $f(C) = [0, 1]$, so define $g(x) = f(x) +x$ so $g:[0, 1] \to [0, 2]$ (strictly monotonic and cts, so a homeomorphism), so $g\inv$ is cts and thus measurable.
 - $\mu(g(C)) = 1>0$ (because $f$ is constant on every interval in $C^c$) so $g(C) \supseteq A$ a non-measurable subset
 - $g\inv(A) \subset C$ with $\mu(C) = 0$ implies $g\inv(A)$ is a measurable set, so $\chi_{g\inv(A)}$ is a measurable function
-- Then $k\definedas \chi_{g\inv(A)} \circ g\inv$ isn't measurable since $k\inv(1) = \qty{ (g\inv)\inv \circ \chi_{g\inv(A)} }(1) = g(g\inv(A)) = A$ is not a measurable set.
+- Then \(k\definedas \chi_{g\inv(A)} \circ g\inv\) isn't measurable since $k\inv(1) = \qty{ (g\inv)\inv \circ \chi_{g\inv(A)} }(1) = g(g\inv(A)) = A$ is not a measurable set.
 %
 example
 ---
