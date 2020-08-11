@@ -1,6 +1,9 @@
 Fatou's Lemma
 %
-If $\theset{f_n} \subset L^+$, then $$\int \liminf f_n \leq \liminf \int f_n$$
+If $\theset{f_n} \subset L^+$, then 
+\[
+\int \liminf f_n \leq \liminf \int f_n
+\]
 %
 theorem
 ---
@@ -30,12 +33,15 @@ definition
 Dominated Convergence Theorem
 %
 If $\theset{f_n} \subset L^1$ and $f_n\to f$ a.e. with $\abs{f_n} \leq g \in L^1$ for every $n$, then
-$$\lim \int f_n = \int \lim f_n$$
+\[
+\lim \int f_n = \int \lim f_n
+\]
 %
 theorem
 ---
 
 Monotone Convergence Theorem
+%
 If $f_n \in L^+$ and $f_n\nearrow f$ a.e. then
 \[
 \lim \int f_n = \int \lim f_n
@@ -116,14 +122,20 @@ theorem
 
 Cauchy-Schwarz Inequality
 %
-$$\abs{\inner{f}{g}} \definedas \norm{fg_1} \leq \norm{f}_2 \norm{g}_2$$ with equality iff $f \in \spanof_\CC(g)$.
+\[
+\abs{\inner{f}{g}} \definedas \norm{fg_1} \leq \norm{f}_2 \norm{g}_2
+\] 
+with equality iff $f \in \spanof_\CC(g)$.
 %
 formula
 ---
 
 Minkowski's Inequality
 %
-For $1 \leq p < \infty$, $$\norm{f + g}_p \leq \norm{f}_p + \norm{g}_p.$$
+For $1 \leq p < \infty$,
+\[
+\norm{f + g}_p \leq \norm{f}_p + \norm{g}_p
+.\]
 %
 
 ---
@@ -191,7 +203,9 @@ definition
 
 Convolution
 %
-$$(f\ast g)(\xi) = \int f(\xi - y)g(y) ~dy$$
+\[]
+(f\ast g)(\xi) = \int f(\xi - y)g(y) \, dy
+\]
 %
 formula
 ---
@@ -205,7 +219,10 @@ formula
 
 Bessel's Inequality
 %
-For $x\in H$ a Hilbert spaces and $\theset{e_k}$ an orthonormal sequence, $$\sum \abs{\inner{x}{e_k}}^2 \leq \norm{x}^2$$
+For $x\in H$ a Hilbert spaces and $\theset{e_k}$ an orthonormal sequence, 
+\[
+\sum \abs{\inner{x}{e_k}}^2 \leq \norm{x}^2
+\]
 %
 formula
 ---
@@ -414,11 +431,9 @@ theorem
 
 Convergence in Measure
 %
-$$
 \[
 \lim _{k \rightarrow \infty} m\left(\left\{x \in E|| f_{k}(x)-f(x) |>\alpha\right\}\right)=0
 .\]
-$$
 %
 definition
 ---
@@ -476,7 +491,9 @@ proof
 
 A sequence of functions that converges uniformly, pointwise, a.e., but not in $L^1$.
 %
-$$f_n \definedas {1\over n} \chi_{[0, n]}$$
+\[
+f_n \definedas {1\over n} \chi_{[0, n]}
+\]
 %
 counterexamples
 ---
@@ -490,14 +507,18 @@ fact
 
 A sequence of functions that converges pointwise and a.e. but not uniformly or in $L^1$.
 %
-$$f_n \definedas \chi_{(n, n+1)}$$
+\[
+f_n \definedas \chi_{(n, n+1)}
+\]
 %
 counterexamples
 ---
 
 A sequence of functions that a.e. but not in $L^1$, uniformly, or pointwise 
 %
-$$f_n \definedas n \chi_{(0, {1\over n} )}$$
+\[
+f_n \definedas n \chi_{(0, {1\over n} )}
+\]
 %
 counterexamples
 ---
