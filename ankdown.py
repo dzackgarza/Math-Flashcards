@@ -467,9 +467,9 @@ def cards_to_apkg(cards, output_name):
     media = set()
     for card in cards:
         card.finalize()
-        for abspath, newpath in card.determine_media_references():
-            copyfile(abspath, newpath) # This is inefficient but definitely works on all platforms.
-            media.add(newpath)
+        # for abspath, newpath in card.determine_media_references():
+            # copyfile(abspath, newpath) # This is inefficient but definitely works on all platforms.
+            # media.add(newpath)
         decks[card.deckname()].add_note(card.to_genanki_note())
 
     package = genanki.Package(deck_or_decks=decks.values(), media_files=list(media))
