@@ -84,7 +84,7 @@ definition
 
 Neighborhood Basis
 %
-A neighborhood basis about a point $x$ is a collection of open sets $\theset{B_k}_{k\in J}$ such that for every neighborhood $U_x$ of $x$, there exists some $j$ such that $B_k \subseteq U_x$
+A neighborhood basis about a point $x$ is a collection of open sets $\theset{B_k}_{k\in J}$ such that for every neighborhood \(U_x\) of $x$, there exists some $j$ such that \(B_k \subseteq U_x\).
 %
 definition
 ---
@@ -170,13 +170,13 @@ definition
 Give an example of a function $f: \RR^n \to \RR$ that is continuous in each variable but not continuous.
 %
 Take limit along $y=x$ and compare to $y=0$:
-\begin{align*}
+\[\begin{align*}
 f(x, y) = 
 {\begin{dcases}
 xy \over x^2 +y^2} & (x, y) \neq \vector 0 \\
 0 & \text{else}
 \end{dcases}
-.\end{align*}
+.\]\end{align*}
 %
 example
 ---

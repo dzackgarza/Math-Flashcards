@@ -18,7 +18,10 @@ theorem
 
 Riesz Representation Theorem
 %
-For $1\leq p <\infty$, $X \subset \RR^n$ measurable, $\Lambda \in L^p(X)\dual$, there exists a unique $g\in L^q(X)$ such that for all $f\in L^p(X)$, $\Lambda(f) = \int_X fg$ and $\norm{\Lambda}_{L^p(X)\dual} = \norm{g}_{L^q(X)}$.
+For $1\leq p <\infty$, $X \subset \RR^n$ measurable, $\Lambda \in L^p(X)\dual$, there exists a unique $g\in L^q(X)$ such that for all $f\in L^p(X)$, \(\Lambda(f) = \int_X fg\) and 
+\[
+\norm{\Lambda}_{L^p(X)\dual} = \norm{g}_{L^q(X)}
+.\]
 %
 theorem
 ---
@@ -71,7 +74,11 @@ definition
 
 Bernoulli's Inequality
 %
-$(1+x)^n \geq 1 + nx$ for all $n\in \RR$ and $x\geq -1$. If $n\in 2\ZZ$, then this is valid for all $x\in \RR$. Prove by induction.
+\[
+](1+x)^n \geq 1 + nx
+\] 
+for all $n\in \RR$ and $x\geq -1$. If $n\in 2\ZZ$, then this is valid for all $x\in \RR$. 
+Prove by induction.
 %
 formula
 ---
@@ -677,7 +684,11 @@ No:
 - $f(C) = [0, 1]$, so define $g(x) = f(x) +x$ so $g:[0, 1] \to [0, 2]$ (strictly monotonic and cts, so a homeomorphism), so $g\inv$ is cts and thus measurable.
 - $\mu(g(C)) = 1>0$ (because $f$ is constant on every interval in $C^c$) so $g(C) \supseteq A$ a non-measurable subset
 - $g\inv(A) \subset C$ with $\mu(C) = 0$ implies $g\inv(A)$ is a measurable set, so $\chi_{g\inv(A)}$ is a measurable function
-- Then \(k\definedas \chi_{g\inv(A)} \circ g\inv\) isn't measurable since $k\inv(1) = \qty{ (g\inv)\inv \circ \chi_{g\inv(A)} }(1) = g(g\inv(A)) = A$ is not a measurable set.
+- Then \(k\definedas \chi_{g\inv(A)} \circ g\inv\) isn't measurable since 
+  \[ 
+  k\inv(1) = \qty{ (g\inv)\inv \circ \chi_{g\inv(A)} }(1) = g(g\inv(A)) = A
+  \]
+  is not a measurable set.
 %
 example
 ---
@@ -742,7 +753,9 @@ example
 
 Example of a sequence of differentiable functions whose derivatives do not converge pointwise.
 %
-$f_n(x) = {\sin(nx) \over n} \to 0$ pointwise but $f_n'(\pi) = (-1)^n$.
+\[
+f_n(x) = {\sin(nx) \over n} \to 0$ pointwise but $f_n'(\pi) = (-1)^n
+\]
 %
 example
 ---
