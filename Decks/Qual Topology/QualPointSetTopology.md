@@ -1,6 +1,7 @@
 Retract
 %
-Retract: A subspace $A \subset X$ is a *retract* of $X$ iff there exists a continuous map $f: X\to A$ such that $f\mid_{A} = \id_A$. 
+Retract: A subspace $A \subset X$ is a *retract* of $X$ iff there exists a continuous map $f: X\to A$ such that \(  f\mid_{A} = \id_A\). 
+
 Equivalently it is a *left* inverse to the inclusion.
 %
 definition
@@ -34,7 +35,9 @@ definition
 
 Urysohn's Lemma
 %
-A space $X$ is normal iff for every closed $U, V \subset X$ there exists a continuous function $f: X\to [0, 1]$ with $f(U) = 0, f(V) = 1$, or equivalently $\chi_U \leq f \leq \chi_V$.
+A space $X$ is normal iff for every closed $U, V \subset X$ there exists a continuous function $f: X\to [0, 1]$ with $f(U) = 0, f(V) = 1$.
+
+Equivalently $\chi_U \leq f \leq \chi_V$.
 
 Equivalently, a topological space is separable and metrizable $\iff$ it is regular, Hausdorff, and second-countable.
 %
@@ -84,7 +87,7 @@ definition
 
 Neighborhood Basis
 %
-A neighborhood basis about a point $x$ is a collection of open sets $\theset{B_k}_{k\in J}$ such that for every neighborhood \(U_x\) of $x$, there exists some $j$ such that \(B_k \subseteq U_x\).
+A neighborhood basis about a point $x$ is a collection of open sets \( \theset{B_k}_{k\in J} \)  such that for every neighborhood \(U_x\) of $x$, there exists some $j$ such that \(B_k \subseteq U_x\).
 %
 definition
 ---
@@ -170,13 +173,13 @@ definition
 Give an example of a function $f: \RR^n \to \RR$ that is continuous in each variable but not continuous.
 %
 Take limit along $y=x$ and compare to $y=0$:
-\[\begin{align*}
+\[
 f(x, y) = 
-{\begin{dcases}
+{\begin{cases}
 xy \over x^2 +y^2} & (x, y) \neq \vector 0 \\
 0 & \text{else}
-\end{dcases}
-.\]\end{align*}
+\end{cases}
+.\]
 %
 example
 ---
@@ -197,7 +200,7 @@ definition
 
 Definition: Totally Bounded
 %
-A metric space $(M, d)$ is totally bounded iff $\forall \eps$ there exists a *finite* collection of open balls of radius $\eps$ whose union contains $M$.
+A metric space $(M, d)$ is totally bounded iff $\forall \varepsilon$ there exists a *finite* collection of open balls of radius $\varepsilon$ whose union contains $M$.
 %
 
 ---
