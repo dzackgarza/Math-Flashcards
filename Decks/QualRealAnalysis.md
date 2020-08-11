@@ -11,7 +11,7 @@ theorem
 Egorov's Theorem
 %
 If $E\subset \RR^n$ is measurable, $m(E) > 0$, and $\theset{f_n}$ measurable with $f_k \to f$ with $f(x) < \infty$ existing and finite a.e., then $f_n\to f$ *almost uniformly*, i.e.
-for all $\eps > 0$ there exists a closed $F\subset E$ such that $m(E\setminus F)<\eps$ and $f\converges{u}\to f$ on $F$.
+for all $\varepsilon > 0$ there exists a closed $F\subset E$ such that $m(E\setminus F)<\varepsilon$ and $f\converges{u}\to f$ on $F$.
 %
 theorem
 ---
@@ -78,7 +78,7 @@ formula
 
 Uniform Continuity
 %
-For $f: (X, d_1) \to (Y, d_2)$, for every $\eps > 0$ there exists $\delta(\eps) > 0$ such that for every $x,y\in X$, $x\in B_\delta(y) \implies f(x) \in B_\eps(f(y))$.
+For $f: (X, d_1) \to (Y, d_2)$, for every $\varepsilon > 0$ there exists $\delta(\varepsilon) > 0$ such that for every $x,y\in X$, $x\in B_\delta(y) \implies f(x) \in B_\varepsilon(f(y))$.
 %
 definition
 ---
@@ -195,8 +195,8 @@ definition, example, counterexample
 
 Equicontinuous
 %
-For $X, Y$ metric spaces and $\mcf$ a family of functions, $F$ is *equicontinuous at $x_0$* iff for every $\eps > 0$ there exists a $\delta(\eps, x_0)>0$ such that $x\in B_\delta(x_0) \implies f_i(x) \in B_\eps(f_i(x_0))$ for all $f_i \in \mcf$.
-The family $F$ is *uniformly equicontinuous* iff $\delta(\eps)$ only depends on $\eps$ and holds for any pair $x_1, x_2$ with $x_1 \in B_\delta(x_2)$.
+For $X, Y$ metric spaces and $\mcf$ a family of functions, $F$ is *equicontinuous at $x_0$* iff for every $\varepsilon > 0$ there exists a $\delta(\varepsilon, x_0)>0$ such that $x\in B_\delta(x_0) \implies f_i(x) \in B_\varepsilon(f_i(x_0))$ for all $f_i \in \mcf$.
+The family $F$ is *uniformly equicontinuous* iff $\delta(\varepsilon)$ only depends on $\varepsilon$ and holds for any pair $x_1, x_2$ with $x_1 \in B_\delta(x_2)$.
 %
 definition
 ---
@@ -264,7 +264,7 @@ definition
 
 Null Set
 %
-A set $A$ is *null* iff for every $\eps>0$ there exists a cover $\theset{U_j}\covers A$ such that $\sum \mu(U_j) < \eps$, i.e. $\mu(A) = 0$.
+A set $A$ is *null* iff for every $\varepsilon>0$ there exists a cover $\theset{U_j}\covers A$ such that $\sum \mu(U_j) < \varepsilon$, i.e. $\mu(A) = 0$.
 %
 definition
 ---
@@ -298,8 +298,8 @@ technique
 
 Uniform Convergence of a sequence of functions
 %
-$\theset{f_n} \converges{u}\to f$ on $E$ iff for every $\eps>0$ that exists an $N(\eps)$ such that for all $n\geq N$ and for all $x\in E$, $\abs{f_n(x) - f(x)} < \eps$.
-Equivalently, $\norm{f_n - f}_\infty \definedas \sup_{x\in E}\abs{f_n(x) - f(x)} < \eps$.
+$\theset{f_n} \converges{u}\to f$ on $E$ iff for every $\varepsilon>0$ that exists an $N(\varepsilon)$ such that for all $n\geq N$ and for all $x\in E$, $\abs{f_n(x) - f(x)} < \varepsilon$.
+Equivalently, $\norm{f_n - f}_\infty \definedas \sup_{x\in E}\abs{f_n(x) - f(x)} < \varepsilon$.
 %
 definition
 ---
@@ -314,7 +314,7 @@ counterexample
 
 Negating uniform convergence of a sequence of functions
 %
-Fix $\eps$, find $x(\eps, n)$ with $\abs{f_n(x) - f(x)} > > \eps$.
+Fix $\varepsilon$, find $x(\varepsilon, n)$ with $\abs{f_n(x) - f(x)} > > \varepsilon$.
 Example: ${1 \over 1 + nx}$.
 %
 technique
@@ -343,8 +343,8 @@ proof
 
 Continuity of measure from above/below 
 %
-- Below: $E_i \nearrow E \implies \mu(E_i) \to \mu(E)$.
-- Above: $E_i\searrow E, ~\mu(E_1) < \infty \implies \mu(E_i) \to \mu(E)$.
+- Below: \(E_i \nearrow E \implies \mu(E_i) \to \mu(E)\)
+- Above: \(E_i\searrow E, ~\mu(E_1) < \infty \implies \mu(E_i) \to \mu(E)\)
 %
 theorem
 ---
@@ -364,9 +364,9 @@ Equivalent characterizations of measurability of a set
 %
 $E\subset \RR^n$ is measurable iff any of these conditions hold
 
-- There exist closed $F\subseteq E$ with $m_*(E\setminus F) < \eps \to 0$.
-- There exist *compact* $K\subseteq E$ with $m_*(E\setminus K) < \eps \to 0$.
-- There exist open $G\supset E$ with $m_*(G\setminus E)<\eps \to 0$ (outer regular)
+- There exist closed $F\subseteq E$ with $m_*(E\setminus F) < \varepsilon \to 0$.
+- There exist *compact* $K\subseteq E$ with $m_*(E\setminus K) < \varepsilon \to 0$.
+- There exist open $G\supset E$ with $m_*(G\setminus E)<\varepsilon \to 0$ (outer regular)
 - $E = H \union Z$ with $H\in F_\sigma$ and $Z$ null
 - $E = V\setminus Z$ with $V\in G_\delta$ and $Z$ null
 %
@@ -375,7 +375,7 @@ theorem
 
 Definition: Measurability of a Set
 %
-A set $E\subseteq \RR^n$ is *measurable* iff for every $\eps>0$ there exists an open $G(\eps) \supset E$ with $m_*(G(\eps)\setminus E)<\eps \to 0$ (outer regular).
+A set $E\subseteq \RR^n$ is *measurable* iff for every $\varepsilon>0$ there exists an open $G(\varepsilon) \supset E$ with $m_*(G(\varepsilon)\setminus E)<\varepsilon \to 0$ (outer regular).
 %
 definition
 ---
@@ -427,7 +427,7 @@ definition
 
 Lusin's Theorem
 %
-If $f$ is measurable and finite-valued on a measurable $E$ with $m(E) < \infty$ then there exist closed sets $F\subset E$ such that $m(E\setminus F) < \eps \to 0$ such that $f\mid_F$ is continuous.
+If $f$ is measurable and finite-valued on a measurable $E$ with $m(E) < \infty$ then there exist closed sets $F\subset E$ such that $m(E\setminus F) < \varepsilon \to 0$ such that $f\mid_F$ is continuous.
 %
 theorem
 ---
@@ -537,10 +537,10 @@ counterexamples
 
 Small Tails and Absolute Continuity
 %
-Let $f\in L^1$ and $\eps> 0$.
+Let $f\in L^1$ and $\varepsilon> 0$.
 
-1. Small Tails: there exists an $N$ such that $\int_{B_N^c} f < \eps$
-2. Absolute Continuity: there exists a $\delta$ such that $m(E) < \delta \implies \int_E \abs{f} < \eps$.
+1. Small Tails: there exists an $N$ such that $\int_{B_N^c} f < \varepsilon$
+2. Absolute Continuity: there exists a $\delta$ such that $m(E) < \delta \implies \int_E \abs{f} < \varepsilon$.
 %
 theorem
 ---
