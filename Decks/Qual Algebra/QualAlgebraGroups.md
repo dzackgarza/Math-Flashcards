@@ -64,8 +64,8 @@ definition
 
 Even vs Odd Permutations
 %
-- Even: $\eps(\sigma) = 1$, product of even number of transpositions.
-- Odd: $\eps(\sigma) = -1$, product of *odd* number of transpositions.
+- Even: $\varepsilon(\sigma) = 1$, product of even number of transpositions.
+- Odd: $\varepsilon(\sigma) = -1$, product of *odd* number of transpositions.
 %
 definition
 ---
@@ -79,7 +79,7 @@ definition
 
 What is the sign of the cycle $\sigma=(123456)(789)(10~11)(12~13~14~15)(16~17~18)$?
 %
-$\eps(\sigma) = -1$, since it has 3 (an odd number) cycles of odd cycles (even length).
+$\varepsilon(\sigma) = -1$, since it has 3 (an odd number) cycles of odd cycles (even length).
 %
 problem
 ---
@@ -114,7 +114,9 @@ definition, notation
 
 Class Equation
 %
-$\abs{G} = \abs{Z(G)} + \sum_{i} [G: C_G(x_i)]$
+\[
+\abs{G} = \abs{Z(G)} + \sum_{i} [G: C_G(x_i)]
+\]
 %
 definition, notation
 ---

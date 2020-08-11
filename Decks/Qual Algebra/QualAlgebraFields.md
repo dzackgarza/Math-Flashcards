@@ -1,7 +1,7 @@
 Eisenstein's Criterion
 
 %
-If $f(x) = \displaystyle\sum_{i=0}^n \alpha_i x^i \in \QQ[x]$ and $\exists p$ such that
+If \(f(x) = \displaystyle\sum_{i=0}^n \alpha_i x^i \in \QQ[x]\) and $\exists p$ such that
 
 - $p$ divides every coefficient *except* $a_n$ and
 - $p^2$ does not divide $a_0$,
@@ -43,7 +43,7 @@ notation, definition
 
 $K[x]$
 %
-The algebra of polynomials in the variable $x$, i.e. $K[x] = \theset{\sum_{i=0}^n a_ix^i \suchthat n\in \ZZ^{\geq 0}}$.
+The algebra of polynomials in the variable $x$, i.e. \[K[x] = \theset{\sum_{i=0}^n a_ix^i \suchthat n\in \ZZ^{\geq 0}}.\]
 %
 notation, definition
 ---
