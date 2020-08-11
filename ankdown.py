@@ -268,7 +268,7 @@ CONFIG = {
     'card_model_css': """
         .card {
             font-family: 'Crimson Pro', 'Crimson Text', 'Cardo', 'Times', 'serif';
-            text-align: center;
+            text-align: left;
             color: black;
             background-color: white;
             font-size: 18pt;
