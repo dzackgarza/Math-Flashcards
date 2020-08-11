@@ -529,7 +529,7 @@ counterexamples
 A sequence of functions that converges in $L^1$ but not uniformly, pointwise, or a.e. 
 %
 
-![](figures/image_2020-05-30-16-46-43.png)
+<img src="figures/image_2020-05-30-16-46-43.png" />
 
 %
 counterexamples
