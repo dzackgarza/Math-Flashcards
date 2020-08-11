@@ -10,8 +10,8 @@ theorem
 
 Egorov's Theorem
 %
-If $E\subset \RR^n$ is measurable, $m(E) > 0$, and $\theset{f_n}$ measurable with $f_k \to f$ with $f(x) < \infty$ existing and finite a.e., then $f_n\to f$ *almost uniformly*, i.e.
-for all $\varepsilon > 0$ there exists a closed $F\subset E$ such that $m(E\setminus F)<\varepsilon$ and $f\converges{u}\to f$ on $F$.
+If \(E\subset \RR^n\) is measurable, $m(E) > 0$, and \(\theset{f_n}\) measurable with \(f_k \to f\) with \(f(x) < \infty\) existing and finite a.e., then \(f_n\to f\) *almost uniformly*, i.e.
+for all $\varepsilon > 0$ there exists a closed $F\subset E$ such that \(m(E\setminus F)<\varepsilon\) and \(f\converges{u}\to f\) on $F$.
 %
 theorem
 ---
@@ -116,7 +116,7 @@ definition
 
 Arzela-Ascoli Theorem
 %
-A sequence of functions $\theset{f_n}$ has a uniformly convergent subsequence $\iff \theset{f_n}$ is uniformly bounded and uniformly equicontinuous.
+A sequence of functions \(\theset{f_n}\) has a uniformly convergent subsequence \(\iff \theset{f_n}\) is uniformly bounded and uniformly equicontinuous.
 %
 theorem
 ---
@@ -285,7 +285,7 @@ fact
 
 Showing uniform convergence of a *sequence* of functions
 %
-Find $M_n$ independent of $x$ such that 
+Find \(M_n\) independent of $x$ such that 
 \[
 \abs{f_n(x) - f(x)} \leq M_n \to 0
 \]
