@@ -2,7 +2,10 @@ Does $A^n=B^n$ imply $A=B$?
 %
 No, counterexample: $M^2 = [0, 1; 1, 0]^2 = I_2$.
 \[  
-matri
+\begin{bmatrix}
+0 & 1 \
+1 & 0
+\end{bmatrix}
 .\]
 %
 counterexample
