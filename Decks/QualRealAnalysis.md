@@ -652,7 +652,7 @@ Give an example of a function that converges in $L^1$ but not pointwise.
 %
 The Cathode Ray:
 
-![](figures/image_2020-06-13-23-08-45.png)
+![](https://i.imgur.com/a4MatmT.png)
 
 %
 example

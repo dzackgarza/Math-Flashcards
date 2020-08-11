@@ -31,7 +31,7 @@ Groups of Order 4
 %
 $\ZZ/4\ZZ, (\ZZ/2\ZZ)^2$
 
-![](figures/image_2020-06-01-21-11-05.png)
+![](https://i.imgur.com/8H2HQKO.png)
 
 %
 fact
