@@ -82,9 +82,9 @@ Theorem
 
 Cauchy Inequalities
 %
-\begin{align*}
+\[
 \left|f^{(n)}\left(z_{0}\right)\right| \leq \frac{n ! | f \|_{C}}{R^{n}}
-.\end{align*}
+.\]
 %
 formula, theorem
 ---
@@ -92,9 +92,9 @@ formula, theorem
 Cauchy Integral Formula (First Derivative)
 %
 For $f$ holomorphic in $U\supseteq \bar D$, then for any $z\in D$,
-\begin{align*}
+\[
 f(z) = {1\over 2\pi i} \inv_{\bd D} {f(\xi) \over \xi - z} \,d\xi
-.\end{align*}
+.\]
 %
 formula, theorem
 ---
@@ -102,9 +102,9 @@ formula, theorem
 Cauchy Integral Formula (Higher Derivatives)
 %
 For $f$ holomorphic in $U\supseteq \bar D$ and $C$ is a circle such that $C^\circ \subset U$ then for any $z\in C^\circ$,
-\begin{align*}
+\[
 f^{(n)}(z)=\frac{n !}{2 \pi i} \int_{C} \frac{f(\zeta)}{(\zeta-z)^{n+1}} d \zeta
-.\end{align*}
+.\]
 %
 formula, theorem
 ---
@@ -112,9 +112,9 @@ formula, theorem
 Maximum Length Lemma
 %
 $$
-\begin{align*}
+\[
 \abs{\int_\gamma f} \leq \sup_{z\in \gamma} \abs{f(z)} \cdot \ell(\gamma)
-.\end{align*}
+.\]
 $$
 %
 
@@ -192,9 +192,9 @@ fact
 
 Cauchy's Integral Formula for Derivatives
 %
-\begin{align*}
+\[
 \left|f^{(n)}(0)\right| \leq \frac{n !}{r^{n}} \sup _{|z|=r}|f(z)|
-.\end{align*}
+.\]
 %
 formula
 ---
