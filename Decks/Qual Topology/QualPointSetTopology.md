@@ -144,7 +144,7 @@ definition
 
 Definition: Dense
 %
-A subset $A\subset X$ is dense in $X$ iff $\cl_X(A) = X$.
+A subset $A\subset X$ is dense in $X$ iff $\mathrm{cl}_X(A) = X$.
 %
 definition
 ---
@@ -158,7 +158,7 @@ definition
 
 Definition: the discrete topology
 %
-For $X$ a space, the discrete topology is given by $\tau = \mcp(X)$, i.e. every subset is open.
+For $X$ a space, the discrete topology is given by $\tau = \mathcal{P}(X)$, i.e. every subset is open.
 %
 definition
 ---
