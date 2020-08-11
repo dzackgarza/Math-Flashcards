@@ -1,6 +1,6 @@
 An analytic function with convergence radius 1 which fails to converge at any point on $S^1$
 %
-$\sum_{n=1}^\infty nz^n$
+\( \sum_{n=1}^\infty nz^n \) 
 %
 example
 ---
@@ -31,14 +31,19 @@ If \(\theset{a_n}, \theset{b_n}\) satisfy
 - \(  a_n \to 0\) 
 - For every $N$, there exists an $M_N$ such that \(  \abs{\sum_{n=1}^N b_n} \leq M_N\)
 
-Then \( \sum_{n=1}^\infty a_n b_n < \infty \).
+Then \[ \sum_{n=1}^\infty a_n b_n < \infty .\]
 %
 theorem
 ---
 
 Morera's Theorem
 %
-If $f$ is continuous in an open disc $D$ and for every triangle $T\subset D, \int_T f = 0$, then $f$ is holomorphic.
+If $f$ is continuous in an open disc $\DD$ and 
+\[  
+
+\text{For all triangles } T\subset \DD, \qquad \int_T f = 0
+,\]
+then $f$ is holomorphic.
 %
 theorem
 ---
@@ -51,7 +56,7 @@ Then TFAE
 - $f$ extends holomorphically to all of $U$
 - $f$ extends continuously to all of $U$
 - There exists a neighborhood of $a$ on which $f$ is bounded.
-- $\lim_{z\to a} (z-a)f(z) = 0$.
+- \[\lim_{z\to a} (z-a)f(z) = 0.\]
 %
 theorem
 ---
@@ -142,9 +147,10 @@ complex, theorem
 
 Exponential expansions of $\sin(z)$
 %
-$$
-\sin(\theta) = \frac{e^{i\theta} - e^{-i\theta}}{2i} = \frac{z - z\inv}{2i},~~d\theta = \frac{dz}{iz}
-$$
+\[\begin{align*}
+\sin(\theta) &= \frac{e^{i\theta} - e^{-i\theta}}{2i} = \frac{z - z\inv}{2i} \\
+d\theta &= \frac{dz}{iz}
+\end{align*}\]
 %
 complex, identity
 ---
