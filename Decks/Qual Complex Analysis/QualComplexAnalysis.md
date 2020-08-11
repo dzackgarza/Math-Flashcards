@@ -149,9 +149,13 @@ $$
 complex, identity
 ---
 
-Rouche's Theorem
+Rouché's Theorem
 %
-If $f, g$ are holomorphic on $\bar{D}(z_0)$ and $\abs{f - g} < \abs{f} + \abs{g}$ on $\bd D$, then $f,g$ are nonvanishing on $\bd D$ and have the same number of zeros.
+If $f, g$ are holomorphic on $\bar{D}(z_0)$ and 
+\[
+\abs{f - g} < \abs{f} + \abs{g} \qtext{on} \bd D
+,\] 
+then $f,g\neq 0$ on $\bd D$ and have the same number of zeros.
 %
 complex, theorem
 ---

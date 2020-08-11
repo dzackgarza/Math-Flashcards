@@ -13,28 +13,29 @@ theorem
 
 Algebraic Field Extension
 %
-A field extension $L/K$ is **algebraic** iff every $\alpha \in L$ is the root of some polynomial $f(x)\in K[x]$.
+A field extension $L/K$ is **algebraic** $\iff$ every $\alpha \in L$ is the root of some polynomial $f(x)\in K[x]$.
 %
 definition
 ---
 
 Normal Field Extension
 %
-A field extension $L/K$ is **normal** iff every irreducible $p(x) \in K[x]$ either has no roots in $L$ or splits into linear factors in $L[x]$.
+A field extension $L/K$ is **normal** $\iff$ every irreducible $p(x) \in K[x]$ either has no roots in $L$ or splits into linear factors in $L[x]$.
 %
 definition
 ---
 
 Separable Field Extension
 %
-A field extension $L/K$ is **separable** iff for every $\alpha \in K$, the $\min_\alpha(x)/K$ is separable (equivalently, has nonzero derivative).
+A field extension $L/K$ is **separable** $\iff$ for every $\alpha \in K$, the $\min_\alpha(x)/K$ is separable (equivalently, has nonzero derivative).
 %
 definition
 ---
 
 $K(x)$
 %
-The field of rational functions, i.e. ratios of polynomials, in the variable $x$; $K(x) = \theset{{P(x) \over Q(x)} \suchthat P,Q \in K[x]}$.
+The field of rational functions, i.e. ratios of polynomials, in the variable $x$; 
+\[K(x) = \theset{{P(x) \over Q(x)} \suchthat P,Q \in K[x]}.\]
 
 Example: $\CC(x)$ is the field of meromorphic functions on the Riemann sphere.
 %
@@ -50,7 +51,7 @@ notation, definition
 
 Irreducible
 %
-An element $p$ in a ring $R$ is **irreducible** iff $p=ab \implies a \in R\units$ or $b\in R\units$.
+An element $p$ in a ring $R$ is **irreducible** $\iff$ $p=ab \implies a \in R\units$ or $b\in R\units$.
 %
 definition
 ---
@@ -104,7 +105,7 @@ theorem
 
 Definition of Galois group for a **finite** extension $K/F$.
 %
-$K/F$ is Galois iff $\abs{\Aut(K/F)} = [K: F]$
+$K/F$ is Galois $\iff$ $\abs{\Aut(K/F)} = [K: F]$
 %
 definition
 ---

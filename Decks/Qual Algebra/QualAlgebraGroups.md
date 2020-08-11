@@ -86,7 +86,12 @@ problem
 
 Burnside's Formula
 %
-$\abs{G} \abs{X/G} = \sum \abs{X^g}$ where $X/G$ is the set of orbits and $X^g = \theset{x\in X \suchthat g.x = x}$ are the fixed points of $g$.
+The number of orbits is equal to the average number of fixed points:
+\[\abs{G} \abs{X/G} = \sum \abs{X^g}\] 
+where 
+
+- $X/G$ is the set of orbits 
+ -$X^g = \theset{x\in X \suchthat g.x = x}$ are the fixed points of $g$.
 %
 formula
 ---
@@ -294,6 +299,16 @@ fact
 Order of the smallest nonabelian group
 %
 Order six: $D_3$
+%
+fact
+---
+
+Groups of Order 4
+%
+$\ZZ/4\ZZ, (\ZZ/2\ZZ)^2$
+
+![](https://i.imgur.com/8H2HQKO.png)
+
 %
 fact
 ---
