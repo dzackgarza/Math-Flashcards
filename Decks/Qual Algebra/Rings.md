@@ -47,3 +47,10 @@ A nonzero nonunit ring element $r$ is prime iff $r\divides ab$ implies $r\divide
 definition
 ---
 
+Definition: integral domain.
+%
+
+%
+
+---
+
