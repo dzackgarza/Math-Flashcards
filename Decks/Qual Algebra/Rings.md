@@ -61,3 +61,18 @@ Gauss' Lemma
 theorem
 ---
 
+Definition: prime ideal.
+%
+?
+%
+definition
+---
+
+
+Definition: 
+%
+
+%
+
+---
+
