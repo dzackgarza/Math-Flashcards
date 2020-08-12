@@ -34,7 +34,7 @@ definition
 
 Definition: irreducible.
 %
-A nonzero ring element \(r\in R\) is *irreducible* iff $r$ is not a unit and A
+A nonzero nonunit ring element \(r\in R\) is *irreducible* iff $
 %
 
 ---
@@ -42,7 +42,7 @@ A nonzero ring element \(r\in R\) is *irreducible* iff $r$ is not a unit and A
 
 Definition: prime.
 %
-A ring element $r$ is prime iff $r\divides ab$ implies $r\divides a$ or $r\divides b$.
+A nonzero nonunit ring element $r$ is prime iff $r\divides ab$ implies $r\divides a$ or $r\divides b$.
 %
 definition
 ---
