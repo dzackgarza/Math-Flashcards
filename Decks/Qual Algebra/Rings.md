@@ -49,7 +49,7 @@ definition
 
 Definition: integral domain.
 %
-
+A nonzero commutative ring<F36>
 %
 
 ---
