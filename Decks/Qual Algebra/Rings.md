@@ -49,8 +49,8 @@ definition
 
 Definition: integral domain.
 %
-A nonzero commutative ring
+A nonzero commutative ring with no nonzero zero divisors.
 %
-
+definition
 ---
 
