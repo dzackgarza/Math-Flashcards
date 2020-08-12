@@ -320,3 +320,17 @@ One step subgroup test
 fact
 ---
 
+Elementary Divisors
+%
+?
+%
+definition
+---
+
+Invariant Factors
+%
+?
+%
+definition
+---
+
