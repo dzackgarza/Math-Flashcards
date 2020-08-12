@@ -54,3 +54,10 @@ A nonzero commutative ring with no nonzero zero divisors.
 definition
 ---
 
+Gauss' Lemma
+%
+?
+%
+theorem
+---
+
