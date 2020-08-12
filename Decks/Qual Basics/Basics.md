@@ -45,10 +45,4 @@ Functional characterization of surjective functions.
 definition
 ---
 
-Definition: Maximal ideal.
-%
-An ideal $I\normal R$ is *maximal* iff $I\subseteq J \normal R$ implies $J=R$.
-%
-definition
----
 
