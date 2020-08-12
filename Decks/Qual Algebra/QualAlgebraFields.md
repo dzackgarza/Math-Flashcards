@@ -124,4 +124,19 @@ Definition: Primitive Root of Unity.
 definition
 ---
 
+Galois Correspondence
+%
+?
+%
+theorem
+---
+
+
+Definition: Algebraic Element
+%
+?
+%
+definition
+---
+
 
