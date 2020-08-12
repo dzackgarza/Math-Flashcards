@@ -45,9 +45,9 @@ Functional characterization of surjective functions.
 definition
 ---
 
-
+Definition: Maximal ideal.
 %
-
+An ideal $I\normal R$ is *maximal* iff $
 %
 
 ---
