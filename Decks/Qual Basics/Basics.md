@@ -38,8 +38,10 @@ definition
 
 Functional characterization of surjective functions.
 %
-
+\[  
+\forall y, \exists X \text{ such that } f(x) = y \iff f\text{ has a right inverse, } 
+.\]
 %
-
+definition
 ---
 
