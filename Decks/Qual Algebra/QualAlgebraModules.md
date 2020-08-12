@@ -138,4 +138,11 @@ Definition: Characteristic polynomial
 definition
 ---
 
+Definition: Diagonalizable.
+%
+?
+%
+definition
+---
+
 
