@@ -34,7 +34,7 @@ definition
 
 Definition: irreducible.
 %
-A nonzero nonunit ring element \(r\in R\) is *irreducible* iff $
+A nonzero nonunit ring element \(r\in R\) is *irreducible* iff $r=ab$ implies 
 %
 
 ---
