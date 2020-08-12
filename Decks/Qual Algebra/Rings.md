@@ -18,9 +18,32 @@ theorem
 
 Zero Divisor
 %
-An element $a\in R$ is a *zero divisor* if there exists an \( x\in X \) such that 
+An element $r\in R$ is a *zero divisor* if there exists an \( x\in X \) such that \( rx=0\).
+
+Equivalently, the map $x\mapsto rx$ is *not* injective.
 %
+definition
+---
+
+Definition: simple ring.
+%
+A ring \( R\) is *simple* iff its only two-sided ideals are $(0)$ and $R$.
+%
+definition
+---
+
+Definition: irreducible.
+%
+A nonzero ring element \(r\in R\) is *irreducible* iff $r$ is not a unit and A
+%
+
 ---
 
 
+Definition: prime.
+%
+A ring element $r$ is prime iff whenever $
+%
+
+---
 
