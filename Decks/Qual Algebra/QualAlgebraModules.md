@@ -61,4 +61,20 @@ definition
 ---
 
 
+Definition: Torsion submodule.
+%
+\[  
+\tor(M) = \{m \in M \suchthat \exists r \in R, ~r \neq 0, ~rm = 0\}
+.\]
+%
+definition
+---
+
+Rank of a Free module
+%
+Maximal number of $R\dash$linearly independent elements of \( M\).
+%
+definition
+---
+
 
