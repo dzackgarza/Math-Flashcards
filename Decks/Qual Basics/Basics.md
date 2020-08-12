@@ -27,14 +27,19 @@ Factor $x^n + a^n$
 formula
 ---
 
-Groups of Order 4
+Functional characterization of injective functions.
 %
-$\ZZ/4\ZZ, (\ZZ/2\ZZ)^2$
-
-![](https://i.imgur.com/8H2HQKO.png)
-
+\[  
+f(x) = f(y) \implies x=y \iff f \text{ has a left inverse.}
+.\]
 %
-fact
+definition
 ---
 
+Functional characterization of surjective functions.
+%
+
+%
+
+---
 
