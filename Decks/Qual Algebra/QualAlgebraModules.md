@@ -85,10 +85,13 @@ definition
 ---
 
 
-Ann
+Annihilator of a module
 %
-
+For $M$ an $R\dash$module,
+\[  
+\ann_R(M) = \theset{r\in R\suchthat \forall m\in M,\, rm=0} \normal R
+.\]
 %
-
+definition
 ---
 
