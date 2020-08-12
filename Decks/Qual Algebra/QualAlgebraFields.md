@@ -11,21 +11,21 @@ then $f$ is irreducible.
 theorem
 ---
 
-Algebraic Field Extension
+Algebraic Extension
 %
 A field extension $L/K$ is **algebraic** $\iff$ every $\alpha \in L$ is the root of some polynomial $f(x)\in K[x]$.
 %
 definition
 ---
 
-Normal Field Extension
+Normal Extension
 %
 A field extension $L/K$ is **normal** $\iff$ every irreducible $p(x) \in K[x]$ either has no roots in $L$ or splits into linear factors in $L[x]$.
 %
 definition
 ---
 
-Separable Field Extension
+Separable Extension
 %
 A field extension $L/K$ is **separable** $\iff$ for every $\alpha \in K$, the $\min_\alpha(x)/K$ is separable (equivalently, has nonzero derivative).
 %
@@ -139,4 +139,31 @@ Definition: Algebraic Element
 definition
 ---
 
+Definition: irreducible polynomial
+%
+?
+%
+definition
+---
+
+Definition: splitting field
+%
+?
+%
+definition
+---
+
+Definition: algebraically closed.
+%
+?
+%
+definition
+---
+
+Definition: perfect field.
+%
+?
+%
+definition
+---
 

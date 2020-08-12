@@ -313,3 +313,10 @@ $\ZZ/4\ZZ, (\ZZ/2\ZZ)^2$
 fact
 ---
 
+One step subgroup test
+%
+?
+%
+fact
+---
+
