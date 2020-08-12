@@ -25,3 +25,17 @@ Characterizations of Diagonalizability of a Square Matrix $M$
 theorem
 ---
 
+Definition: Free module
+%
+?
+%
+definition
+---
+
+Definition: Projective module
+%
+?
+%
+definition
+---
+
