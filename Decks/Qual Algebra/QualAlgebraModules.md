@@ -77,4 +77,18 @@ Maximal number of $R\dash$linearly independent elements of \( M\).
 definition
 ---
 
+Definition: torsionfree
+%
+\( \tor(M) = \theset{0} \)
+%
+definition
+---
+
+
+Anihi
+%
+
+%
+
+---
 
