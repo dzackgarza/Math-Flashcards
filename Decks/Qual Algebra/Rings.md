@@ -68,11 +68,25 @@ Definition: prime ideal.
 definition
 ---
 
+Definition: Maximal ideal.
+%
+An ideal $I\normal R$ is *maximal* iff $I\subseteq J \normal R$ implies $J=R$.
+%
+definition
+---
 
-Definition: maximal ideal.
+Definition: Euclidean domain.
 %
 ?
 %
 definition
 ---
+
+Definition: Unique Factorization Domain
+%
+?
+%
+definition
+---
+
 
