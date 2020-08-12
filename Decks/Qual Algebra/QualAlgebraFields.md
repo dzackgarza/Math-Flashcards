@@ -117,5 +117,11 @@ $K = \QQ(2^{1\over 3})/\QQ$, since $\abs{\aut(K/\QQ)} = 1$ but this is a degree 
 example
 ---
 
+Definition: Primitive Root of Unity.
+%
+?
+%
+definition
+---
 
 
