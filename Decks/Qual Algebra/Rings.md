@@ -69,10 +69,10 @@ definition
 ---
 
 
-Definition: 
+Definition: maximal ideal.
 %
-
+?
 %
-
+definition
 ---
 
