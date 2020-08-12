@@ -1,0 +1,7 @@
+Characteristic of a ring
+%
+
+%
+
+---
+
