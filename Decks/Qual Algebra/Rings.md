@@ -42,8 +42,8 @@ A nonzero ring element \(r\in R\) is *irreducible* iff $r$ is not a unit and A
 
 Definition: prime.
 %
-A ring element $r$ is prime iff whenever $r\divides 
+A ring element $r$ is prime iff $r\divides ab$ implies $r\divides a$ or $r\divides b$.
 %
-
+definition
 ---
 
