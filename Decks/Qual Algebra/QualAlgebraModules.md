@@ -39,3 +39,17 @@ Definition: Projective module
 definition
 ---
 
+Submodule test
+%
+?
+%
+fact
+---
+
+$p\dash$primary
+%
+
+%
+
+---
+
