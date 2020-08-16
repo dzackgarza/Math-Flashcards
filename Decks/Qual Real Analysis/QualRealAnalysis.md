@@ -430,6 +430,9 @@ $f:\RR \to \bar \RR$ is Lebesgue/Borel measurable iff
 \left.\{x \in E | f(x)>a\}=f^{-1}((a, \infty])\right) \in \mathcal{M}_L, \mathcal{M}_B
 ,\]
 the collection of Lebesgue/Borel measurable *sets* respectively.
+
+> Mnemonic: preimage of a ray should be a measurable set.
+
 %
 definition
 ---
