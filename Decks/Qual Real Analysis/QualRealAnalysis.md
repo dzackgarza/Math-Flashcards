@@ -619,7 +619,7 @@ theorem
 
 Fubini-Tonelli
 %
-If $f$ is measurable and any iterated integral $\iint \abs{f} < \infty$, then Tonelli on $\abs{f}$ yields $f\in L^1$ and $\int f$ is equal to any iterated integral.
+If $f$ is measurable and any iterated integral is finite, then Tonelli on $\abs{f}$ yields $f\in L^1$ and $\int f$ is equal to any iterated integral.
 %
 theorem
 ---
