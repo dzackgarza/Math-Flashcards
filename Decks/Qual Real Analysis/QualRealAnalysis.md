@@ -515,7 +515,11 @@ counterexamples
 
 Relative strengths of convergence
 %
-Uniform $\implies$ pointwise $\implies$ a.e., convergence in norm is incomparable (but generally weaker)
+
+- Uniform $\implies$ 
+- Pointwise $\implies$ 
+- Almost Everywhere.
+- Convergence in norm: incomparable (but generally weaker)
 %
 fact
 ---
