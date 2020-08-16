@@ -124,7 +124,8 @@ theorem
 Cauchy-Schwarz Inequality
 %
 \[
-\abs{\int f\bar g}^2 \definedas \abs{\inner{f}{g}} \definedas \norm{fg}_1 \leq \norm{f}_2 \norm{g}_2
+\abs{\int f\bar g}^2 \definedasi 
+\abs{\inner{f}{g}} \definedas \norm{fg}_1 \leq \norm{f}_2^{1\over 2} \norm{g}_2^
 \] 
 with equality iff $f \in \spanof_\CC(g)$.
 %
