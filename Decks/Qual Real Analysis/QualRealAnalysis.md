@@ -361,17 +361,19 @@ proof
 How to commute a sum and an integral
 %
 \(f_n \in L^1\) with \(\sum \int \abs{f_n} < \infty\).
+
+Proof:
+Use Fubini-Tonelli
 %
 technique
 ---
 
 Proposition: \(\sum \abs{f_n} \in L^1 \implies \sum \abs{f_n(x)} < \infty\) a.e.
 %
-Proof: ?
+Proof: by contradiction.
 %
 proof
 ---
-
 
 A sequence of functions that converges uniformly, pointwise, a.e., but not in $L^1$.
 %
