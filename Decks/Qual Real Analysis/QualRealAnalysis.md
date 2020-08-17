@@ -559,7 +559,7 @@ Growth Rates of Common Functions
 %
 For $c>1$,
 \[
-n! > c^n > n^{c} > n\log(n) >  n > \log(n) > \log(\log(n)) > \cdots > 1
+x! > e^x > x^{\varepsilon} > x\log(x) >  x > \log(x) > \log(\log(nx) > \cdots > 1
 .\]
 
 ![](https://i.imgur.com/M9u3lOr.png)
