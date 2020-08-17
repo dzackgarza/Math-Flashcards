@@ -546,10 +546,10 @@ Four Properties of Outer Measure
 definition, theorem
 ---
 
-Where is ${1\over x^p$ integrable in $\RR$? (Depending on $p$)
+Where is ${1\over x^p}$ integrable in $\RR$? (Depending on $p$)
 %
 
-- $p < 1 \iff {1\over x^p \in L^1((0, 1))$
+- $p < 1 \iff {1\over x^p} \in L^1((0, 1))$
 - $p > 1 \iff {1\over x^p} \in L^1((1, \infty))$
 %
 facts
