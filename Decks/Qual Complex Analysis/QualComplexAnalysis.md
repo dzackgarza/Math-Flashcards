@@ -95,7 +95,7 @@ Theorem
 Cauchy Inequalities
 %
 \[
-\left|f^{(n)}\left(z_{0}\right)\right| \leq \frac{n ! \| f \|_{C}}{R^{n}}
+\left|f^{(n)}\left(z_{0}\right) \over n! \right| \leq \frac{ \sup_{z\in\gamma} \abs{f(z)} {R^{n}}
 .\]
 %
 formula, theorem
