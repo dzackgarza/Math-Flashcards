@@ -20,10 +20,11 @@ theorem
 
 Riesz Representation Theorem
 %
-For $1\leq p <\infty$, $X \subset \RR^n$ measurable, $\Lambda \in L^p(X)\dual$, there exists a unique $g\in L^q(X)$ such that for all $f\in L^p(X)$, \(\Lambda(f) = \int_X fg\) and 
-\[
-\norm{\Lambda}_{L^p(X)\dual} = \norm{g}_{L^q(X)}
-.\]
+For $1\leq p <\infty$, $X \subset \RR^n$ measurable, $\Lambda \in L^p(X)\dual$, there exists a unique $g\in L^q(X)$ such that 
+\[\begin{align*}
+\forall f\in L^p(X), \quad \Lambda(f) &= \int_X fg \\
+\norm{\Lambda}_{L^p(X)\dual} &= \norm{g}_{L^q(X)}
+\end{align*}\]
 %
 theorem
 ---
@@ -249,7 +250,7 @@ theorem
 
 Riemann-Lebesgue Lemma
 %
-If $f\in L^1$, then the Fourier transform $\hat f(\xi) \converges{\abs{\xi}\to \infty}\to 0$.
+If $f\in L^1$, then the Fourier transform satisfies \[\hat f(\xi) \converges{\abs{\xi}\to \infty}\to 0.\]
 %
 theorem
 ---
