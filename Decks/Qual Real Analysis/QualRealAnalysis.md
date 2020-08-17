@@ -35,7 +35,7 @@ definition
 
 Dominated Convergence Theorem
 %
-If \(\theset{f_n} \subset L^1\) and \(f_n\to f\) a.e. with \()\abs{f_n} \leq g \in L^1\) for every $n$, then
+If \(\theset{f_n} \subset L^1\) and \(f_n\to f\) a.e. with \(\abs{f_n} \leq g \in L^1\) for every $n$, then
 \[
 \lim \int f_n = \int \lim f_n
 \]
@@ -148,7 +148,7 @@ For $1 \leq p < \infty$,
 
 Holder's Inequality
 %
-$\norm{fg}_1 \leq \norm{f}_p \norm{f}_q$
+\[\norm{fg}_1 \leq \norm{f}_p \norm{f}_q\]
 %
 formula
 ---
@@ -571,6 +571,8 @@ Continuity in $L^1$
 \[
 f \in L^{1} \Longrightarrow \lim _{h \rightarrow 0} \int|f(x+h)-f(x)|=0
 .\]
+
+Proof idea:
 %
 theorem
 ---
@@ -610,9 +612,9 @@ Fubini
 Let $f(x, y) \in L^1(\RR^n\cross \RR^k)$.
 Then for almost every $y\in \RR^k$,
 
-1. The slice function $f^y(x)\definedas f(x ,y)$ is *integrable*, so $f^y \in L^1(\RR^n)$.
-2. The function $F(y) \definedas \int_{\RR^n} f^y(x) \, dx$ is *integrable*, so $F\in L^1(\RR^{k})$.
-3. $\int_{\RR^{n+k}} f(\vector u) \, d\vector u = \int_{\RR^n} \qty{ \int_{\RR^k} f^y(x) \, dx} \, dy$ in any order.
+1. The slice function \(f^y(x)\definedas f(x ,y)\) is *integrable*, so \(f^y \in L^1(\RR^n)\).
+2. The function \(F(y) \definedas \int_{\RR^n} f^y(x) \, dx\) is *integrable*, so \(F\in L^1(\RR^{k})\).
+3. \[\int_{\RR^{n+k}} f(\vector u) \, d\vector u = \int_{\RR^n} \qty{ \int_{\RR^k} f^y(x) \, dx} \, dy\] in any order.
 
 > Note: requires **integrability**, not just measurability, but doesn't require non-negativity.
 
@@ -855,7 +857,7 @@ then \(\sup_{T_n\in \mathcal{F}} \norm{T_n}_X < \infty\).
 
 Weierstrass Approximation Theorem
 %
-If $f: I\to \RR$ is continuous, then for every $\eps$ there exists a polynomial $p_\eps(x)$ such that $\norm{f - p_\eps}_\infty < \eps$.
+If $f: I\to \RR$ is continuous, then for every $\varepsilon$ there exists a polynomial \(p_\varepsilon(x)\) such that \()\norm{f - p_\eps}_\infty < \varepsilon\).
 
 > Slogan: polynomials are dense in $C([0, 1], \norm{\wait}_\infty)$.
 %
