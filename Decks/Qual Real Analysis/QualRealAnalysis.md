@@ -475,7 +475,7 @@ proof
 Definition: The Lebesgue Integral
 %
 \[
-\int f:=\sup \left\{\int \phi | 0 \leq \phi \leq f, \phi \text { simple }\right\}
+\int f:=\sup \left\{\int \phi \suchthat 0 \leq \phi \leq f, \,\, \phi \text { simple }\right\}
 .\]
 %
 definition
