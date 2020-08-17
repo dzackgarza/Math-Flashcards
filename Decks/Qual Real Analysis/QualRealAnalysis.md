@@ -572,7 +572,7 @@ Continuity in $L^1$
 f \in L^{1} \Longrightarrow \lim _{h \rightarrow 0} \int|f(x+h)-f(x)|=0
 .\]
 
-Proof idea:
+Proof idea: \(\varepsilon/3\) argument, approximate by compactly supported functions.
 %
 theorem
 ---
