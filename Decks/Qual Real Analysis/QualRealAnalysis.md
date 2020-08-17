@@ -229,6 +229,11 @@ For $x\in H$ a Hilbert spaces and \(\theset{e_k}\) an orthonormal sequence,
 \[
 \sum \abs{\inner{x}{e_k}}^2 \leq \norm{x}^2
 \]
+
+Proof idea:
+\[  
+
+.\]
 %
 formula
 ---
