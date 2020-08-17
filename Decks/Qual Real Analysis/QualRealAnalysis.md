@@ -585,7 +585,7 @@ example
 Example of a sequence of differentiable functions whose derivatives do not converge pointwise.
 %
 \[
-f_n(x) = {\sin(nx) \over n} \to 0 \qtext{pointwise but} f_n'(\pi) = (-1)^n
+f_n(x) = {\sin(nx) \over n} \to 0 \quadtext{pointwise but}\quad f_n'(\pi) = (-1)^n
 \]
 %
 example
