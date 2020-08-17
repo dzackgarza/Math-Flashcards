@@ -818,3 +818,17 @@ m(X) < \infty \implies
 theorem
 ---
 
+Definition: Infinity Norm
+%
+The least upper bound that holds almost everywhere:
+
+Definition (The Infinity Norm)
+:   \hfill
+    \[
+    \norm{f}_\infty &\definedas \inf_{\alpha \geq 0} \theset{\alpha \suchthat m\theset{\abs{f} \geq \alpha} = 0}
+    .\]
+
+%
+
+---
+
