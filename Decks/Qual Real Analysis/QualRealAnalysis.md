@@ -494,11 +494,11 @@ Take $p=1$ to obtain
 definition
 ---
 
-Proposition: $\int f = 0 \implies f = 0$ a.e.
+Proposition: \(\int f = 0 \implies f = 0\) a.e.
 %
 
 - Show for simple functions
-- One direction hard: take sets \( \theset{f(x) \geq {1 \over n}} \) and derive contrapositive
+- One direction hard: take sets \(\theset{f(x) \geq {1 \over n}}\) and derive contrapositive
 %
 proof
 ---
@@ -510,7 +510,7 @@ How to commute a sum and an integral
 technique
 ---
 
-Proposition: $\sum \abs{f_n} \in L^1 \implies \sum \abs{f_n(x)} < \infty$ a.e.
+Proposition: \(\sum \abs{f_n} \in L^1 \implies \sum \abs{f_n(x)} < \infty\) a.e.
 %
 Proof: ?
 %
@@ -838,7 +838,7 @@ Definition: Infinity Norm
 %
 The least upper bound that holds almost everywhere:
 \[
-\norm{f}_\infty &\definedas \inf_{\alpha \geq 0} \theset{\alpha \suchthat m\theset{\abs{f} \geq \alpha} = 0}
+\norm{f}_\infty \definedas \inf_{\alpha \geq 0} \theset{\alpha \suchthat m\theset{\abs{f} \geq \alpha} = 0}
 .\]
 
 %
