@@ -47,7 +47,7 @@ theorem
 
 Monotone Convergence Theorem
 %
-If $f_n \in L^+$ and $f_n\nearrow f$ a.e. then
+If \(f_n \in L^+\) and \(f_n\nearrow f\) a.e. then
 \[
 \lim \int f_n = \int \lim f_n
 \]
@@ -204,7 +204,7 @@ definition, example, counterexample
 Equicontinuous
 %
 For $X, Y$ metric spaces and $\mathcal{F}$ a family of functions, $F$ is *equicontinuous at \(x_0\)* iff for every $\varepsilon > 0$ there exists a \(\delta(\varepsilon, x_0)>0\) such that \[x\in B_\delta(x_0) \implies f_i(x) \in B_\varepsilon(f_i(x_0))\] for all \(f_i \in \mathcal{F}\).
-The family $F$ is *uniformly equicontinuous* iff $\delta(\varepsilon)$ only depends on $\varepsilon$ and holds for any pair $x_1, x_2$ with $x_1 \in B_\delta(x_2)$.
+The family $F$ is *uniformly equicontinuous* iff $\delta(\varepsilon)$ only depends on $\varepsilon$ and holds for any pair \(x_1, x_2\) with \(x_1 \in B_\delta(x_2)\).
 %
 definition
 ---
@@ -331,9 +331,9 @@ counterexample
 
 Negating uniform convergence of a sequence of functions
 %
-Fix $\varepsilon$, find $x(\varepsilon, n)$ with $\abs{f_n(x) - f(x)} > > \varepsilon$.
+Fix $\varepsilon$, find $x(\varepsilon, n)$ with $\abs{f_n(x) - f(x)} > \varepsilon$.
 
-Example: ${1 \over 1 + nx}$.
+Example: ${1 \over 1 + nx}$, take \(x={1\over n}\).
 %
 technique
 ---
