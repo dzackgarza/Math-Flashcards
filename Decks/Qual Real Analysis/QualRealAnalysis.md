@@ -127,8 +127,8 @@ theorem
 Cauchy-Schwarz Inequality
 %
 \[
-\abs{\int f\bar g}^2 \definedasi 
-\abs{\inner{f}{g}} \definedas \norm{fg}_1 \leq \norm{f}_2^{1\over 2} \norm{g}_2^{1\over 2}
+\norm{fg}_1 \leq \norm{f}_2^ \norm{g}_2 \\
+\int\abs{fg} \leq \sqrt{\int \abs{f}^2} \sqrt{\int \abs{g}^2}
 \] 
 with equality iff $f \in \spanof_\CC(g)$.
 %
@@ -706,11 +706,11 @@ No:
 example
 ---
 
-Where is $x^p$ integrable in $\RR$? (Depending on $p$)
+Where is ${1\over x^p$ integrable in $\RR$? (Depending on $p$)
 %
 
-- $p > -1 \iff x^p \in L^1((0, 1))$
-- $p < -1 \iff x^p \in L^1((1, \infty))$
+- $p < 1 \iff {1\over x^p} \in L^1((0, 1))$
+- $p > 1 \iff {1\over x^p} \in L^1((1, \infty))$
 %
 facts
 ---
