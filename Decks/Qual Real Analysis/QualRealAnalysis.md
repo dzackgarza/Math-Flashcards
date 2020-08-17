@@ -828,7 +828,7 @@ m(X) < \infty \implies
 &\ell^2(\ZZ) \subset \ell^1(\ZZ) \subset \ell^\infty(\ZZ)
 \end{align*}\]
 %
-theorem
+theorem, important
 ---
 
 Definition: Infinity Norm
