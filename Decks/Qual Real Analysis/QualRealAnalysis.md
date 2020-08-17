@@ -603,7 +603,10 @@ Example of a sequence of differentiable functions \(f_n \to f\) uniformly with \
 
 - \(f_n(x)= {x \over 1 + nx^2} \to 0\) uniformly 
 
+  - Since \(\norm{f_n}_\infty = 1/2\sqrt{n} \to 0.\)
+
 - \[f_n'(x) = {1-nx^2 \over (1+xn^2)^2} \to \chi_{\theset{0}} \not\equiv 0\].
+
 
 
 %
