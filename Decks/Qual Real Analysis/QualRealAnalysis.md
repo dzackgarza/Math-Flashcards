@@ -446,7 +446,7 @@ theorem
 
 Proposition: Continuity in $L^1$
 %
-Proof: ?
+Proof: approximate with compactly supported functions, use uniform continuity
 %
 proof
 ---
