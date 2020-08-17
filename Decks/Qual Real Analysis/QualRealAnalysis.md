@@ -836,6 +836,6 @@ $p\dash$test for integrals.
 \int_1^\infty {1\over x^p} < \infty \iff  p > 1 
 .\]
 %
-theorem
+fact
 ---
 
