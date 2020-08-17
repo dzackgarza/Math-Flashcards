@@ -29,7 +29,7 @@ If \(\theset{a_n}, \theset{b_n}\) satisfy
 
 - \(  a_{n+1} \leq a_n\) 
 - \(  a_n \to 0\) 
-- For every $N$, there exists an $M_N$ such that \(  \abs{\sum_{n=1}^N b_n} \leq M_N\)
+- For every $N$, there exists an \(M_N such that \(  \abs{\sum_{n=1}^N b_n} \leq M_N\)
 
 Then \[ \sum_{n=1}^\infty a_n b_n < \infty .\]
 %
@@ -195,6 +195,8 @@ definition
 Example of a conformal map that is not injective.
 %
 $$z\mapsto e^z$$
+
+Not injective because it is periodic, not surjective because it's never zero.
 %
 examples
 ---
