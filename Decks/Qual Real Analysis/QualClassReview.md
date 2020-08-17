@@ -86,3 +86,63 @@ $\abs{\norm x - \norm y} \leq \norm{x-y}$
 formula
 ---
 
+Meagre Set
+%
+A set is *meagre* iff it is a countable union of nowhere dense sets.
+%
+definition
+---
+
+Characterizations of $D_f$, the set of discontinuities of functions
+%
+
+- Always \(F_\sigma\), closed, positive oscillation.
+- \(f_n\to f\) with \(f_n\) continuous \(\implies D_f\) is meager.
+- (Lebesgue criterion) \(f \in \mathcal{R}(a, b)\) and bounded \(\implies D_f\) is null.
+- $f$ monotone \(\implies D_f\) is countable, and additionally $f$ differentiable on \((a, b) \implies D_f\) is null.
+
+%
+fact
+---
+
+Baire Category Theorem
+%
+If $X$ is a complete metric space or a locally compact Hausdorff space, then $X$ is a Baire space.
+A (non-empty) complete metric space is *not* the countable union of nowhere dense sets.
+%
+theorem
+---
+
+Caratheodory Characterization
+%
+$E\subseteq \RR^n$ is measurable $\iff$ for all $A\subset \RR^n$, 
+\( 
+m_*(A) = m_*(E\intersect A) + m_*(E\intersect A^c)
+\) 
+%
+theorem
+---
+
+Definition: Almost Disjoint
+%
+$A^\circ \intersect B^\circ = \emptyset$
+%
+definition
+---
+
+Convergence in Measure
+%
+\[
+\lim _{k \rightarrow \infty} m\left(\left\{x \in E|| f_{k}(x)-f(x) |>\alpha\right\}\right)=0
+.\]
+%
+definition
+---
+
+Proposition: Convergence in measure is equivalent to a.e. convergence
+%
+Proof: ? Use Egorov's Theorem
+%
+proof
+---
+

@@ -161,7 +161,11 @@ formula
 
 Parseval's Identity
 %
-Equality in Bessel's inequality, obtained when $\theset{e_k}$ is a basis.
+Equality in Bessel's inequality, obtained when $\theset{e_k}$ is a basis:
+
+\[
+\sum \abs{\inner{x}{e_k}}^2 = \norm{x}^2
+\]
 %
 theorem
 ---
@@ -187,12 +191,6 @@ $X$ is $F_\sigma$ iff $X$ is a countable union of closed sets.
 definition
 ---
 
-Meagre Set
-%
-A set is *meagre* iff it is a countable union of nowhere dense sets.
-%
-definition
----
 
 Null Set
 %
@@ -201,17 +199,6 @@ A set $A$ is *null* iff for every $\varepsilon>0$ there exists a cover \(\theset
 definition
 ---
 
-Characterizations of $D_f$, the set of discontinuities of functions
-%
-
-- Always \(F_\sigma\), closed, positive oscillation.
-- \(f_n\to f\) with \(f_n\) continuous \(\implies D_f\) is meager.
-- (Lebesgue criterion) \(f \in \mathcal{R}(a, b)\) and bounded \(\implies D_f\) is null.
-- $f$ monotone \(\implies D_f\) is countable, and additionally $f$ differentiable on \((a, b) \implies D_f\) is null.
-
-%
-fact
----
 
 Showing uniform convergence of a *sequence* of functions
 %
@@ -231,7 +218,8 @@ technique
 ---
 
 
-Uniform Convergence of a sequence of functions
+Definition:
+Uniform convergence of a sequence of functions
 %
 \(\theset{f_n} \converges{u}\to f\) on $E$ iff for every $\varepsilon>0$ that exists an $N(\varepsilon)$ such that for all $n\geq N$ and for all $x\in E$, \(\abs{f_n(x) - f(x)} < \varepsilon.\)
 
@@ -257,15 +245,6 @@ Example: ${1 \over 1 + nx}$, take \(x={1\over n}\).
 technique
 ---
 
-Baire Category Theorem
-%
-If $X$ is a complete metric space or a locally compact Hausdorff space, then $X$ is a Baire space.
-A (non-empty) complete metric space is *not* the countable union of nowhere dense sets.
-%
-theorem
----
-
-
 Relationship between continuity and differentiability
 %
 Differentiability $\implies$ continuity: 
@@ -287,15 +266,6 @@ theorem
 ---
 
 
-Caratheodory Characterization
-%
-$E\subseteq \RR^n$ is measurable $\iff$ for all $A\subset \RR^n$, 
-\( 
-m_*(A) = m_*(E\intersect A) + m_*(E\intersect A^c)
-\) 
-%
-theorem
----
 
 Equivalent characterizations of measurability of a set
 %
@@ -318,17 +288,6 @@ definition
 ---
 
 
-Sets known to be measurable
-%
-
-- Open
-- Closed
-- Outer measure zero
-- $M\cross \RR$ for $M$ measurable (a cylinder)
-%
-
----
-
 Example of a function that is Lebesgue integrable but not Riemann integrable
 
 %
@@ -346,12 +305,6 @@ m_*(E) = \inf \theset{ \sum \abs{Q_i} \suchthat \theset{Q_i}\covers E \text { cl
 definition
 ---
 
-Definition: Almost Disjoint
-%
-$A^\circ \intersect B^\circ = \emptyset$
-%
-definition
----
 
 Definition: Measurable Function
 %
@@ -372,22 +325,6 @@ Lusin's Theorem
 If $f$ is measurable and finite-valued on a measurable $E$ with $m(E) < \infty$ then there exist closed sets $F\subset E$ such that $m(E\setminus F) < \varepsilon \to 0$ such that $f\mid_F$ is continuous.
 %
 theorem
----
-
-Convergence in Measure
-%
-\[
-\lim _{k \rightarrow \infty} m\left(\left\{x \in E|| f_{k}(x)-f(x) |>\alpha\right\}\right)=0
-.\]
-%
-definition
----
-
-Proposition: Convergence in measure is equivalent to a.e. convergence
-%
-Proof: ? Use Egorov's Theorem
-%
-proof
 ---
 
 Definition: The Lebesgue Integral
