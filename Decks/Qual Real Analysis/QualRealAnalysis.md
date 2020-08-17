@@ -497,7 +497,7 @@ Proposition: $\int f = 0 \implies f = 0$ a.e.
 %
 
 - Show for simple functions
-- 
+- One direction hard: take sets \( \theset{f(x) \geq {1 \over n}} \) and derive contrapositive
 %
 proof
 ---
