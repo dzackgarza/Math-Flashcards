@@ -493,9 +493,11 @@ Take $p=1$ to obtain
 definition
 ---
 
-Proposition: $\int f = 0 \implies \int f = 0$ a.e.
+Proposition: $\int f = 0 \implies f = 0$ a.e.
 %
-Proof: ?
+
+- Show for simple functions
+- 
 %
 proof
 ---
