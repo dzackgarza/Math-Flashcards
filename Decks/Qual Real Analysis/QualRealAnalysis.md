@@ -709,7 +709,7 @@ example
 Where is ${1\over x^p$ integrable in $\RR$? (Depending on $p$)
 %
 
-- $p < 1 \iff {1\over x^p} \in L^1((0, 1))$
+- $p < 1 \iff {1\over x^p \in L^1((0, 1))$
 - $p > 1 \iff {1\over x^p} \in L^1((1, \infty))$
 %
 facts
@@ -842,11 +842,11 @@ fact
 
 Uniform Boundedness Principle
 %
-If $\mathcal{F}$ is a family of bounded operators $T_n:X\to Y$ between Banach spaces with 
+If $\mathcal{F}$ is a family of bounded operators \(T_n:X\to Y\) between Banach spaces with 
 \[  
 \forall x\in X, \qquad \sup_{T_n \in \mathcal{F}} \norm{T_n(x)}_Y < \infty
 ,\]
-then $\sup_{T_n\in \mathcal{F}} \norm{T_n}_X < \infty$.
+then \(\sup_{T_n\in \mathcal{F}} \norm{T_n}_X < \infty\).
 
 > Slogan: pointwise bounded sequences of operators are uniformly bounded.
 %
