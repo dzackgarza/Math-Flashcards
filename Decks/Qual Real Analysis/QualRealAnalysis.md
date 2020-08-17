@@ -546,7 +546,7 @@ f_n \definedas \chi_{(n, n+1)}
 counterexamples
 ---
 
-A sequence of functions that a.e. but not in $L^1$, uniformly, or pointwise 
+A sequence of functions that converges a.e. but not in $L^1$, uniformly, or pointwise 
 %
 \[
 f_n \definedas n \chi_{(0, {1\over n} )}
