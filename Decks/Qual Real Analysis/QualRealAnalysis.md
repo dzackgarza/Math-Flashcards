@@ -339,11 +339,11 @@ definition
 Chebyshev's Inequality
 %
 \[
-\mu\qty{\{x | \abs{f(x)} \geq \alpha\}} \leq \qty{\norm{f}_p \over \alpha }^p \quad \forall \alpha, p
+\mu\qty{\{x \in\RR^n \suchthat  \abs{f(x)} \geq \alpha\}} \leq \qty{\norm{f}_p \over \alpha }^p \quad \forall \alpha, p
 .\]
 Take $p=1$ to obtain
 \[
-\mu\qty{\{x | \abs{f(x)} \geq \alpha\}} \leq {1\over \alpha } \int \abs{f(x)} \, dx \quad \forall \alpha
+\mu\qty{\{x \in \RR^n\suchthat  \abs{f(x)} \geq \alpha\}} \leq {1\over \alpha } \int \abs{f(x)} \, dx \quad \forall \alpha
 .\]
 %
 definition
