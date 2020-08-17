@@ -130,7 +130,7 @@ theorem
 Cauchy-Schwarz Inequality
 %
 \[
-\norm{fg}_1 \leq \norm{f}_2^ \norm{g}_2 \\
+\norm{fg}_1 \leq \norm{f}_2 \norm{g}_2 \\
 \int\abs{fg} \leq \sqrt{\int \abs{f}^2} \sqrt{\int \abs{g}^2}
 \] 
 with equality iff $f \in \spanof_\CC(g)$.
