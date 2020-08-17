@@ -413,7 +413,7 @@ Sets known to be measurable
 Example of a function that is Lebesgue integrable but not Riemann integrable
 
 %
-The Dirichlet function $f(x) = \chi_\QQ$, since $D_f = \RR$ is not null.
+The Dirichlet function \(f(x) = \chi_\QQ\), since \(D_f = \RR\) is not null.
 %
 counterexample
 ---
@@ -595,7 +595,9 @@ proof
 
 Proposition: Translation/Dilation Invariance of the Lebesgue Integral
 %
-Proof: ?
+- Show for characteristic functions, use translation invariance of measure
+- Extend to simple functions
+- Suprema are equal by uniqueness of limits.
 %
 proof
 ---
