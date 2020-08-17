@@ -232,7 +232,7 @@ For $x\in H$ a Hilbert spaces and \(\theset{e_k}\) an orthonormal sequence,
 
 Proof idea:
 \[  
-
+\left\|x-\sum_{n=1}^{N}\left\langle x, u_{n}\right\rangle u_{n}\right\|^{2}=\cdots
 .\]
 %
 formula
