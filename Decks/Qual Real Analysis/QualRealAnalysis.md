@@ -75,7 +75,7 @@ definition
 Bernoulli's Inequality
 %
 \[
-](1+x)^n \geq 1 + nx
+(1+x)^n \geq 1 + nx
 \] 
 for all $n\in \RR$ and $x\geq -1$. If $n\in 2\ZZ$, then this is valid for all $x\in \RR$. 
 Prove by induction.
