@@ -158,7 +158,7 @@ Rouché's Theorem
 %
 If $f, g$ are holomorphic on $\bar{D}(z_0)$ and 
 \[
-\abs{f - g} < \abs{f} + \abs{g} \qtext{on} \bd D
+\abs{f - g} < \abs{f} + \abs{g} \quad\text{on}\quad \bd D
 ,\] 
 then $f,g\neq 0$ on $\bd D$ and have the same number of zeros.
 %
