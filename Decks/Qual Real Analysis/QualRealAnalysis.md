@@ -4,6 +4,8 @@ If \(\theset{f_n} \subset L^+\), then
 \[
 \int \liminf f_n \leq \liminf \int f_n
 \]
+- Pulling the limit out makes it bigger
+- Pushing the limit in means integrating a smaller function, making the whole thing smaller.
 %
 theorem
 ---
