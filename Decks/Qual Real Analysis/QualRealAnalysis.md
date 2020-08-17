@@ -114,7 +114,7 @@ Limsup/Liminf of Sets
 \liminf_n A_n \definedas \union_n \intersect_{j\geq n} A_j &= \theset{x \suchthat x\in A_n \text{ for all except fin. many $n$}}  \\
 \end{align*}\]
 %
-definition
+definition, important
 ---
 
 Arzela-Ascoli Theorem
@@ -562,7 +562,7 @@ Let $f\in L^1$ and $\varepsilon> 0$.
 1. Small Tails: there exists an $N$ such that \(\int_{B_N^c} f < \varepsilon\).
 2. Absolute Continuity: there exists a $\delta$ such that $m(E) < \delta \implies \int_E \abs{f} < \varepsilon$.
 %
-theorem
+theorem, important
 ---
 
 
@@ -821,14 +821,21 @@ theorem
 Definition: Infinity Norm
 %
 The least upper bound that holds almost everywhere:
-
-Definition (The Infinity Norm)
-:   \hfill
-    \[
-    \norm{f}_\infty &\definedas \inf_{\alpha \geq 0} \theset{\alpha \suchthat m\theset{\abs{f} \geq \alpha} = 0}
-    .\]
+\[
+\norm{f}_\infty &\definedas \inf_{\alpha \geq 0} \theset{\alpha \suchthat m\theset{\abs{f} \geq \alpha} = 0}
+.\]
 
 %
+definition
+---
 
+$p\dash$test for integrals.
+%
+\[
+\int_0^1 {1\over x^p} < \infty \iff  p < 1 \\
+\int_1^\infty {1\over x^p} < \infty \iff  p > 1 
+.\]
+%
+theorem
 ---
 
