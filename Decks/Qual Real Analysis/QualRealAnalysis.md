@@ -853,3 +853,12 @@ then $\sup_{T_n\in \mathcal{F}} \norm{T_n}_X < \infty$.
 
 ---
 
+Weierstrass Approximation Theorem
+%
+If $f: I\to \RR$ is continuous, then for every $\eps$ there exists a polynomial $p_\eps(x)$ such that $\norm{f - p_\eps}_\infty < \eps$.
+
+> Slogan: polynomials are dense in $C([0, 1], \norm{\wait}_\infty)$.
+%
+theorem
+---
+
