@@ -446,7 +446,7 @@ theorem
 
 Proposition: Continuity in $L^1$
 %
-Proof: approximate with compactly supported functions, use uniform continuity
+Proof: approximate with compactly supported functions, use uniform continuity to bound integrand.
 %
 proof
 ---
@@ -504,13 +504,6 @@ theorem
 ---
 
 
-Definition: separable
-%
-Has a countable dense subset
-%
-definition
----
-
 Give an example of a sequence of functions that converge uniformly but not in $L^1$.
 %
 The box of height $1\over n$ and width $n$ uniformly converges to zero but integrates to 1.
@@ -553,30 +546,6 @@ Four Properties of Outer Measure
 definition, theorem
 ---
 
-Limit definition of exponential function
-%
-$e^x = \lim_{n \to \infty} \qty{1 + {x\over n}}^n$
-%
-definition, formula
----
-
-Is a composition of Lebesgue measurable functions measurable?
-%
-No:
-
-- Take $f: [0, 1]\to [0, 1]$ the Cantor-Lebesgue function (monotonic and cts) and $C$ the Cantor set
-- $f(C) = [0, 1]$, so define $g(x) = f(x) +x$ so $g:[0, 1] \to [0, 2]$ (strictly monotonic and cts, so a homeomorphism), so $g\inv$ is cts and thus measurable.
-- $\mu(g(C)) = 1>0$ (because $f$ is constant on every interval in $C^c$) so $g(C) \supseteq A$ a non-measurable subset
-- $g\inv(A) \subset C$ with $\mu(C) = 0$ implies $g\inv(A)$ is a measurable set, so $\chi_{g\inv(A)}$ is a measurable function
-- Then \(k\definedas \chi_{g\inv(A)} \circ g\inv\) isn't measurable since 
-  \[ 
-  k\inv(1) = \qty{ (g\inv)\inv \circ \chi_{g\inv(A)} }(1) = g(g\inv(A)) = A
-  \]
-  is not a measurable set.
-%
-example
----
-
 Where is ${1\over x^p$ integrable in $\RR$? (Depending on $p$)
 %
 
@@ -598,30 +567,6 @@ n! > c^n > n^{c} > n\log(n) >  n > \log(n) > \log(\log(n)) > \cdots > 1
 facts
 ---
 
-
-Dense
-%
-A subset $A\subseteq X$ is *dense* in $X$ iff $\mathrm{cl}_X(A) = X$.
-%
-definitions
----
-
-Diameter
-%
-\[
-\mathrm{diam}(A) = \sup_{x, y\in  A} \abs d(x, y)
-.\]
-%
-definition
----
-
-
-Bolzano Weierstrass Property
-%
-Every sequence has a convergent subsequence
-%
-definition
----
 
 Replacing a sequence of sets by a sequence of disjoint sets
 %
@@ -660,13 +605,6 @@ Example of a sequence of differentiable functions \(f_n \to f\) uniformly with \
 example
 ---
 
-Complete Measure
-%
-A measure whose domain includes all subsets of null sets.
-%
-definition
----
-
 Conditions for Tonelli vs Fubini
 %
 
@@ -675,8 +613,6 @@ Conditions for Tonelli vs Fubini
 %
 theorem
 ---
-
-
 
 Inclusions among $L^p$ spaces.
 %
@@ -712,23 +648,9 @@ $p\dash$test for integrals.
 fact
 ---
 
-
-Uniform Boundedness Principle
-%
-If $\mathcal{F}$ is a family of bounded operators \(T_n:X\to Y\) between Banach spaces with 
-\[  
-\forall x\in X, \qquad \sup_{T_n \in \mathcal{F}} \norm{T_n(x)}_Y < \infty
-,\]
-then \(\sup_{T_n\in \mathcal{F}} \norm{T_n}_X < \infty\).
-
-> Slogan: pointwise bounded sequences of operators are uniformly bounded.
-%
-
----
-
 Weierstrass Approximation Theorem
 %
-If $f: I\to \RR$ is continuous, then for every $\varepsilon$ there exists a polynomial \(p_\varepsilon(x)\) such that \()\norm{f - p_\eps}_\infty < \varepsilon\).
+If $f: I\to \RR$ is continuous, then for every $\varepsilon$ there exists a polynomial \(p_\varepsilon(x)\) such that \(\norm{f - p_\eps}_\infty < \varepsilon\).
 
 > Slogan: polynomials are dense in $C([0, 1], \norm{\wait}_\infty)$.
 %
