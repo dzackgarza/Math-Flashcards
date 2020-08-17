@@ -27,8 +27,7 @@ Dirichlet's Test
 %
 If \(\theset{a_n}, \theset{b_n}\) satisfy
 
-- \(  a_{n+1} \leq a_n\) 
-- \(  a_n \to 0\) 
+- \(  a_n \searrow 0\) 
 - For every $N$, there exists an \(M_N\) such that \(  \abs{\sum_{n=1}^N b_n} \leq M_N\)
 
 Then \[ \sum_{n=1}^\infty a_n b_n < \infty .\]
@@ -167,7 +166,7 @@ complex, theorem
 
 Cauchy-Goursat Theorem
 %
-If $f$ is analytic on a simply connected region $\Omega$ containing a contour $\gamma$, then \[\int_\gamma f = 0.\]
+If $f$ is holomorphic on a simply connected region $\Omega$ containing a contour $\gamma$, then \[\int_\gamma f = 0.\]
 Moreover, this holds for any contour $\gamma \subset \Omega$.
 %
 complex, theorem
