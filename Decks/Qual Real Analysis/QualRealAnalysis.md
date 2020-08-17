@@ -784,9 +784,9 @@ $f_n(x) = {x^2 \over \sqrt{x^2 + {1\over n}}} \to \abs{x}$.
 example
 ---
 
-Example of a sequence of differentiable functions $f_n \to f$ uniformly with $f_n' \to g$ pointwise for some $g$, but $g' \neq \lim f_n'$.
+Example of a sequence of differentiable functions \(f_n \to f\) uniformly with \(f_n' \to g\) pointwise for some $g$, but \(g' \neq \lim f_n'\).
 %
-$f_n(x)= {x \over 1 + nx^2} \to 0 \to 0$ uniformly with $f_n'(x) = {1-nx^2 \over (1+xn^2)^2} \to \chi_{\theset{0}} \not\equiv 0$.
+\(f_n(x)= {x \over 1 + nx^2} \to 0\) uniformly with \[f_n'(x) = {1-nx^2 \over (1+xn^2)^2} \to \chi_{\theset{0}} \not\equiv 0\].
 %
 example
 ---
