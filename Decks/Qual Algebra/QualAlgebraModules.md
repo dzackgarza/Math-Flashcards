@@ -105,7 +105,7 @@ definition
 
 Indecomposable Module
 %
-?
+Can not be written as a direct sum of two nonzero submodules.
 %
 definition
 ---
