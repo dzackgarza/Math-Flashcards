@@ -322,7 +322,7 @@ fact
 
 Elementary Divisors
 %
-$G \cong \bigoplus 
+\(G \cong \bigoplus \ZZ/p_i^{\alpha_i} \ZZ\) with the $p_i$ not necessarily distinct.
 %
 definition
 ---
