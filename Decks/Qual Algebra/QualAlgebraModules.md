@@ -118,6 +118,7 @@ V \cong \bigoplus k[x]/ (r_i) \qquad r_1 \divides r_2 \divides \cdots
 .\]
 
 The $r_i$ are the minimal polynomials of $\phi$ restricted to $V_i$.
+The matrix of $\phi$ consists of blocks of companion matrices for the $\phi_i$.
 %
 definition
 ---
