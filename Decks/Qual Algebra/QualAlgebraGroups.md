@@ -315,14 +315,14 @@ fact
 
 One step subgroup test
 %
-?
+\( a, b\in H \implies ab^{-1} \in H  \) implies that $H$ is a subgroup.
 %
 fact
 ---
 
 Elementary Divisors
 %
-?
+$G \cong \bigoplus 
 %
 definition
 ---
