@@ -41,7 +41,7 @@ definition
 
 Submodule test
 %
-If \( rm + n \in H \)
+If \( r\in R,\, m,n \in M \implies rm + n \in M  \) then $M$ is a submodule.
 %
 fact
 ---
