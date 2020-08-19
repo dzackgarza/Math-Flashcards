@@ -160,10 +160,21 @@ For $M$ an $R\dash$module, $M$ is cyclic iff $M = \gens{m}$ iff $M \cong R/I$ fo
 definition
 ---
 
-Classification of 
+Classification of Finitely Generated Modules over a PID
 %
 
+![](https://i.imgur.com/z4sW2hh.png)
+
+%
+theorem
+---
+
+Proposition: Every free module is projective.
 %
 
+![](https://i.imgur.com/qZiRxvR.png)
+
+%
+proposition
 ---
 
