@@ -155,14 +155,14 @@ definition
 
 Definition: irreducible polynomial
 %
-?
+Nonconstant and can not be factored into two polynomials of smaller degrees.
 %
 definition
 ---
 
-Definition: splitting field
+Definition: splitting field of a polynomial $f\in k[x]$
 %
-?
+The smallest extension $F/k$ such that $f$ splits into linear factors in $F[x]$.
 %
 definition
 ---
@@ -179,6 +179,9 @@ Definition: perfect field.
 Every irreducible polynomial is separable.
 
 Equivalently, the characteristic is zero, or is $p$ where Frobenius is an automorphism.
+
+> All characteristic zero or finite fields are perfect.
+
 %
 definition
 ---
