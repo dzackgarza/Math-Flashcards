@@ -56,14 +56,14 @@ definition
 
 Gauss' Lemma
 %
-?
+Implies that $R$ a UFD implies $R[\theset{x_i}]$ 
 %
 theorem
 ---
 
 Definition: prime ideal.
 %
-?
+An ideal $\mathfrak{p}\normal R$ is prime iff it is proper and $ab\in \mathfrak{p} \implies a\in \mathfrak{p}$ or $b\in \mathfrak{p}$.
 %
 definition
 ---
@@ -77,7 +77,7 @@ definition
 
 Definition: Euclidean domain.
 %
-Admits a "remainder measuring" function $f: R\setminus\theset{0} \to \NN$
+Admits a "remainder measuring" function $f: R\setminus\theset{0} \to \NN$ such that $a\in R, b\in R^\bullet$ implies there exist $q, r\in R$ such that $a = bq + r$ with either $r=0$ or $f(r) < f(b)$.
 %
 definition
 ---
