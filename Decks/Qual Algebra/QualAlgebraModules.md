@@ -34,7 +34,11 @@ definition
 
 Definition: Projective module
 %
-?
+
+![](https://i.imgur.com/z4sW2hh.png)
+
+
+
 %
 definition
 ---
@@ -154,5 +158,12 @@ Cyclic Module
 For $M$ an $R\dash$module, $M$ is cyclic iff $M = \gens{m}$ iff $M \cong R/I$ for some ideal $I\normal R$.
 %
 definition
+---
+
+Classification of 
+%
+
+%
+
 ---
 
