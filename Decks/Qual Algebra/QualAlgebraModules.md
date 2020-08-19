@@ -112,7 +112,11 @@ definition
 
 Definition: Rational Canonical Form
 %
-D
+Corresponds to invariant factor decomposition of $V$ as a $k[x]\dash$module, 
+\[  
+V \cong \bigoplus k[x]/ (r_i) \qquad r_1 \divides r_2 \divides \cdots
+.\]
+
 %
 definition
 ---
