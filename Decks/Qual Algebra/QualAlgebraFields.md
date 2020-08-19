@@ -124,9 +124,9 @@ Definition: Primitive Root of Unity.
 definition
 ---
 
-Galois Correspondence
+Fundamental Theorem of Galois Theory
 %
-?
+Let $K/F$ and 
 %
 theorem
 ---
