@@ -56,7 +56,8 @@ definition
 
 Gauss' Lemma
 %
-Implies that $R$ a UFD implies $R[\theset{x_i}]$ 
+
+Implies that $R$ a UFD implies $R[\theset{x_i}]$ is again a UFD.
 %
 theorem
 ---
