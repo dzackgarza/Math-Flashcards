@@ -27,7 +27,9 @@ theorem
 
 Definition: Free module
 %
-?
+
+![](https://i.imgur.com/h5r2lty.png)
+
 %
 definition
 ---
@@ -37,7 +39,7 @@ Definition: Projective module
 
 ![](https://i.imgur.com/z4sW2hh.png)
 
-
+Equivalently, for $R\dash$modules, $M$ is projective $\iff$ $M$ is a direct summand of a free module.
 
 %
 definition
