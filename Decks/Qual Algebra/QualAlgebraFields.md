@@ -136,7 +136,7 @@ such that
 
 1. Inclusion reversing: \( E_1 \subseteq E_2  \iff  H_2 \leq H_ 1 \).
 2. \( \abs{H} = [K: E] \) and \( [E:F] = [G: H] \)
-3. 
+3. \( K/E \) is always Galois 
 %
 theorem
 ---
