@@ -126,7 +126,7 @@ definition
 
 Fundamental Theorem of Galois Theory
 %
-Let $K/F$ and $G = \mathrm{Gal}()
+Let $K/F$ and $G = \mathrm{Gal}(K/F)$, then 
 %
 theorem
 ---
