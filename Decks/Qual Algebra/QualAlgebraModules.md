@@ -117,19 +117,6 @@ Definition: Rational Canonical Form
 definition
 ---
 
-Definition: Minimal Polynomial
-%
-? 
-%
-definition
----
-
-Definition: Matrix similarity
-%
-?
-%
-definition
----
 
 Definition: Characteristic polynomial
 %
