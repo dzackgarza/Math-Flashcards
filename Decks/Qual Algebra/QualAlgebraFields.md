@@ -134,7 +134,7 @@ theorem
 
 Definition: Algebraic Element
 %
-?
+If $L/K$ is a field extension then  \(\)
 %
 definition
 ---
