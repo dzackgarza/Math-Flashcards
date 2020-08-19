@@ -112,11 +112,12 @@ definition
 
 Definition: Rational Canonical Form
 %
-Corresponds to invariant factor decomposition of $V$ as a $k[x]\dash$module, 
+For $\phi:V\to V$, corresponds to invariant factor decomposition of $V$ as a $k[x]\dash$module, 
 \[  
 V \cong \bigoplus k[x]/ (r_i) \qquad r_1 \divides r_2 \divides \cdots
 .\]
 
+The $r_i$ are the minimal polynomials of $\phi$ restricted to $V_i$.
 %
 definition
 ---
