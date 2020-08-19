@@ -98,7 +98,7 @@ definition
 
 Irreducible Module
 %
-?
+Simple module, i.e. no nontrivial proper submodules.
 %
 definition
 ---
@@ -133,14 +133,18 @@ definition
 
 Definition: Characteristic polynomial
 %
-?
+\[  
+p_A(x) = \mathrm{det}(xI - A)
+.\]
+
 %
 definition
 ---
 
 Definition: Diagonalizable.
 %
-?
+For a matrix $A$, similar to a diagonal matrix.
+I.e. there exists a diagonal $D$ and some $P\in \mathrm{GL}(n, R)$ such that $A = PDP^{-1}$
 %
 definition
 ---
