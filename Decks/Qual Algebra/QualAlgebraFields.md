@@ -140,7 +140,7 @@ such that
 4. \( E/F \) is Galois $\iff$ \( H\normal G \), in which case \( G(E/F) \cong G/H \).
 5. Compositum correspondences:
   - \( E_1\intersect E_2 \) corresponds to \( \gens{H_1, H_2} \)
-  -  \(E_1 E_2  \) corresponds to mm 
+  -  \(E_1 E_2  \) corresponds to \( H_1\intersect H_2 \).
 %
 theorem
 ---
