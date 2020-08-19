@@ -60,6 +60,12 @@ Any strictly increasing chain of submodules \(M_1 \subsetneq M_2 \cdots \) is fi
 definition
 ---
 
+Definition: Torsion element
+%
+$m\in M$ is torsion iff \( \tor(m)\neq 0 \).
+%
+---
+
 
 Definition: Torsion submodule.
 %
@@ -142,4 +148,11 @@ I.e. there exists a diagonal $D$ and some $P\in \mathrm{GL}(n, R)$ such that $A 
 definition
 ---
 
+
+Cyclic Module
+%
+For $M$ an $R\dash$module, $M$ is cyclic iff $M = \gens{m}$ iff $M \cong R/I$ for some ideal $I\normal R$.
+%
+definition
+---
 
