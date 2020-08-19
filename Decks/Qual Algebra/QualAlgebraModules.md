@@ -41,7 +41,7 @@ definition
 
 Submodule test
 %
-?
+If \( rm + n \in H \)
 %
 fact
 ---
