@@ -169,14 +169,16 @@ definition
 
 Definition: algebraically closed.
 %
-?
+Every polynomial has a root.
 %
 definition
 ---
 
 Definition: perfect field.
 %
-?
+Every irreducible polynomial is separable.
+
+Equivalently, the characteristic is zero, or is $p$ where Frobenius is an automorphism.
 %
 definition
 ---
