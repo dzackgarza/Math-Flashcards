@@ -134,7 +134,7 @@ theorem
 
 Definition: Algebraic Element
 %
-If $L/K$ is a field extension then  \(\)
+If $L/K$ is a field extension then \( \alpha \in L \) is *algebraic* iff there exists a $g\in K[x]$ such that $g(\alpha) = 0$.
 %
 definition
 ---
