@@ -329,7 +329,7 @@ definition
 
 Invariant Factors
 %
-?
+\( r_1 \divides r_2 \divides \cdots \)
 %
 definition
 ---
