@@ -119,7 +119,7 @@ example
 
 Definition: Primitive Root of Unity.
 %
-?
+$\zeta$ is a *primitive $n$th root of unity* iff $\zeta^n = 1$ and $n$ is the smallest such integer for which this holds.
 %
 definition
 ---
