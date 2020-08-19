@@ -112,7 +112,7 @@ definition
 
 Definition: Rational Canonical Form
 %
-?
+D
 %
 definition
 ---
