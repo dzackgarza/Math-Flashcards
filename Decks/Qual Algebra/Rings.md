@@ -77,7 +77,7 @@ definition
 
 Definition: Euclidean domain.
 %
-?
+Admits a "remainder measuring" function $f: R\setminus\theset{0} \to \NN$
 %
 definition
 ---
