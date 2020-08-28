@@ -24,3 +24,17 @@ definition
 ---
 
 
+Noether Normalization
+%
+?
+%
+theorem
+---
+
+Zariski's Lemma
+%
+If a field extension is finitely generated as a $k\dash$algebra then it is finite degree.
+%
+theorem
+---
+
