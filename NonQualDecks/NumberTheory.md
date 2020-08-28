@@ -35,3 +35,11 @@ Definition: Specializations
 %
 definition
 ---
+
+
+Definition: Height of an Ideal
+%
+?
+%
+definition
+---
