@@ -13,3 +13,25 @@ Trivial iff all ideals are principal.
 definition
 ---
 
+Definition: Global Field
+%
+?
+%
+definition
+---
+
+
+Definition: Specializations
+%
+?
+%
+definition
+---
+
+
+Definition: Specializations
+%
+?
+%
+definition
+---
