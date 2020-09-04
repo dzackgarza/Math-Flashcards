@@ -59,4 +59,10 @@ An element $x$ in a set with a closed binary operation $\cdot$ is *idempotent* i
 algebra
 ---
 
+Definition: Primary Decomposition
+%
+?
+%
+definition
+---
 
