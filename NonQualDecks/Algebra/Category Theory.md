@@ -14,6 +14,14 @@ to
 - Colimit $\iff$ Direct Limit
 
 %
-terms
+definition
 ---
+
+Which adjoints preserve which limits?
+%
+Left adjoints preserve colimits.
+%
+fact
+---
+
 
