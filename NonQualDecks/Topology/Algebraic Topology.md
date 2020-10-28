@@ -103,3 +103,33 @@ math
 
 ---
 
+
+\[ H_* \mathbb{RP}^2 \]
+%
+\[  
+\RP^2 = [\mathbb{Z}, \mathbb{Z}_2, 0, 0, 0, 0\rightarrow ]
+.\]
+%
+definition
+---
+
+
+Cohomology in terms of homology (nice case)
+%
+\[  
+H^i(X; \mathbb{Z}) = F(H_i(X; \mathbb{Z})) \times T(H_{i-1}(X; \mathbb{Z}))
+.\]
+%
+definition
+---
+
+Kunneth (nice case)
+%
+\[  
+H_{k}(X\times Y;F) \cong \bigoplus _{{i+j=k}}H_{i}(X;F)\otimes H_{j}(Y;F)
+.\]
+%
+definition
+---
+
+
