@@ -221,3 +221,12 @@ then \(\sup_{T_n\in \mathcal{F}} \norm{T_n}_X < \infty\).
 theorem
 ---
 
+Interpretation of $\sup, \inf$ and $\limsup, \liminf$ as set operations
+%
+
+- Supremum: Union, $\limsup = \inf\sup$, in infinitely many
+- Infimum: Intersection, $\limfin = \sup\inf$, eventually in
+
+%
+analysis
+---

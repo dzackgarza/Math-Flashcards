@@ -5,7 +5,6 @@ Mayer Vietoris LES for $X = A \cup B$
 $$\ldots  H_n(A \cap B) \xrightarrow{(i^*,~ j^*)} H_n(A) \oplus H_n(B) \xrightarrow{l^* - r^*}  H_n(X) \xrightarrow{\delta} H_{n-1}(A\cap B)\ldots$$
 
 %
-
 math
 
 ---
@@ -36,7 +35,7 @@ math
 
 $H_* K$
 %
-$$[\mathbb{Z}, \mathbb{Z} \times \mathbb{Z}_2,             0,    0,      0,    0\rightarrow  ]$$
+$$[\mathbb{Z}, \mathbb{Z} \oplus \mathbb{Z}_2,             0,    0,      0,    0\rightarrow  ]$$
 %
 math
 

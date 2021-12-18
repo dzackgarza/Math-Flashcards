@@ -120,8 +120,9 @@ definition, notation
 Class Equation
 %
 \[
-\abs{G} = \abs{Z(G)} + \sum_{i} [G: C_G(x_i)]
+\#{G} = \#{Z(G)} + \sum_{i} [G: Z(x)]
 \]
+where \( Z(x) \da \ts{ g\in G \st [gx] = e } \) is the centralizer of $x$, sometimes denoted $C_G(x)$.
 %
 definition, notation
 ---
