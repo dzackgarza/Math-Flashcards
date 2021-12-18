@@ -2,7 +2,7 @@ Definition: A pole $a$ of order $m$
 %
 The smallest $m$ such that 
 \[
-\lim_{x\to a}(x-a)^{m+1}f(z) = 0
+\lim_{z\to a}(z-a)^{m+1}f(z) = 0
 .\]
 %
 definition
