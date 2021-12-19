@@ -80,7 +80,6 @@ F(t) = {1-x^2\over 1+x^2} + i{2x\over 1+x^2} \quad x = \tan(t), t\in (-\pi/2, \p
 formula
 ---
 
-
 Cross-ratio map
 %
 
