@@ -57,3 +57,25 @@ Maximum Length Lemma
 
 ---
 
+
+Double angle formulas
+%
+The double angle formulas:
+\[
+\sin(2t) = {2\tan(t) \over 1+\tan^2(t)} && \cos(2t) = {1-\tan^2(2t) \over 1+\tan^2(t)}
+.\]
+
+%
+formula
+---
+
+
+Standard parameterization of a circle in $\CC$
+%
+\[
+F(t) = {1-x^2\over 1+x^2} + i{2x\over 1+x^2} \quad x = \tan(t), t\in (-\pi/2, \pi/2)
+.\]
+
+%
+formula
+---
