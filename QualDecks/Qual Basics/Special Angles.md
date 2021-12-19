@@ -85,3 +85,21 @@ $\tan(\pi/3) = \cdots$
 formula
 ---
 
+
+$e^{2\pi i \over 3} = \cdots$ in rectangular coordinates
+%
+\[
+e^{2\pi i \over 3} = {1\over 2}\qty{-1 + i\sqrt 3}
+.\]
+%
+formula
+---
+
+$e^{2\pi i \over 6} = \cdots$ in rectangular coordinates
+%
+\[
+e^{2\pi i \over 6} = {1\over 2}\qty{1 + i\sqrt 3}
+.\]
+%
+formula
+---
