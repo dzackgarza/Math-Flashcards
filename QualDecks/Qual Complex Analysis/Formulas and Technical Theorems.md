@@ -79,3 +79,21 @@ F(t) = {1-x^2\over 1+x^2} + i{2x\over 1+x^2} \quad x = \tan(t), t\in (-\pi/2, \p
 %
 formula
 ---
+
+
+Cross-ratio map
+%
+
+\[
+R(z) \da (z, z_2, z_3, z_4) &\da {z - z_3\over z-z_4}{z_2 - z_4 \over z_2 - z_3} \\
+.\]
+
+Sends 
+
+- $z_2 \to 1$
+- $z_3\to 0$
+- $z_4\to \infty$
+
+%
+formula
+---
