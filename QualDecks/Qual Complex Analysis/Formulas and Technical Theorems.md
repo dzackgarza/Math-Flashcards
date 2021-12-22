@@ -128,3 +128,25 @@ Series expansion for $\sinh(z)$
 %
 formula
 ---
+
+
+Series expansion for $\sech(z) = {1\over \cosh(z)}$
+%
+\[
+\operatorname{sech} x=1-\frac{x^{2}}{2}+\frac{5 x^{4}}{24}-\frac{61 x^{6}}{720}+\cdots
+.\]
+
+%
+formula
+---
+
+
+Series expansion for $\csch(z) = {1\over \sinh(z)}$
+%
+\[
+\operatorname{csch} x=x^{-1}-\frac{x}{6}+\frac{7 x^{3}}{360}-\frac{31 x^{5}}{15120}+\cdots
+.\]
+
+%
+formula
+---
