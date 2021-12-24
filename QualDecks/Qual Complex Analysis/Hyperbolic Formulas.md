@@ -1,3 +1,20 @@
+
+Relating hyperbolic functions to usual ones:
+\[
+\cos(z) &= \cosh(?)\\
+\sin(z) &= \sinh(?)
+.\]
+
+%
+
+\[
+\cos(z) &= \cosh(iz)\\
+\sin(z) &= \sinh(iz)
+.\]
+
+%
+definition
+---
 Series expansion for $\cosh(z)$
 %
 \[
