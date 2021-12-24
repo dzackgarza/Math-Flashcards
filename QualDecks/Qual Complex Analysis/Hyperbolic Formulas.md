@@ -1,4 +1,15 @@
 
+Exponential definitions of $\cosh$ and $\sinh$
+%
+\[
+\cosh(z) &= {e^{iz} + e^{-iz}\over 2} \\
+\sinh(z) &= {e^{iz} - e^{-iz}\over 2} \\
+.\]
+
+%
+definition
+---
+
 Relating hyperbolic functions to usual ones:
 \[
 \cos(z) &= \cosh(?)\\
@@ -9,11 +20,12 @@ Relating hyperbolic functions to usual ones:
 
 \[
 \cos(z) &= \cosh(iz)\\
-\sin(z) &= \sinh(iz)
+\sin(z) &= {1\over i} \sinh(iz)
 .\]
 
 %
 definition
+
 ---
 Series expansion for $\cosh(z)$
 %
