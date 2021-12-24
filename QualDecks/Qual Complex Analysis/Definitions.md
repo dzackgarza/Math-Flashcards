@@ -4,8 +4,6 @@ The smallest $m$ such that
 \[
 \lim_{z\to a}(z-a)^{m+1}f(z) < \infty \text{ but } \lim_{z\to a}(z-a)^{k\leq m} f(z) = \infty
 .\]
-
-How to check $\lim()
 %
 definition
 ---
