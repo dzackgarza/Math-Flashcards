@@ -27,7 +27,7 @@ definition
 
 Definition: simple ring.
 %
-A ring \( R\) is *simple* iff its only two-sided ideals are $(0)$ and $R$.
+A ring \( R\) is **simple** iff its only two-sided ideals are $(0)$ and $R$.
 %
 definition
 ---
@@ -74,7 +74,7 @@ definition
 
 Definition: Maximal ideal.
 %
-An ideal $I\normal R$ is *maximal* iff $I\subseteq J \normal R$ implies $J=R$.
+An ideal $I\normal R$ is **maximal** iff $I\subseteq J \normal R$ implies $J=R$.
 %
 definition
 ---
