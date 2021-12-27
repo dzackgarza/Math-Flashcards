@@ -1,12 +1,13 @@
-Rouché's Theorem
+Rouche
 %
-If $f, g$ are holomorphic on $\bar{D}(z_0)$ and 
+If $f$ and $g$ are holomorphic on $\abs{z-z_0} \leq R$ with $f,g\neq 0$ on $\abs{z-z_0} = R$ and
 \[
-\abs{f - g} < \abs{f} + \abs{g} \quad\text{on}\quad \bd D
-,\] 
-then $f,g\neq 0$ on $\bd D$ and have the same number of zeros.
+\abs{f-g} < \abs{f} + \abs{g}
+,\]
+then $f$ and $g$ have the same number of zeros in this region.
+
 %
-complex, theorem
+theorem
 ---
 
 Cauchy Inequalities
