@@ -2,8 +2,8 @@
 Exponential definitions of $\cosh$ and $\sinh$
 %
 \[
-\cosh(z) &= {e^{iz} + e^{-iz}\over 2} \\
-\sinh(z) &= {e^{iz} - e^{-iz}\over 2} \\
+\cosh(z) = {e^{iz} + e^{-iz}\over 2} \\
+\sinh(z) = {e^{iz} - e^{-iz}\over 2} \\
 .\]
 
 %
@@ -12,15 +12,15 @@ definition
 
 Relating hyperbolic functions to usual ones:
 \[
-\cos(z) &= \cosh(?)\\
-\sin(z) &= \sinh(?)
+\cos(z) = \cosh(?)\\
+\sin(z) = \sinh(?)
 .\]
 
 %
 
 \[
-\cos(z) &= \cosh(iz)\\
-\sin(z) &= {1\over i} \sinh(iz)
+\cos(z) = \cosh(iz)\\
+\sin(z) = {1\over i} \sinh(iz)
 .\]
 
 %
