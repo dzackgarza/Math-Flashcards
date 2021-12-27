@@ -13,20 +13,33 @@ definition
 Relating hyperbolic functions to usual ones:
 \[
 \cos(z) = \cosh(?)\\
-\sin(z) = \sinh(?)
 .\]
 
 %
 
 \[
 \cos(z) = \cosh(iz)\\
+.\]
+
+%
+formula
+---
+
+Relating hyperbolic functions to usual ones:
+\[
+\sin(z) = \sinh(?)
+.\]
+
+%
+
+\[
 \sin(z) = {1\over i} \sinh(iz)
 .\]
 
 %
-definition
-
+formula
 ---
+
 Series expansion for $\cosh(z)$
 %
 \[
@@ -50,19 +63,32 @@ formula
 
 Angle addition formulas:
 \[
-\cosh(x+iy) = \cdot
+\cosh(x+iy) = \cdots
+.\]
+
+%
+\[
+\cosh (x+i y) =\cosh (x) \cos (y)+i \sinh (x) \sin (y) 
+.\]
+
+%
+formulas
+---
+
+Angle addition formulas:
+\[
 \sinh(x+iy) = \cdots
 .\]
 
 %
 \[
-\cosh (x+i y) =\cosh (x) \cos (y)+i \sinh (x) \sin (y) \\
 \sinh (x+i y) =\sinh (x) \cos (y)+i \cosh (x) \sin (y)
 .\]
 
 %
 formulas
 ---
+
 
 Series expansion for $\sech(z) = {1\over \cosh(z)}$
 %
