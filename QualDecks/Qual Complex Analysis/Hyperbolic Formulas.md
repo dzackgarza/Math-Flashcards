@@ -1,4 +1,3 @@
-
 Exponential definitions of $\cosh$ and $\sinh$
 %
 \[
