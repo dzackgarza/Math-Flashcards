@@ -1,4 +1,3 @@
-
 Rouché's Theorem
 %
 If $f, g$ are holomorphic on $\bar{D}(z_0)$ and 
