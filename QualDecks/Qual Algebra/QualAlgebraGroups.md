@@ -332,14 +332,20 @@ definition
 
 Centralizer
 %
-?
+\[
+Z_G(S) = \ts{g\in G \st gsg\inv = s\, \forall s\in S}
+.\]
+
 %
 definition
 ---
 
 Normalizer
 %
-?
+\[
+N_G(S) \da \ts{g\in G \st gSg\inv = S}
+.\]
+
 %
 definition
 ---
