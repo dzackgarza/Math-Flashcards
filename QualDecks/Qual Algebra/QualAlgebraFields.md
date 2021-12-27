@@ -126,9 +126,10 @@ definition
 
 Fundamental Theorem of Galois Theory
 %
-Let $K/F$ and $G = \mathrm{Gal}(K/F)$, then there is a bijection:
+Let $K/F$ and $G = \mathrm{Gal}(K/F)$, then there is a bijection between intermediate subfields $E$ with $K/E/F$ and subgroups $H$ with $1\leq H\leq G$.
 
-![](figures/2021-12-27_04-38-52.png)
+- $E \mapsto \ts{ \tau\in G\st  \tau\mid_E = \mathrm{id}_E}$
+- $H\leq G$ maps to its fixed field
 
 such that
 
