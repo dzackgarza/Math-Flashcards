@@ -127,12 +127,17 @@ definition
 Fundamental Theorem of Galois Theory
 %
 Let $K/F$ and $G = \mathrm{Gal}(K/F)$, then there is a bijection
-\[  
-\correspond{A}{B}
-\ts{ E \suchthat K/E/F} \qquad&\iff\qquad \ts{ H\suchthat 1\leq H \leq G} \\
-E &\mapsto \tau\in G,\, \tau\mid_E = \mathrm{id} \\
-\text{Fixed field of } H &\mapsto  H
-,\]
+\[
+\correspond{
+  \text{Intermediate fields } E, \, L/E/k
+}
+&\mapstofrom
+\correspond{
+  \text{Subgroups } H,\, 1\leq H \leq G
+} \\
+E &\mapsto \ts{ \tau\in G \st \tau\mid_E = \id_E } \\
+\text{Fixed field of } H &\mapsfrom  H
+\]
 such that
 
 1. Inclusion reversing: \( E_1 \subseteq E_2  \iff  H_2 \leq H_ 1 \).
