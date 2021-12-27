@@ -128,7 +128,8 @@ Fundamental Theorem of Galois Theory
 %
 Let $K/F$ and $G = \mathrm{Gal}(K/F)$, then there is a bijection
 \[  
-E \suchthat K/E/F \qquad&\iff\qquad H\suchthat 1\leq H \leq G \\
+\correspond{A}{B}
+\ts{ E \suchthat K/E/F} \qquad&\iff\qquad \ts{ H\suchthat 1\leq H \leq G} \\
 E &\mapsto \tau\in G,\, \tau\mid_E = \mathrm{id} \\
 \text{Fixed field of } H &\mapsto  H
 ,\]
