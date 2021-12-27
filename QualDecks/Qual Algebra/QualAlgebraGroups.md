@@ -162,13 +162,6 @@ $\phi(p^k) = p^{k-1}(p-1) = p^k \qty{1 - {1\over p}}$
 formula
 ---
 
-Definition: Transitive Group Action
-%
-A group action $G\actson X$ is *transitive* iff for every pair $x, y\in X$ there exists a $g\in G$ such that $g.x = y$.
-%
-definition
----
-
 Groups of Order 6
 %
 1 Abelian, 1 Nonabelian
