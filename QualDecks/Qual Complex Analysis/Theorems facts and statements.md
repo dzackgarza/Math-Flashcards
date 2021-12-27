@@ -29,7 +29,10 @@ Then TFAE
 - $f$ extends holomorphically to all of $U$
 - $f$ extends continuously to all of $U$
 - There exists a neighborhood of $a$ on which $f$ is bounded.
-- \[\lim_{z\to a} (z-a)f(z) = 0.\]
+- The limit characterization:
+\[
+\lim_{z\to a} (z-a)f(z) = 0
+.\]
 %
 theorem
 ---
