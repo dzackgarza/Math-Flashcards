@@ -126,18 +126,10 @@ definition
 
 Fundamental Theorem of Galois Theory
 %
-Let $K/F$ and $G = \mathrm{Gal}(K/F)$, then there is a bijection
-\[
-\correspond{
-  \text{Intermediate fields } E, \, L/E/k
-}
-&\mapstofrom
-\correspond{
-  \text{Subgroups } H,\, 1\leq H \leq G
-} \\
-E &\mapsto \ts{ \tau\in G \st \tau\mid_E = \id_E } \\
-\text{Fixed field of } H &\mapsfrom  H
-\]
+Let $K/F$ and $G = \mathrm{Gal}(K/F)$, then there is a bijection:
+
+![](figures/2021-12-27_04-38-52.png)
+
 such that
 
 1. Inclusion reversing: \( E_1 \subseteq E_2  \iff  H_2 \leq H_ 1 \).
