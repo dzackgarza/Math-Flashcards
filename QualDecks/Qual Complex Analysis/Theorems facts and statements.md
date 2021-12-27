@@ -88,11 +88,3 @@ Types of isolated singularities
 complex, fact
 ---
 
-
-General form of maps in $\aut(\DD)$.
-%
-$$f_\alpha(z) \definedas {\alpha - z \over 1 - \bar\alpha z}$$
-%
-fact
----
-

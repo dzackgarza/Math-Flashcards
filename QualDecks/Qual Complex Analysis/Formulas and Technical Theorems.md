@@ -22,7 +22,7 @@ complex, theorem
 Cauchy Inequalities
 %
 \[
-\left|f^{(n)}\left(z_{0}\right) \over n! \right| \leq \frac{ \sup_{z\in\gamma} \abs{f(z)} {R^{n}}
+\abs{f^{(n)} (z_0) \over n!} \leq R^{-n} \sup_{\abs{z}=R} \abs{f(z)}
 .\]
 %
 formula, theorem
