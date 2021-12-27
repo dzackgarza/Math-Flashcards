@@ -50,14 +50,14 @@ formula
 
 Angle addition formulas:
 \[
-\cosh(x+iy) &= \cdot
-\sinh(x+iy) &= \cdots
+\cosh(x+iy) = \cdot
+\sinh(x+iy) = \cdots
 .\]
 
 %
 \[
-\cosh (x+i y) &=\cosh (x) \cos (y)+i \sinh (x) \sin (y) \\
-\sinh (x+i y) &=\sinh (x) \cos (y)+i \cosh (x) \sin (y)
+\cosh (x+i y) =\cosh (x) \cos (y)+i \sinh (x) \sin (y) \\
+\sinh (x+i y) =\sinh (x) \cos (y)+i \cosh (x) \sin (y)
 .\]
 
 %
