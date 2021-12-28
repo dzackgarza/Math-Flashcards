@@ -88,3 +88,22 @@ Types of isolated singularities
 complex, fact
 ---
 
+
+Mean value theorem for holomorphic and harmonic functions
+%
+
+![](figures/2021-12-28_04-50-33.png)
+
+%
+definition
+---
+
+
+Schwarz Lemma
+%
+
+![](figures/2021-12-28_04-51-24.png)
+
+%
+definition
+---
