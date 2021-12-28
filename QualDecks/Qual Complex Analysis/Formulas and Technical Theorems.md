@@ -19,7 +19,7 @@ Cauchy Inequalities
 formula, theorem
 ---
 
-Cauchy Integral Formula (First Derivative)
+Cauchy Integral Formula for $f(z)$ 
 %
 For $f$ holomorphic in $U\supseteq \bar D$, then for any $z\in D$,
 \[
@@ -29,7 +29,7 @@ f(z) = {1 \over 2\pi i} \int _{\bd D} {f(\xi) \over \xi - z} \,d\xi
 formula, theorem
 ---
 
-Cauchy Integral Formula (Higher Derivatives)
+Cauchy Integral Formula for $f^{(n)}(z)$
 %
 For $f$ holomorphic in $U\supseteq \bar D$ and $C$ is a circle such that $C^\circ \subset U$ then for any $z\in C^\circ$,
 \[
