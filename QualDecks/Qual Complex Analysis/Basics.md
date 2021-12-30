@@ -41,3 +41,14 @@ formula
 ---
 
 
+$\arctan$ values:
+
+![](figures/2021-12-29_21-38-30.png)
+
+%
+
+![](figures/2021-12-29_21-38-37.png)
+
+%
+formula
+---
