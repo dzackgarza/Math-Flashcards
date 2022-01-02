@@ -97,3 +97,27 @@ The generalized residue formula
 %
 formula
 ---
+
+
+Inverting series: ${1\over \sin(z) } = \cdots$
+%
+\[
+{1\over \sin(z)} = \frac{1}{z}+\frac{1}{3 !} z+\frac{7}{360} z^{3}+\mathrm{O}\left(z^{5}\right)
+.\]
+
+%
+formula
+---
+
+
+Inverting series: for $A(z) = \sum c_k z^k$ and $1/A(z) = \sum b_k z^k$, the formula for the $b_k$ in terms of $c_k$.
+%
+
+- $b_0 = c_0\inv$
+- $b_1 = -c_0\inv(c_1 b_0 )$
+- $b_2 = -c_0\inv(c_2b_0 + c_1b_1)$
+- $\cdots$
+
+%
+formula
+---
