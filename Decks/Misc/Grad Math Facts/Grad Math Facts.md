@@ -9,6 +9,8 @@ f^{-1}\left[\bigcup_{i \in I} Y_{i}\right] &=\left\{x \in X \mid f(x) \in \bigcu
 &=\bigcup_{i \in I} f^{-1}\left[Y_{i}\right]
 \]
 
+![](figures/2022-02-06_23-51-44.png)
+
 %
 misc
 ---
