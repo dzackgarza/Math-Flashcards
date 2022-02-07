@@ -14,11 +14,10 @@ theorem
 ---
 
 
-
 Noether Normalization
 %
 
-![](./figures/2022-02-06_19-49-46.png)
+![](figures/2022-02-06_19-49-46.png)
 
 %
 theorem
@@ -50,12 +49,5 @@ Idempotent
 An element $x$ in a set with a closed binary operation $\cdot$ is *idempotent* iff $x\cdot x = x$.
 %
 algebra
----
-
-Definition: Primary Decomposition
-%
-?
-%
-definition
 ---
 
