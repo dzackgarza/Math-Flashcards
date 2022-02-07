@@ -2,12 +2,6 @@
 \(f^{-1} \left( \coprod U_i \right) =_? \coprod_i f^{-1} U_i\)?
 %
 Yes:
-\[
-f^{-1}\left[\bigcup_{i \in I} Y_{i}\right] &=\left\{x \in X \mid f(x) \in \bigcup_{i \in I} Y_{i}\right\} \\
-&=\left\{x \in \lambda \mid \quad \exists i \in I \text { such that } f(x) \in Y_{i}\right\} \\
-&=\bigcup_{i \in I}\left\{x \in X \mid f(x) \in Y_{i}\right\} \\
-&=\bigcup_{i \in I} f^{-1}\left[Y_{i}\right]
-\]
 
 ![](figures/2022-02-06_23-51-44.png)
 
