@@ -13,21 +13,12 @@ If $M \in \rmod$ is finitely generated and $I\normal R$ with $I \subseteq \mcj(R
 theorem
 ---
 
-Definition: A natural transformation between $F, G: \mathcal{C}\to\mathcal{D}$
-%
-A natural transformation $\eta$ is a class of morphism $\eta = \theset{\eta_x: F(x) \to G(x)~\forall x\in  \mathcal{C}}$ such that the following square commutes:
-
-![](figures/image_2020-06-12-19-45-12.png)
-
-%
-definition
----
 
 
 Noether Normalization
 %
 
-![](figures/2022-02-06_19-49-46.png)
+![](./figures/2022-02-06_19-49-46.png)
 
 %
 theorem
