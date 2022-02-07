@@ -225,7 +225,7 @@ Interpretation of $\sup, \inf$ and $\limsup, \liminf$ as set operations
 %
 
 - Supremum: Union, $\limsup = \inf\sup$, in infinitely many
-- Infimum: Intersection, $\limfin = \sup\inf$, eventually in
+- Infimum: Intersection, $\liminf = \sup\inf$, eventually in
 
 %
 analysis

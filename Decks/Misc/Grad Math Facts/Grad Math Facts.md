@@ -3,13 +3,12 @@
 %
 Yes:
 \[
-\begin{align}
 f^{-1}\left[\bigcup_{i \in I} Y_{i}\right] &=\left\{x \in X \mid f(x) \in \bigcup_{i \in I} Y_{i}\right\} \\
 &=\left\{x \in \lambda \mid \quad \exists i \in I \text { such that } f(x) \in Y_{i}\right\} \\
 &=\bigcup_{i \in I}\left\{x \in X \mid f(x) \in Y_{i}\right\} \\
 &=\bigcup_{i \in I} f^{-1}\left[Y_{i}\right]
-\end{align}
 \]
+
 %
 misc
 ---
