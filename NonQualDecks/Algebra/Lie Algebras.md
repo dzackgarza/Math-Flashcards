@@ -61,19 +61,3 @@ topics
 
 ---
 
-$$
-\alpha\beta
-$$
-
-%
-
-Something new.
-$$
-a^b = c
-$$
-
-%
-
-topics
-
----

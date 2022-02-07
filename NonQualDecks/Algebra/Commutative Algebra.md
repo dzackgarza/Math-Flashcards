@@ -26,7 +26,9 @@ definition
 
 Noether Normalization
 %
-?
+
+![](figures/2022-02-06_19-49-46.png)
+
 %
 theorem
 ---
