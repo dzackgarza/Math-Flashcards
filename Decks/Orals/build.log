@@ -1,0 +1,9 @@
+
+Current directory: /tmp/ci-Te6vP9cl1r
+Temp Directory: /tmp/ci-Te6vP9cl1r
+Checking for data file
+Data file not found in /home/zack/SparkleShare/github.com/Math-Flashcards/Decks/Orals
+Using default preview data.
+Using data file: /home/zack/.pandoc/custom/preview_data.yaml
+Checking for bibfile
+Did not find bibfile: /home/zack/SparkleShare/github.com/Math-Flashcards/Decks/Orals/2022-11-23.bib
