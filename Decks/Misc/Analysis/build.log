@@ -1,9 +1,0 @@
-
-Current directory: /tmp/ci-L9Pwfc1wEe
-Temp Directory: /tmp/ci-L9Pwfc1wEe
-Checking for data file
-Data file not found in /home/zack/SparkleShare/github.com/Math-Flashcards/Decks/Misc/Analysis
-Using default preview data.
-Using data file: /home/zack/.pandoc/custom/preview_data.yaml
-Checking for bibfile
-Did not find bibfile: /home/zack/SparkleShare/github.com/Math-Flashcards/Decks/Misc/Analysis/Analysis 1.bib

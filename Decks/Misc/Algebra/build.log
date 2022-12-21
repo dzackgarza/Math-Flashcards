@@ -1,9 +1,0 @@
-
-Current directory: /tmp/ci-Kx998rwPOc
-Temp Directory: /tmp/ci-Kx998rwPOc
-Checking for data file
-Data file not found in /home/zack/SparkleShare/github.com/Math-Flashcards/Decks/Misc/Algebra
-Using default preview data.
-Using data file: /home/zack/.pandoc/custom/preview_data.yaml
-Checking for bibfile
-Did not find bibfile: /home/zack/SparkleShare/github.com/Math-Flashcards/Decks/Misc/Algebra/Commutative Algebra.bib

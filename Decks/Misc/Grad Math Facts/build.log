@@ -1,9 +1,0 @@
-
-Current directory: /tmp/ci-n21LA4GxiA
-Temp Directory: /tmp/ci-n21LA4GxiA
-Checking for data file
-Data file not found in /home/zack/SparkleShare/github.com/Math-Flashcards/Decks/Misc/Grad Math Facts
-Using default preview data.
-Using data file: /home/zack/.pandoc/custom/preview_data.yaml
-Checking for bibfile
-Did not find bibfile: /home/zack/SparkleShare/github.com/Math-Flashcards/Decks/Misc/Grad Math Facts/Grad Math Facts.bib
