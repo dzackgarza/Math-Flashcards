@@ -1,6 +1,9 @@
 import os
 
-def extract_apkg_filenames(directory: str):
+def extract_apkg_filenames():
+    # Get the current working directory
+    directory = os.getcwd()
+
     # Walk the directory and get a list of all files with the ".apkg" extension
     for root, _, files in os.walk(directory):
         for file in files:
@@ -10,4 +13,4 @@ def extract_apkg_filenames(directory: str):
                 print(base_name)
 
 # Extract the base names of all ".apkg" files in the current directory
-extract_apkg_filenames('.')
+extract_apkg_filenames()
